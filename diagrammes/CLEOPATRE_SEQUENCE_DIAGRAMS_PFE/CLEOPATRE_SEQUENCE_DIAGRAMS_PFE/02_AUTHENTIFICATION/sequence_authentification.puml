@@ -1,0 +1,64 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName Inter
+skinparam defaultFontSize 14
+skinparam defaultFontColor #2C2A26
+skinparam ActorBackgroundColor #F8F5F0
+skinparam ActorBorderColor #2C2A26
+skinparam ActorFontSize 13
+skinparam ParticipantBackgroundColor #FFFFFF
+skinparam ParticipantBorderColor #2C2A26
+skinparam ParticipantFontSize 13
+skinparam SequenceLifeLineBorderColor #8A857C
+skinparam SequenceArrowColor #2C2A26
+skinparam SequenceArrowThickness 1.4
+skinparam SequenceGroupBackgroundColor #FAF8F5
+skinparam SequenceGroupBorderColor #C9B896
+skinparam ActivationBackgroundColor #F0EBE3
+skinparam ActivationBorderColor #C9B896
+skinparam maxMessageSize 220
+skinparam style strictuml
+
+actor "Utilisateur" as User
+participant "Page\n/connexion" as Page
+participant "loginAction" as SA
+participant "lib/auth" as Auth
+participant "PostgreSQL" as DB
+participant "Cookie\ncleo_session" as Cookie
+
+User -> Page : Formulaire\n(email, password)
+User -> Page : Soumettre
+Page -> SA : loginAction(form)
+
+SA -> SA : checkOrigin()
+SA -> SA : rateLimit()
+SA -> SA : loginSchema\n.safeParse()
+
+alt Validation échouée
+  SA --> Page : fail(invalid)
+  Page --> User : Erreurs
+else Validation OK
+  SA -> DB : SELECT users\nWHERE email = ?
+  DB --> SA : user | null
+  SA -> Auth : verifyPassword()
+  Auth --> SA : valid / invalid
+
+  alt Identifiants invalides
+    SA --> Page : fail(...)
+    Page --> User : Message d'erreur
+  else Identifiants valides
+    SA -> DB : UPDATE orders\n(guest → userId)
+    SA -> Auth : createSession(userId)
+    Auth -> DB : INSERT sessions
+    Auth -> Cookie : set(httpOnly, 30j)
+    alt !emailVerifiedAt
+      SA --> Page : redirect\n/compte/verifie
+    else
+      SA --> Page : redirect\n/compte ou /admin
+    end
+    Page --> User : Espace connecté
+  end
+end
+
+@enduml

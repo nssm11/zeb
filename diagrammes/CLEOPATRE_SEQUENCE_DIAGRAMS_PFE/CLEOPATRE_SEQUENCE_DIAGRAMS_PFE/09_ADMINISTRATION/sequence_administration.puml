@@ -1,0 +1,59 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName Inter
+skinparam defaultFontSize 14
+skinparam defaultFontColor #2C2A26
+skinparam ActorBackgroundColor #F8F5F0
+skinparam ActorBorderColor #2C2A26
+skinparam ActorFontSize 13
+skinparam ParticipantBackgroundColor #FFFFFF
+skinparam ParticipantBorderColor #2C2A26
+skinparam ParticipantFontSize 13
+skinparam SequenceLifeLineBorderColor #8A857C
+skinparam SequenceArrowColor #2C2A26
+skinparam SequenceArrowThickness 1.4
+skinparam SequenceGroupBackgroundColor #FAF8F5
+skinparam SequenceGroupBorderColor #C9B896
+skinparam ActivationBackgroundColor #F0EBE3
+skinparam ActivationBorderColor #C9B896
+skinparam maxMessageSize 200
+skinparam style strictuml
+
+actor "Administrateur\n/ Support" as Staff
+participant "Back-office\n/admin/*" as UI
+participant "Server Actions\nadmin.ts\nadmin-os.ts" as SA
+participant "lib/auth" as Auth
+participant "PostgreSQL" as DB
+
+Staff -> UI : GET /admin
+UI -> Auth : requireStaff\n/ requireAdmin
+Auth -> DB : session + rôle
+Auth --> UI
+
+alt Non autorisé
+  UI --> Staff : redirect /connexion
+else Autorisé
+  UI --> Staff : Dashboard
+
+  == Commandes ==
+  Staff -> UI : Changer statut
+  UI -> SA : updateOrderStatusAction
+  SA -> Auth : staff()
+  SA -> DB : UPDATE orders\n+ events + stock
+  SA --> UI
+
+  == Produits ==
+  Staff -> UI : saveProductAction
+  SA -> DB : products
+
+  == Support ==
+  Staff -> UI : retours / avis
+  SA -> DB : return_requests\nreviews
+
+  == OS ==
+  Staff -> UI : tâches / automations
+  SA -> DB : admin_tasks
+end
+
+@enduml

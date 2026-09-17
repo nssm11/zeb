@@ -1,0 +1,37 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName Inter
+skinparam defaultFontSize 14
+skinparam defaultFontColor #2C2A26
+skinparam ActorBackgroundColor #F8F5F0
+skinparam ActorBorderColor #2C2A26
+skinparam ActorFontSize 13
+skinparam ParticipantBackgroundColor #FFFFFF
+skinparam ParticipantBorderColor #2C2A26
+skinparam ParticipantFontSize 13
+skinparam SequenceLifeLineBorderColor #8A857C
+skinparam SequenceArrowColor #2C2A26
+skinparam SequenceArrowThickness 1.4
+skinparam ActivationBackgroundColor #F0EBE3
+skinparam ActivationBorderColor #C9B896
+skinparam maxMessageSize 200
+skinparam style strictuml
+
+actor "Utilisateur" as User
+participant "Interface" as UI
+participant "logoutAction" as SA
+participant "lib/auth" as Auth
+participant "PostgreSQL" as DB
+participant "Cookie\ncleo_session" as Cookie
+
+User -> UI : Déconnexion
+UI -> SA : logoutAction()
+SA -> Auth : destroySession()
+Auth -> Cookie : lire id
+Auth -> DB : DELETE sessions\nWHERE id = ?
+Auth -> Cookie : delete()
+SA --> UI : redirect("/")
+UI --> User : Accueil
+
+@enduml

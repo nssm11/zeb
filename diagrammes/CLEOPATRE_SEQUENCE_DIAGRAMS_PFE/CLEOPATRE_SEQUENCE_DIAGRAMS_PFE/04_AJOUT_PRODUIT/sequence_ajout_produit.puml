@@ -1,0 +1,60 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName Inter
+skinparam defaultFontSize 14
+skinparam defaultFontColor #2C2A26
+skinparam ActorBackgroundColor #F8F5F0
+skinparam ActorBorderColor #2C2A26
+skinparam ActorFontSize 13
+skinparam ParticipantBackgroundColor #FFFFFF
+skinparam ParticipantBorderColor #2C2A26
+skinparam ParticipantFontSize 13
+skinparam SequenceLifeLineBorderColor #8A857C
+skinparam SequenceArrowColor #2C2A26
+skinparam SequenceArrowThickness 1.4
+skinparam SequenceGroupBackgroundColor #FAF8F5
+skinparam SequenceGroupBorderColor #C9B896
+skinparam ActivationBackgroundColor #F0EBE3
+skinparam ActivationBorderColor #C9B896
+skinparam maxMessageSize 220
+skinparam style strictuml
+
+actor "Administrateur" as Admin
+participant "Back-office\n/admin/produits" as UI
+participant "saveProductAction" as SA
+participant "lib/auth" as Auth
+participant "PostgreSQL" as DB
+
+Admin -> UI : Formulaire\n(nouveau produit)
+Admin -> UI : Soumettre (id vide)
+UI -> SA : saveProductAction(form)
+
+SA -> Auth : adminOnly()
+Auth -> DB : session + rôle=admin
+Auth --> SA : Admin | null
+
+alt Non autorisé
+  SA --> UI : fail(FORBIDDEN)
+else Admin
+  SA -> SA : productSchema\n.safeParse()
+  alt Validation échouée
+    SA --> UI : fail(invalid)
+  else OK
+    SA -> DB : BEGIN
+    SA -> DB : INSERT products
+    DB --> SA : productId
+    opt stock > 0
+      SA -> DB : recordMovement\n(type = in)
+    end
+    opt concerns
+      SA -> DB : INSERT\nproduct_concerns
+    end
+    SA -> DB : COMMIT
+    SA -> SA : audit + revalidatePath
+    SA --> UI : ok({ id })
+    UI --> Admin : Produit créé
+  end
+end
+
+@enduml

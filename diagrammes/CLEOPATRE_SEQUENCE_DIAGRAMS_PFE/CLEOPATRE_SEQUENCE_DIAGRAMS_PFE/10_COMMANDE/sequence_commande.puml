@@ -1,0 +1,56 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName Inter
+skinparam defaultFontSize 14
+skinparam defaultFontColor #2C2A26
+skinparam ActorBackgroundColor #F8F5F0
+skinparam ActorBorderColor #2C2A26
+skinparam ActorFontSize 13
+skinparam ParticipantBackgroundColor #FFFFFF
+skinparam ParticipantBorderColor #2C2A26
+skinparam ParticipantFontSize 13
+skinparam SequenceLifeLineBorderColor #8A857C
+skinparam SequenceArrowColor #2C2A26
+skinparam SequenceArrowThickness 1.4
+skinparam SequenceGroupBackgroundColor #FAF8F5
+skinparam SequenceGroupBorderColor #C9B896
+skinparam ActivationBackgroundColor #F0EBE3
+skinparam ActivationBorderColor #C9B896
+skinparam maxMessageSize 220
+skinparam style strictuml
+
+actor "Client" as User
+participant "Page\n/commande" as Page
+participant "placeOrderAction" as SA
+participant "lib/auth" as Auth
+participant "lib/orders" as Orders
+participant "PostgreSQL" as DB
+
+User -> Page : Checkout
+User -> Page : Confirmer
+Page -> SA : placeOrderAction(input)
+
+SA -> SA : checkOrigin\n+ rateLimit
+SA -> SA : checkoutSchema
+
+alt Invalide
+  SA --> Page : fail
+else OK
+  SA -> Auth : getCurrentUser()
+  Auth --> SA : me | null
+  SA -> DB : BEGIN + lock
+  SA -> Orders : lockProducts
+  Orders -> DB : SELECT FOR UPDATE
+  SA -> Orders : reserveOrderNumber
+  SA -> Orders : promo / gift / loyalty
+  SA -> DB : INSERT orders
+  SA -> DB : INSERT order_items
+  SA -> Orders : recordMovement
+  SA -> DB : COMMIT
+  SA -> SA : track + revalidate
+  SA --> Page : ok({ number, accessKey })
+  Page --> User : Confirmation
+end
+
+@enduml

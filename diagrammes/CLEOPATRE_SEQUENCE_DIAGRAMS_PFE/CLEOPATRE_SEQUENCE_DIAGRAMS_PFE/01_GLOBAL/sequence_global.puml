@@ -1,0 +1,84 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName Inter
+skinparam defaultFontSize 14
+skinparam defaultFontColor #2C2A26
+skinparam ActorBackgroundColor #F8F5F0
+skinparam ActorBorderColor #2C2A26
+skinparam ActorFontColor #2C2A26
+skinparam ActorFontSize 13
+skinparam ParticipantBackgroundColor #FFFFFF
+skinparam ParticipantBorderColor #2C2A26
+skinparam ParticipantFontColor #2C2A26
+skinparam ParticipantFontSize 13
+skinparam SequenceLifeLineBorderColor #8A857C
+skinparam SequenceLifeLineBackgroundColor #FFFFFF
+skinparam SequenceArrowColor #2C2A26
+skinparam SequenceArrowThickness 1.4
+skinparam SequenceGroupBackgroundColor #FAF8F5
+skinparam SequenceGroupBorderColor #C9B896
+skinparam SequenceGroupFontColor #2C2A26
+skinparam SequenceGroupHeaderFontSize 12
+skinparam SequenceBoxBackgroundColor #FFFFFF
+skinparam SequenceBoxBorderColor #C9B896
+skinparam ActivationBackgroundColor #F0EBE3
+skinparam ActivationBorderColor #C9B896
+skinparam Padding 8
+skinparam ParticipantPadding 18
+skinparam BoxPadding 12
+skinparam maxMessageSize 200
+skinparam style strictuml
+
+actor "Utilisateur" as User
+actor "Administrateur" as Admin
+participant "Interface\n(Next.js)" as UI
+participant "Server Actions" as SA
+participant "lib/auth" as Auth
+participant "PostgreSQL" as DB
+
+== Consultation ==
+User -> UI : GET /boutique\nGET /produit/{slug}
+UI -> DB : SELECT products\n(status = active)
+DB --> UI
+UI --> User
+
+== Authentification ==
+User -> UI : POST /connexion
+UI -> SA : loginAction
+SA -> Auth : verifyPassword
+Auth -> DB : SELECT users
+DB --> Auth
+Auth -> DB : INSERT sessions
+Auth --> SA : session
+SA --> UI : redirect
+UI --> User
+
+== Commande ==
+User -> UI : POST /commande
+UI -> SA : placeOrderAction
+SA -> Auth : getCurrentUser
+SA -> DB : INSERT orders\n+ order_items
+SA -> DB : UPDATE stock
+SA --> UI : confirmation
+UI --> User
+
+== Administration ==
+Admin -> UI : /admin/*
+UI -> Auth : requireAdmin
+Auth -> DB : session + rôle
+Auth --> UI
+UI -> SA : saveProductAction\nupdateOrderStatus...
+SA -> DB : INSERT / UPDATE
+SA --> UI
+UI --> Admin
+
+== Déconnexion ==
+User -> UI : Déconnexion
+UI -> SA : logoutAction
+SA -> Auth : destroySession
+Auth -> DB : DELETE session
+SA --> UI : redirect /
+UI --> User
+
+@enduml

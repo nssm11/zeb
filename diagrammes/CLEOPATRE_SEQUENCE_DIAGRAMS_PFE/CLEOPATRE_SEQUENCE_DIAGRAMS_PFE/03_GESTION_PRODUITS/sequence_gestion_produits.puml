@@ -1,0 +1,53 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName Inter
+skinparam defaultFontSize 14
+skinparam defaultFontColor #2C2A26
+skinparam ActorBackgroundColor #F8F5F0
+skinparam ActorBorderColor #2C2A26
+skinparam ActorFontSize 13
+skinparam ParticipantBackgroundColor #FFFFFF
+skinparam ParticipantBorderColor #2C2A26
+skinparam ParticipantFontSize 13
+skinparam SequenceLifeLineBorderColor #8A857C
+skinparam SequenceArrowColor #2C2A26
+skinparam SequenceArrowThickness 1.4
+skinparam SequenceGroupBackgroundColor #FAF8F5
+skinparam SequenceGroupBorderColor #C9B896
+skinparam ActivationBackgroundColor #F0EBE3
+skinparam ActivationBorderColor #C9B896
+skinparam maxMessageSize 200
+skinparam style strictuml
+
+actor "Administrateur" as Admin
+participant "Back-office\n/admin" as UI
+participant "Server Actions\nadmin.ts" as SA
+participant "lib/auth" as Auth
+participant "PostgreSQL" as DB
+
+Admin -> UI : /admin/produits
+UI -> Auth : requireAdmin
+Auth -> DB : session + rôle
+Auth --> UI
+
+UI -> DB : SELECT products
+DB --> UI
+UI --> Admin : Table
+
+== Création / Édition ==
+Admin -> UI : Formulaire
+UI -> SA : saveProductAction
+SA -> Auth : adminOnly
+SA -> DB : INSERT / UPDATE\n+ movements
+SA --> UI
+UI --> Admin
+
+== Archivage ==
+Admin -> UI : status = archived
+UI -> SA : saveProductAction
+SA -> DB : UPDATE status
+SA --> UI
+UI --> Admin
+
+@enduml

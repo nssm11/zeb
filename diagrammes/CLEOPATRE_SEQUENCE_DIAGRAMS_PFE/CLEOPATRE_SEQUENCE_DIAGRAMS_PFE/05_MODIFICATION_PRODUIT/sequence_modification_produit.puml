@@ -1,0 +1,58 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName Inter
+skinparam defaultFontSize 14
+skinparam defaultFontColor #2C2A26
+skinparam ActorBackgroundColor #F8F5F0
+skinparam ActorBorderColor #2C2A26
+skinparam ActorFontSize 13
+skinparam ParticipantBackgroundColor #FFFFFF
+skinparam ParticipantBorderColor #2C2A26
+skinparam ParticipantFontSize 13
+skinparam SequenceLifeLineBorderColor #8A857C
+skinparam SequenceArrowColor #2C2A26
+skinparam SequenceArrowThickness 1.4
+skinparam SequenceGroupBackgroundColor #FAF8F5
+skinparam SequenceGroupBorderColor #C9B896
+skinparam ActivationBackgroundColor #F0EBE3
+skinparam ActivationBorderColor #C9B896
+skinparam maxMessageSize 220
+skinparam style strictuml
+
+actor "Administrateur" as Admin
+participant "Back-office\nfiche produit" as UI
+participant "saveProductAction" as SA
+participant "lib/auth" as Auth
+participant "PostgreSQL" as DB
+
+Admin -> UI : Charge fiche (id > 0)
+UI -> DB : SELECT product
+DB --> UI
+Admin -> UI : Modifier + soumettre
+UI -> SA : saveProductAction(form)
+
+SA -> Auth : adminOnly()
+Auth --> SA : Admin
+
+SA -> SA : productSchema
+alt Validation OK
+  SA -> DB : BEGIN
+  SA -> DB : SELECT products\nWHERE id = ?
+  DB --> SA : before
+  alt Introuvable
+    SA --> UI : fail(notFound)
+  else
+    SA -> DB : UPDATE products
+    opt stock modifié
+      SA -> DB : recordMovement\n(type = adjust)
+    end
+    SA -> DB : DELETE + INSERT\nproduct_concerns
+    SA -> DB : COMMIT
+    SA -> SA : audit + revalidatePath
+    SA --> UI : ok({ id })
+    UI --> Admin : Fiche mise à jour
+  end
+end
+
+@enduml
