@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1191 808" width="1191" height="808">
-  <g transform="translate(0,0)">
-    <text x="595.5" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Authentification &amp; utilisateurs</text>
-    <text x="595.5" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="572.5" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Authentification &amp; utilisateurs</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(497.1,280.0) scale(2.3895)">
+<defs/>
   <g>
     <g class="cluster" data-qualified-name="PE" id="ent0001" data-source-line="92">
       <rect x="538" y="234" width="651" height="421" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
@@ -203,6 +201,7 @@
     </g>
 <?plantuml-src hLZDRXit4BxhAGWNQAms_f5ioOwH65ZhfmcQD8QLzD8M0RKxMZ7U9JSaLubJ62XwwxqFq6FSF49lqPlqIJha_eYxMYKE6bzipH-7ttmpGrbTCfvGIMEYvZGGhnaFoOn62bggr4ofVnbAaV9W828XoLTZ--DO132ZQQJ7WkiVQ0pa4TSWc_KJzXP8vw1PcSVl3hfUj--OU5AArxcor-lj7tfrvRCvyoyvA4Kwknr7UP6bBJb8Skp8_OWgvMajsJJLyCWNt2Qstvgp08ZFf1z1zZV4YRuYCmPHe5n937ekK5IBINvj4NAs0J7K21c0pANUyRspurufTUw0idKyCjb4NqL0aeWoNaXoI0cP8EmWz5K2ZlUnTpJgtrlJLkEKK3YEXzxXuO5NLsQdTTV4bN1FB3XLyvMi7j-nhaIPW05MYmAluM0mFlDQrmxcmDDu0-I3iJVkrI4Vt3iRU8V_2_8H7kdUp4s76UBFg0zVY0Pkx0IZqH2oP2Jucl8mWdM33KTxuwDnftvqZkWduIXBjRhuOGCuRhfSw4sfd8sFnzsDgJZ7zaVzezwWScpdapWfU9K2pqlWJWwyHFzWN0Yh4uEGnsm6Znc7Ebs6th6htLZISoeryrb2kRwTKIC578CcDjRKgywlAwhDxMCFhIVL7tT6nwMwCHshQagaLAnI-0w39vjvbwah5UyDZhnHeMfYcrKy18e-rRFmUBQWcWc-Vc1tD1pLR1edm90jS9etuD8PdGt7Za5ZphcoAMj7jShu2J8DczEnF_0EUbqJwW9K8hY2TPCZxwZRFx2CVtDEWy1iPzjuJhaBUTTCejOTyi3v8OF7op-UdYz_VtOn8l_-zYVnKZq7hjcC-HOPyZL9DOkOeXfIgIhE66k4fdfveyYsalvUCDrJ_XnYkgjLctnBOX6a4IWItA7riDO-OjCzeq7pkyG8g6-KgX2sMwrYP6sL9-5-3KICl8KjGXKv7zaspbRhSuLRt7maX0Na13jTCXgH3-_Fl__mZnLZSYn2pO9AVqxbThVNQwC-vGndGcwJOAZNMDE7LCtHLCCRRUKp9bNsV5dv7--thGwFtwHAveAxycukbo8ouXIJV67_Va3yL6aHuyl8XXHNDD9Nvm9tXa93ipf2lDy3V8HaUfz6Rk3EVXkLCxcww8zuVtoO19uszs0nA4tZnEf3qECqYapEssq35Qvg7gBgkaHpWdGpjN80BOxg7xPTLCqT7WLEZX_UZql4toHCWcf8mNXv8TB21TcNW5HRptYLbXS44l9trCOwVooZY4x1vK3VuZOKCJOCxajRwXmQ5zt-9-eP8IKxPC_-xbRqkO7Fy5NebYkNXs81aWjyo40rg-o2QfYzVr4t5SWJoasLxHFSXUKyPoqE2z0vE5fS0izf_ALBrrmY-znQKJfBeq9hbIQ9a5cnQH3R_NDj9bFPwXEG2-OtpesivITEovk1zPXDoVtxsRJvcTSco-bfdiKSSIX0sYvwt53_N6Bf5TpFMk3K6YzCvrojcT-rKLodl2Id3ddpljdEeBsxuhdhjn0io9m2152AgyAhsGZRTP1AYK7CZAiOJUWCZ30pJ6JAOMGB5-GXLMFCwmg4NZPvQp3Mvd49PIH2nZENxPcGiHi_4oCBaR9PIX92fl3PUsi732zIdPituw7e0l91SEkmI7yUGb7JMxkXHIZqPxj9quUVxPKc0J88zJCSHRVqSYPsJWKie_aMLzRB3adip2d8oXOiXtvrkJbYPwyvqlhgQjnNvNdLxlPyV_aEUrjmlhm1bNNqqEde8TLqIXNW9HGpts2quELDWYb67ahszcq4Jo-UP9J75ZJmuA_Yj3jaf_p1IaGqO_TAsB8mRNMsK4QszdTtlzagzzr9FXIRRAfJzcEMnPggsg1-DHrFB92jbjk0kxkdvKmx8S7o9bg-2rDOix7HJd3Y88YuT6BCPlaNUIbIkHwkp6HmyNoufgvVALpUyEKxQQBwQ2FYE3lTPEIS736D5elbZNrYL2nMG1RfuJsqJ9ckcXLiHHomoAd4jRgjAARbli3Q5P-I7CRdLRhyMuDgjUnNoQdGk6M8c1Nd8na6Gbmo87EjawSykiBbvaSWNgZCmAuvy-hDFvktvS6-1L6rW0VsA-fQz0fUzfyGQKImccOpaCb3RwVRwvCWpPQlMObAO-y8_t9vGxPVKcmzPSojcanbgjlEMHNYXYaBJCzWMgRnSRaYClYvJkETd-Oi283_8baurpibWKhaIeD0lEOxAnHR1JNg1Wv7Mly1?>
   </g>
-
-  </g>
+</g>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Cookie httpOnly «cleo_session» (30 jours)    ·    Hash scrypt + sel · token SHA-256 (jamais le brut)    ·    Rôles : customer · support · admin</text>
 </svg>

@@ -33,8 +33,10 @@ Les diagrammes documentent le comportement **réel** de la plateforme CLÉOPÂTR
 Chaque dossier contient :
 
 - `sequence_*.puml` — source PlantUML (thème inclus, autonome)
-- `sequence_*.svg` — vectoriel, **titré** (titre centré + sous-titre projet)
-- `sequence_*.png` — haute résolution (≈ 192 dpi), rendu fidèle du SVG
+- `sequence_*.svg` — master vectoriel **4K 16:9** (viewBox 3840 × 2160) :
+  titre centré + sous-titre + pied de page ; pour les diagrammes verticaux,
+  un panneau latéral (légende + points clés) équilibre la composition
+- `sequence_*.png` — **4K UHD (3840 × 2160, 16:9)**, rendu fidèle du SVG
 
 ## Design
 

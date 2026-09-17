@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 888 1366" width="888" height="1366">
-  <g transform="translate(0,0)">
-    <text x="444.0" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Vue globale</text>
-    <text x="444.0" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="421.0" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Vue globale</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(690.8,280.0) scale(1.3495)">
+<defs/>
   <g>
     <g>
       <title/>
@@ -203,8 +201,41 @@
     <polygon points="49.91,1185 39.91,1189 49.91,1193 45.91,1189" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
     <line x1="43.91" y1="1189" x2="293.40" y2="1189" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
     <text x="55.91" y="1183.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Site déconnecté</text>
-<?plantuml-src hLTDR-Cs4BthLn3fOLjiaiRVJe4Ma6Lx6o2xJUFTFVN2I6ERYKngISgRj2XGzDPxVq2FwvuBz5xza_wI3Yd9fZwCBT3wvCnxd1a-lg4PzS1uGYNT4BMcaNZF-8eiQQp0KtlaZeOFAobI7WKY5f9yChSVXn71agQndWkkNz4Da2kkGRRZ2_Oza4wl7IpoTuEktnqw55zAyRu01uF1HT-lWw_NB7pWe1Jfd7SSy3PlMtAGPEp4mvWgvMijsLsguIeKt3PsuQrP12HaCemX_mwRH3-H9OCuKcva0tejC5JBINxm29aSKGmH8IEGHTGVNqx6WttKsGF6cdhaiOL-Ye4aCMMyZ1II4h90sK7efmISrMD_D1jUDj1gdhqKpiA-t-_t_3gOL-ismfLqBwquLVeXLi_li2jP5c24rQBKQne4yudl_UXe3ZpT794ycFlpGLtou78I-Ft_9FaCIxexSzjXnlXB6iB_P0CtTuBPw0hoPYI4cl9L34t2aTB-V3Jlr4iNYdvKZlrH7JRURn77RPSBVQoLoNmyxnvjnIaxd0r7Ww1IjlDHdHIyIu4NH-3U7BY9OMzU1git1Y7NR0dNZ4FTBbD_xA97Z_I6Iir2bb2k_nsfrG8EeSsDDVWm-NMWEjmXpb2pgU6yCnlluTPsBDJMo1uujF02aoV7VPV3bHCV12D_La9jRhF0rq1nJRKMbcTRgfdWpOBTsNHMuxJU05EsnTkyHPVER3ATEuJMdWkmhMi7EdJy4fs6m-dmUtvlq3MfRa4bWYjeKaR-g3liMSS_tj0eCh_ETl2SuoxZNNCJUS_8byw71DVPBz_SP3-_lfsHlt_wbIooNJuSfsIR0bd5uewYKTmrc29W_1rHORRZL3AXo8RUGoeL-OBWxwJ2tsghwYcXgLu3rsp9mY8IYis6yWXECGkDDempfMM1HTaEbtDunB_EIpqK_lmJphP0KvBjOjXcEv9oXarkCFEvvr5ZD7BoHhEOAQgnZnD25NcZy85HOFwXK0dRa9SSL28dL-NL_1t_z1KywlDxzLcUwgfAN83Sucl1s0TtQoaBlqg9sTtdPlDvBVnIXM-4qYi9Ys-lBM4wyJmyYuiE-UjF4ZWAekwUsGWv-mgxG7dzCCm-e23PRoIcv4wasYZX8OQCwGGPjoXYccGV993OY8U2PZlp9ILu1ZGMA-GZywnCEMrbc8o6OOfZsIMUuDfaT2YsvQvfsQyTSwFjXKZnDOGNho9eVCj47LJHzy8tRO3r1OcUrKtZ8OuiKmHvRxETH2ZVNIMP9PGoL5GqEnFu9jjllCWLs21vJjPKhOlrPJyBj9zPc-qqlOiPs2xA_Q38UNPZphZPSLMzcKhC3xxrTgYpNQvSBp_iV1mQYhsbiNb9Akm0BSFGouvMXPpeW7AS2eqiMYmrrxjTIGmLKsaHFXGyAz6CIrYPgO1Afa8YcshV7fHST4f52THvoUIcRTitvgaHsNtlAVdVHIKhGzyQg78J635if65xl0FC_nfdmlYnj7tJ64HcV-33fsA8yZoV5s3L2RScHhPv2ZoXlHSEvPMvpOHaoi2rxigjuNMr5wAGy1OV6zdl6bpOEGHysPfXlXUfhCnhkzrAXVFwDVMjd0CZvzIvI9kp2FkBDjJGEe9GkOghyuUvjKoPTP_ADQq9dIQ9P1je4kgZ5HMfQhC54JEFrwQX5aoxlMUxVm00?>
+<?plantuml-src hLTDZoCr4BtdLrZ3OK4xCqo-CqWWTJh9CjBiCYIxU-BYT5SIptJiNjkTdG4X8MxS-G4SDvoHkDF_X5z2sTsTk3-YHOASClMUgyhFhnoFUc0yff9kYThGKBndV4rMD5BGKWTaIOE7jHG93tqH2Ka-cTcFmmXXHPD8pmJNh-WMo0tN89ln1ViUIBlR3ERvEtx7wmmSYYUbU9-3_Nx_gkTLmTSR5ZnmK8gqBziEEC_QbXma6Jdn8A9AULfBjamqt0I2syQkMXiM0WcO32B8liCsrazanI0AbHlPWju835LoaXzQX8nFA8Q8a278FEgDhiUZ_Y7gx05ZTJsos48_HK3YY39UH7992LcWx23qKmpEwf4td0wkQsWvpq4APs7Fw_MwNXNCgdLguLAwbrQSClqOg-PtsAKi2p32Qb7eDV7zsTXh_UXe3ZpPdf3SdtcpVbLo_thiUxt_9FaKIxexSzjXnlWh6i3_P0CtTupPw1goPYG4cl9r17N2YTBUR3XhLqldYdvKZiDH7JVUQn37RPSBVQgLyMmqwvninIaxc0w6VRzKjlrHdHIyIu3dH-3U7BY9GNTM1Cit1Y6tR0MtZ4FLBXDlvA8dZ_IEIiq25bEk_nsfqG8EeScD5VWu-LMWFDm1pb2zgS6iFHqTuCPsBDJKo04ujl02ayUdVPV1fHFl-qDlMa1DRhF0rq1nJRaMbcSxgfdWzOATwMHQuJJU01EsmzkyGPVsT3oPEOJ6ddEmgMi7EdRy4fs6m-dmkrwttp6fvg1YmHNKAKDls1bqhUCVxsWOcb_dJgzyt4MyDy8fU4Q-T3x4lqr_-UOk_VdrV4h-_kbNiaZtsMoSarq2P1s99KMVk6imXS_uEwA2TC-fP4AHBRs7H2ho1S6VIOK_rLRKSq8JlG6ksOe5UIGGsotb8PnZ5Xfk6MTAonmBqpqkv_28VrqMSYZyzIUSxO0c9Dr7i4lt9E4CcznYvijMYngVaRCtcaLCKOrzd16go1k5xuiSyuw52jY6Ml5H979sKzpCt_5FNy6ZlhnNdsMfRih41SWTFXQCUt2tbhBmofI8BJytcyzguPSoV2UKNajOV7jh2PDnguLdSTKcV_r9V4T1rBrbDa8kli8kK5ul2D8FA4Zw6uaeMOf46oLQY25ZCaR674LCulI3118PyL3GT6--90JFW4PYZNnaNXGf9uqCaz4mJ74iky8Jt9YC3iMst34jUvLZhhMz40a-Xl3ULGHzRvceWyhxNdYc3R2-8E6pgcbQY2FB547UstGl4SfsLqfc2OKC9HNDpWG-oGuRptFvDaYUamrLctnzqSy2xMVMfdjDbn43sqMn7nGvosxC6TKxBgitLR7vlRVU3dIwpvJhPeUTZKDDiRSqCWz9XHsWPHXwsT4gbnCTK8nJhf55ywNcThShYQ5YAYs2Xvnd9Pfo2Mip5L3Ab4jaKntQWuABJYafWJglcDmsRVlEl3H2k-y39VixhsHbw5a3bMu28uQDr6oFTu3vL-D263yMjgyRWyZq3tptb0nHdEVp72mxOMvYP9Ubm1CwUE5ONfdRJ4Yc35pfhjWQNbS78N89v_ZMI7_NuCBE8U33rWpplKXaQLwRxLOedDMlg6_bx1iv9yv5Mfz5E5oqWOR64OJILLoUFyojPSAi-rIcQKNe98ubsqATK1sjC4zLcIq8cNcxrWsrODhjFTt_0m00?>
   </g>
-
-  </g>
+</g>
+<rect x="1999.1575663026522" y="280" width="1150" height="1426" rx="24" fill="#FAF7F1" stroke="#DCCFBA" stroke-width="1.5"/>
+<text x="2063.1575663026524" y="384" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">SCÉNARIOS</text>
+<text x="2063.1575663026524" y="470" font-family="Inter" font-size="30" font-weight="600" fill="#5B7C99">01</text>
+<text x="2149.1575663026524" y="470" font-family="Inter" font-size="28" fill="#2C2A26">Consultation</text>
+<text x="2063.1575663026524" y="562" font-family="Inter" font-size="30" font-weight="600" fill="#5B7C99">02</text>
+<text x="2149.1575663026524" y="562" font-family="Inter" font-size="28" fill="#2C2A26">Authentification</text>
+<text x="2063.1575663026524" y="654" font-family="Inter" font-size="30" font-weight="600" fill="#5B7C99">03</text>
+<text x="2149.1575663026524" y="654" font-family="Inter" font-size="28" fill="#2C2A26">Commande</text>
+<text x="2063.1575663026524" y="746" font-family="Inter" font-size="30" font-weight="600" fill="#5B7C99">04</text>
+<text x="2149.1575663026524" y="746" font-family="Inter" font-size="28" fill="#2C2A26">Administration</text>
+<text x="2063.1575663026524" y="838" font-family="Inter" font-size="30" font-weight="600" fill="#5B7C99">05</text>
+<text x="2149.1575663026524" y="838" font-family="Inter" font-size="28" fill="#2C2A26">Déconnexion</text>
+<text x="2063.1575663026524" y="972" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">LÉGENDE</text>
+<line x1="2063.1575663026524" y1="1050" x2="2189.1575663026524" y2="1050" stroke="#4A463F" stroke-width="2.5"/>
+<path d="M 2203.1575663026524 1050 L 2185.1575663026524 1042 L 2185.1575663026524 1058 Z" fill="#4A463F"/>
+<text x="2233.1575663026524" y="1059" font-family="Inter" font-size="25" fill="#4A443A">Appel</text>
+<line x1="2063.1575663026524" y1="1124" x2="2189.1575663026524" y2="1124" stroke="#7A7263" stroke-width="2.5" stroke-dasharray="10,7"/>
+<path d="M 2203.1575663026524 1124 L 2185.1575663026524 1116 M 2203.1575663026524 1124 L 2185.1575663026524 1132" stroke="#7A7263" stroke-width="2.5" fill="none"/>
+<text x="2233.1575663026524" y="1133" font-family="Inter" font-size="25" fill="#4A443A">Retour</text>
+<rect x="2063.1575663026524" y="1179" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
+<text x="2106.1575663026524" y="1206" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">alt</text>
+<text x="2233.1575663026524" y="1207" font-family="Inter" font-size="25" fill="#4A443A">Condition</text>
+<rect x="2063.1575663026524" y="1253" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
+<text x="2106.1575663026524" y="1280" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">opt</text>
+<text x="2233.1575663026524" y="1281" font-family="Inter" font-size="25" fill="#4A443A">Optionnel</text>
+<text x="2063.1575663026524" y="1388" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">POINTS CLÉS</text>
+<rect x="2063.1575663026524" y="1437" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2095.1575663026524" y="1454" font-family="Inter" font-size="25" fill="#4A443A">Cinq scénarios majeurs</text>
+<rect x="2063.1575663026524" y="1493" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2095.1575663026524" y="1510" font-family="Inter" font-size="25" fill="#4A443A">Messages de niveau élevé — sans SQL</text>
+<rect x="2063.1575663026524" y="1549" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2095.1575663026524" y="1566" font-family="Inter" font-size="25" fill="#4A443A">Même flux que le diagramme de classes global</text>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Cinq scénarios majeurs    ·    Messages de niveau élevé — sans SQL    ·    Même flux que le diagramme de classes global</text>
 </svg>

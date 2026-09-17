@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1010 577" width="1010" height="577">
-  <g transform="translate(0,0)">
-    <text x="505.0" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Vue globale</text>
-    <text x="505.0" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="482.0" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Vue globale</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(147.9,280.0) scale(3.5091)">
+<defs/>
   <g>
     <g class="cluster" data-qualified-name="PU" id="ent0001" data-source-line="93">
       <rect x="14" y="11.50" width="157" height="164.50" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
@@ -217,6 +215,7 @@
     </g>
 <?plantuml-src hLVRZjis47tNLn0kq4kGkB5txNKMwGAoRASB9CrYdQ0FHL5mfR5Dh4Gg9ELaKnGe-b2WhqK_ekbl-4_o9HtgIafojq0hmB0uSpWpF7EXhMuPJwca2L4x6ectZ6_9XiOAF5LhRcXukvKYur4WOY799wlyiH0HR6WMwvNW-XkQ0Bda6cI_VitU0ncTz2jB--DWx8-d5iINKhmjbPF9vF6ftrQ-sh7mbeDIP3GSMShh8cp9GPAP9GzZgfIljMGtcORBKF0yiCVUZaL0GYR368ftI59zHpOCuaZPaWJqJg2ePPFyw14oFy8OQeICG9PIV_PaFflKKkiCAEloKSZM-Yu6aiQKyKfIKah86ca7eUzIi7RF_BFbz4b7wzgfgR0sdlgdfoT-Mrbu6tV4ZhaNEJakl96rxLjenyeQ3B5QL7mjWc0rzxsVBCw1PyaHoeELlvgqAG-Up0F_z3zHlaINzidiS9Wf_0qDuNyg0zjsYjRe5efW98IQycqCNS0Hr_xgR3LgkouPlPUEEbNDmKzxoB73vK8V2sM-cgt6HqEnt4wNqxD9uBWTtSkJWZSPy385zkJ0GqnFLfNGdHY4F6SRUCuujCjbuSzixT6KNb6fMSXIolM_0_MMW0NegyQMkkdyji9jxX1xg1lKT3LQpcfrRpYvgY-GMj64y0oDfyVhhb0x6Py4P_woKlLLMwxu6YZkSNsXUxQdcWdUTJXUBfOjJEy4MB0zJlCUNaRB-M9b0NfZBfLzKLkg9k8NM6dOd1R-n3-PZ8sfQr2fu0gwa3F_R3mzoIl-tHMD8dCxvurdfRkIZyqayZuZNraF2PuVVdjvTVZbrVMIVFpv3moDRh57y8esjvovhq0z9FiCo3OMDnHhnjwErjRi7Ob4WdK4Ycm43msV7695pWdDzEuXjflSin2rD4rZ5YBX6pI9tpGMsmmUeX5ubnu-I9OtPHZZjqQ0I1BA8-C-1QcOmd4Mmf04HL0uFfBay05VCiwmdnFSDFIyQiGDNciMCqKrP5AHJucFeGm8LUJgTTxsnLNy6cEh5sja5sElrtuKIHGPqcghGHLrOIkmR5r94MMXhjTpYT7NAzm8Mo7l6W5I1P8xrjSzJ1MErfQZO0VXhSXqYIRawTC4NSTmSM6vautUF3sOzKwazs4CRVTXIauQc8MnJxVi9Bausz8wspNi6RojbzyojSCiwaiDYKrq8hITgMTie_743TlhB4s5rAzmW8Ds4rXLLU7xfUNxfUbYT-NupINBFSRjMBngYhEmkR1iBf2R6we0EL7CtCPQS3i5uGuIYig5PE_VLunzHXxL3zxZSJwY555QOdrbA8YnH1g8PwgO34O3b971u-7mmQ2gPO9DcA7sCke3bGN-pw225I-lPbC0hhOiUhHmOm1eeYhqey2m122s4fB1WmABN_YKhO7Oj03y41OIPUrmh1TbGveTZd47QfUKW_VoazReKNFw3jH5MZpbrO7G_490e9F9wF0X1HwPGb7DKFpuw-_L_BHpscgyuV2Y65QjPZFo-g3d96QQV6b--kr0uiThjRX1LrGX6hlqyAS4hprG3Amuea654gUirnee1bBNzZbwV9CT_jAWMiLh3MxxSFLEOwRiWNE2ihXZOPknoBGPtaO9mnt0yLSihZzdVCyKmnrVT5hXqNVuBom2_hrasvr-T65FCOVO3j1bjqrs1rwD_A8vQZN-I-QMjifFMr_EkZ8XjJQ6ZR7jZ3wdQDl8PXxMRnrCqSLLmxSZARH5odjrUH1DBxGnLJwRnBRz5qds_WO0?>
   </g>
-
-  </g>
+</g>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">6 domaines fonctionnels    ·    Flux : utilisateurs → services → domaines → persistance    ·    Vue architecturale : classes nommées, sans attributs</text>
 </svg>

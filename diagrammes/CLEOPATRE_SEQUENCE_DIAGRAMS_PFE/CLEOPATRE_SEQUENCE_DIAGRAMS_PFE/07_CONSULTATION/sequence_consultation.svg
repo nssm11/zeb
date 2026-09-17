@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 717 738" width="717" height="738">
-  <g transform="translate(0,0)">
-    <text x="358.5" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Consultation</text>
-    <text x="358.5" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="335.5" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Consultation</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(341.7,280.0) scale(2.6453)">
+<defs/>
   <g>
     <rect x="22.91" y="434" width="396.07" height="121" rx="4" ry="4" fill="#FAF7F1" stroke="#FAF7F1" stroke-width="1"/>
     <rect x="22.91" y="434" width="396.07" height="121" rx="4" ry="4" fill="#00000000" stroke="#D5C7AE" stroke-width="1.50"/>
@@ -107,8 +105,30 @@
     <polygon points="49.91,543 39.91,547 49.91,551 45.91,547" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
     <line x1="43.91" y1="547" x2="201.39" y2="547" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
     <text x="55.91" y="541.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Page 404</text>
-<?plantuml-src hLRDZkD44BxxAKh3WOpOdPdyPv10SfmOHihkXidk2JXqx4hIZDFjxMvdTq18Y1jt7e3ZH3m2j_MRy2IK7Jjf9uuM2NAowlkwwgklgxkZ7xY8cM9hq2iModTSB6718esEtYDp5ZmibKn4wCb8AlZ4ptyM8yG5IoBZIs5UiZN2dJ2ewl4P_n6XsQu7Y_mjh-MsUXR5LKg-Ay1kjtlJSO_1roiUF0ZK6ffNJGkytybM0XKCh7WGCQrTOnIV9mRl0YboOJVEYeS80LT1XBjlNCVc4HOSer3RaJMQbQJGKKxuoG4Odd6C4Ab2L4NK7TmE1zrzrEg1OgT-x68pynWXn17ZeemKbWBCo7QKvZ56Q_N0xOzxjoTeDS_U2cjXn-rqskunkAlMEWbNqht8pQdI3x7Z_1QxacM6cR56bdwDFCyVkixFbkSealKPoptVzRl7bdktGy_j_2VBnrJIxioMmxF1Nx00_wSni7F7b8qjSIT6OM2OM4PuIZXJslNxVlEuTE7eH-tORzMXyKwDERPS8SqvAKD_uBVEIh7AziQzVjUhb6r-r2UDRnCKnHRODmSrqMlxPR1wOm1C-08dNE3nk8pSWOsUtT8fKuO7F6R2_3jIxGXOXBffF88F9_yOg1xkWCxGgQYUtnmFzd2jd1og4x873XA-ekJn-RdRmPKTxtfzTrn2TTEM0ryZepNLMbIURvZXKfmMR8r7uoDExGqmuXkwpMjyQOw78zyYr6ekm3hL5dHG_88cZGwdnM-xxMuhItMFEfP2uocbx_PRlNO-yU-dB0oprpa_UDPsb_5MTXCvdy8NrW-yIVhRgsdww-lxCVpzo-ymIxUxm_4CwCdJzEpc1a63ZauW4wNf4UCep6Kb3MMTaZ1DHqjjC57GSECuUrhfihk4jmalaz5AeBaBc66HN2O86yuWulFh8dBbE2mR7BXuOtZ4DJEKxGAOXZUKseaFNS75NNcLVYSQB_6zkVf1N-weTrMYbP-eiqoY0a-koLFIKopocAckcafjbWfdtqnoV3Hq7F9hmZNTMfbJrtDgZvDPv8IJgOFdNr9f-9pcAaYVw6z0-WT434gQGnWng0vHxjDjaCJfaq9812Sz6j10h6IOSAETZ4JSqP2e4xh84-A5YMLRGzE-90O-_0aicsA43tzTEiH_lYynBP8zWpLJL9y-Q7swNKh5iIXHAXv98T8jxPzT91USCRBUgAl5WWShp5gACXDoE_mybDjHYB_-LaV9yliJKrubcxpPiicg7KXfL9QAjW2o11KBYbRWiw8L-g1v2b09NTipD6IIlRHqQ3Ti7k4bJLLazcWUJxTqIYecx7e9Q2wYz8dw0pXhmEwZx0Jft_0-kLNs94DsHg1pqt5GXFy0?>
+<?plantuml-src hLRDZkD44BxxAKh3WOpOdPdyPv10SfmOHihkXidk2JXqx4hIZDFjxMvdTq18Y1jt7e3ZH3m2j_MRy2IK7Jjf9uuM2NAowlkwwgklgxkZ7xY8cM9hq2iModTSB6718esEtYDp5ZmibKn4wCb8AlZ4ptyM8yG5IoBZIs5UiZN2dJ2ewl4P_n6XsQu7Y_mjh-MsUXR5LKg-Ay1kjtlJSO_1roiUF0ZK6ffNJGkytybM0XKCh7WGCQrTOnIV9mRl0YboOJVEYeS80LT1XBjlNCVc4HOSer3RaJMQbQJGKKxuoG4Odd6C4Ab2L4NK7TmE1zrzrEg1OgT-x68pynWXn17ZeemKbWBCo7QKvZ56Q_N0xOzxjoTeDS_U2cjXn-rqskunkAlMEWbNqht8pQdI3x7Z_1QxacM6cR56bdwDFCyVkixFbkSealKPoptVzRl7bdktGy_j_2VBnrJIxioMmxF1Nx00_wSni7F7b8qjSIT6OM2OM4PuIZXJslNxVlEuTE7eH-tORzMXyKwDERPS8SqvAKD_uBVEIh7AziQzVjUhb6r-r2UDRnCKnHRODmSrqMlxPR1wOm1C-08dNE3nk8pSWOsUtT8fKuO7F6R2_3jIxGXOXBffF88F9_yOg1xkWCxGgQYUtnmFzd2jd1og4x873XA-ekJn-RdRmPKTxtfzTrn2TTEM0ryZepNLMbIURvZXKfmMR8r7uoDExGqmuXkwpMjyQOw78zyYr6ekm3hL5dHG_88cZGwdnM-xxMuhItMFEfP2uocbx_PRlNO-yU-dB0oprxdLgMvt6UyCw1Hy2bzOF_0cwM-lfkclh-_7yFSllyCitUxEnZEW5q_Jgvlx0mqwEO5CbAOtZACmbvKqb7LAkZITBBN1H473ZUFiPQMxxXBU9hnCHYk1nYvWXaLocI1iE8E8pw-Bo9NZi6nkuEADuH7Np52s2s0Qtb1g9puq1HTtvKtwdMYynFVcwWTzkQFULObMVgBECeaAFBacIqbFiSXZfhfgAhLPAfnzCydnqT1noAy9rtHfPKvTpwazJcQH4qwc3fv_IQNXSngh87sYVm7f7n0nA6aEOSIWEaIvJxT14gTF2Y4HdFHeG0Enac72ZNOo4d57Gw9Ew1vFY1ScbcqDJVkI6FZm9x1iY14-_7Nf4F_vliIqIFOCranHVVgWzUbsAHN7eaIfU2I5IBUqVtQHN736o7gZhXOB7gmmQodAJCZjyFDGRaSX_lfR7INBxqzCUPLiycRB9gjs8ALHMIhQ0iWIL2meMe7FYbReW-OfG2LqRS_Ga4dsqDAPtR1vX9SqLP7PetaytT8XgPYmwoMWkOZI9-eFuAm1ku-o4wG_m_laLjcJ3DaPWSvDnq4H_WC0?>
   </g>
-
-  </g>
+</g>
+<rect x="2348.3256880733943" y="280" width="1150" height="838" rx="24" fill="#FAF7F1" stroke="#DCCFBA" stroke-width="1.5"/>
+<text x="2412.3256880733943" y="384" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">LÉGENDE</text>
+<line x1="2412.3256880733943" y1="462" x2="2538.3256880733943" y2="462" stroke="#4A463F" stroke-width="2.5"/>
+<path d="M 2552.3256880733943 462 L 2534.3256880733943 454 L 2534.3256880733943 470 Z" fill="#4A463F"/>
+<text x="2582.3256880733943" y="471" font-family="Inter" font-size="25" fill="#4A443A">Appel</text>
+<line x1="2412.3256880733943" y1="536" x2="2538.3256880733943" y2="536" stroke="#7A7263" stroke-width="2.5" stroke-dasharray="10,7"/>
+<path d="M 2552.3256880733943 536 L 2534.3256880733943 528 M 2552.3256880733943 536 L 2534.3256880733943 544" stroke="#7A7263" stroke-width="2.5" fill="none"/>
+<text x="2582.3256880733943" y="545" font-family="Inter" font-size="25" fill="#4A443A">Retour</text>
+<rect x="2412.3256880733943" y="591" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
+<text x="2455.3256880733943" y="618" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">alt</text>
+<text x="2582.3256880733943" y="619" font-family="Inter" font-size="25" fill="#4A443A">Condition</text>
+<rect x="2412.3256880733943" y="665" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
+<text x="2455.3256880733943" y="692" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">opt</text>
+<text x="2582.3256880733943" y="693" font-family="Inter" font-size="25" fill="#4A443A">Optionnel</text>
+<text x="2412.3256880733943" y="800" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">POINTS CLÉS</text>
+<rect x="2412.3256880733943" y="849" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2444.3256880733943" y="866" font-family="Inter" font-size="25" fill="#4A443A">Server Components (App Router)</text>
+<rect x="2412.3256880733943" y="905" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2444.3256880733943" y="922" font-family="Inter" font-size="25" fill="#4A443A">Lecture via lib/catalog</text>
+<rect x="2412.3256880733943" y="961" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2444.3256880733943" y="978" font-family="Inter" font-size="25" fill="#4A443A">alt : introuvable → 404</text>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Server Components (App Router)    ·    Lecture via lib/catalog    ·    alt : introuvable → 404</text>
 </svg>

@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1362 567" width="1362" height="567">
-  <g transform="translate(0,0)">
-    <text x="681.0" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Accès aux données</text>
-    <text x="681.0" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="658.0" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Accès aux données</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(120.0,506.7) scale(2.6432)">
+<defs/>
   <g>
     <g class="cluster" data-qualified-name="CD" id="ent0001" data-source-line="92">
       <rect x="594" y="108" width="342" height="357" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
@@ -173,6 +171,7 @@
     </g>
 <?plantuml-src hLVHRjis57tNLn0TiCOjuiPEdAH15a2MvIv0qhfsYZqCmq1Bj4n48bMISf8E1OOz3DZhi6yOQkmJzbR_IRzabvGiKxBS3jZoq5gyXxpt7fvxISfRob8iS8Ba78VyZh88pN0iYIDBonG7jv7W6Giz7dE1lXgQFmiHaXdEOZNaJBt42K6NJ17HR9_GTmHr3fkDnVfTh-jsZos8AmI_AuozNk_WoAqRR-Oqk6L4IjHfTopZE0zRC2BGgJKUn5XALob1fvaYbm5d9h03Pqv3WW8gWfZalqcIgWSqeoGEfJsI43NdC5HR4_ta8DJVmHXOk0Y9A4RTq-VzqruvQkK0Ozjyv6CJzH0JbCQOilL8GIb24w2TSFMG4clsgNlY7p_VibRNAQcm9XwvHqU7RjsOU-jk3LUMkpRaLE6RiVhw5hgooeHeOXLVypNml67VTTvRd1EM9JiezuRki5Udt7lUzzoZ_qIv3oxjpEnmg1R-30VaVvA1lNOAg-68vC484YZCefXi0tQuTeSdmqxTTS7e5-aejsgJ-543ENQuZAjTeVI7fyFkpb0ijyV-yKdFgxZjV94dITvcX1LRO7SEIEBuSBWUh7OCXAxeZ5nHHkfo6RYdjdNdbewmK3IWAMRgtu4Q9M01cjHOCsyglswe5dS0DRGTrF6muv-MviPmZAafaDAm2U45B9xkrbrkhknuppjn_RMfIMt6y2t1CAVg2zpJ1LQKiss7NN_Wrp2D7M105z3D6tZf-Ft1q08qnbmOcwAsJ9k8hq5fK9mM_j0zx7NrKcCYKyuasOQSk2VTuqEZ-FiH3aDzEfl2ixPxFTxLdSXvZBwn_f1tjVhjrMZroytOHvz-_WCu2LOV9CBPFGevOwibaPK9CD_ZMJ0dS2gZb0X99RGPgAKpD13qtJiGrQlnDNgAHbogI939wolq38rUn1IAVK-Au5auVVQavJZhNlHelTnZtE1wFQFr2669l84fsVmO7M25frWIT7ukgMvqYhEB2mD0A9n2G2zvI4RH6cV6KyvZi8pWF_CT288LsMl1s0JqIi9yDEOo7nm9db19pXUSXXTWUr-wdq3G2TREymYb-MuhMSQGIQ07afUmQw0n_HDsGi0N97Q6qkW6J-CYBC73B50QCXMOXVf70855ND0ji56RHfWVbueavOU_84pLyO8iABapaMHfoeMwWRv6L4CC2LT5e16TAG-Bi0xw-1Uev4_KEtYAb1wKwEFVXPCOvvF3rH8OWbEPBlG6bePMbJv2Geiy-BAfqzyx-7zlIKTN9j5iLRLej3BgMrgnn9WxWEiSWmCIufh05GMA0-JhthXzT-B_-6PyPJ1Q96WlmVTWx1paK-wtCocqNUWEn3QW0cP8iswnaF4kuLuunU9jjbgYlU_SoNLhAw5NwMef2XwzyPi1WhiOXSDAvYczjb9wdH7nCC8AhXC0FZyNUO_0KmhXh9ObbHF_olTkT4Mq9OaXvxrMUmQixi4-jWpYykN47-S82ar6A6DgBt0CZZUmDoDWo3UmB0rrrHYO96g36O2p0XE2ipNcRWxtoWrAWSGbDkmRgFMz1bLfyI0ndYJWCnC55Pv5XPkf-HMT0Wa9b55CBYusfZ2Xp0roHXliapbFFsFsvYIuvPdw70HsFEPHpRzfjFlbdrKUcq6dx61F057qapEjCqMXZ1rJ8ktsnSQKaYoDIG96k4TIHN6yMMD__yAM-Pbvb45nG5rJfWy22wiNBMHxfXzpiSP2huNEC-NtBMTDgCQLxRD2PSLYarWnrEch6ZV4LSQhmgxapzFL1q6WZGd7CRV7ALUA9uZFaDNbxK96V1hJ25u8L92sVZ1G53_EH0mi9ucv0yALK7UrDD9qd44xGvz-_RqahwpOV383nMepWvDbFrsNzLFJAZJ2m_eeYs8-nJ5S7oMSDvb0g-M2wkSkzDWuarIB6CH3JQlEjw7jQ6SwfI8nGQEvqddbkUkihDFre7saxruty52Jvjz986YgHJ63_h5QIdDdQ6p8nVEaqX8Pc6RQSib2Se--DX8KM3zL9CgOQK1MW1LXHnaDTOr21zQD6fvRm6X46cM-_psyZaF2VZ3PLVJgME6Ki93ViVsrKfr21LkBLFHIKqzzgKBOfS2t5hD5xlm3?>
   </g>
-
-  </g>
+</g>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">DATABASE_URL → PostgreSQL 17    ·    «pglite:» → PGlite embarqué (sandbox)    ·    Drizzle ORM 0.45 — types TypeScript inférés</text>
 </svg>

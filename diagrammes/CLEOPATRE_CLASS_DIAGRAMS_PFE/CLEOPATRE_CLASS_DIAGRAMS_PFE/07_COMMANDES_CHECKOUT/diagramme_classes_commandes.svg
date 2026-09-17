@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1368 1025" width="1368" height="1025">
-  <g transform="translate(0,0)">
-    <text x="684.0" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Commandes &amp; Checkout</text>
-    <text x="684.0" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="661.0" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Commandes &amp; Checkout</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(662.5,280.0) scale(1.8385)">
+<defs/>
   <g>
     <g class="cluster" data-qualified-name="PC" id="ent0001" data-source-line="92">
       <rect x="256" y="234" width="813" height="532" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
@@ -272,6 +270,7 @@
     </g>
 <?plantuml-src hLTBRoF74RxFhsWeW9SoTYMHeXvBx0eOyU4iLclJInb9u1X2SwP9jZNJFUxkuOe95WXo291ha1zXmTVSSbl-4_-IL3zcfcU6b8qaFB6hgklLLL_Lo7lACYnmYkGAn_m3PKkqm8aaWImvSnpTBmNFMJpa2HVeDnFpyoHYii1veYQSgIznIj0RfeZOpP_HFn7KFTtDTFfxmrxOE_T4GY7u1ySyEpixwOTDvksAHlUCI8cwHrsF-TwwBHWHwDAZHmcMCbHAq7cko9k8C-FOIR2YCK4H5L52x7-IPcg35fGaiVGfAL4h3gI6JlJd0A7hFHa33XSn4OuQNhwylZmhgLuCG6ldmz9cQfCGb2MOieBYKehG3D9EkDfanBjz6LwCpr-sk7KzPIgyY_smtpyDcqnhhTSYrzIzCycfYrUqfdvFkgPbHdHY5I_oDHeE9zTXyD7BEM5vkYVbmqauEMkcVFZoUXZs_wUKZy6a7vdl3jM5ly0H-J-LWQyx0sruIQmpWaGAisL2sW9xJ8UJYqctQTfbz1VJKJvL5NX_Ht9yTnbN-rovdbnEUdjTySoUZyylpeOrizrVp9CaF-I4kIVmaGE2E3-T5CGwOY1qGnVaXZBIB9THUEbpzpxf50j58vfXfdwTqCuIy0HsLME3NNL-ar5lxWXwgEtK-QGxlYpPEzqnh5sEb8pAXIz0URQ_xYoxzk9dmujmNB1sLPjX_9PWk5Et1URf6YlAMTjWRpmQDsHs8i28hW7DT-IbExuUJJo1dJuxvYwlFLRbyJkeD6XEJ_uqF3thQLNlYSmuawGjSX5UzCvFJSK_J74Sw-bi6izxxeBUqqWKF4EllHyQtcp__jLq-zVRzsFqyr_-YOOyJJ6BYKIVeU6AHFSyLxKRe62A6OLfsOaIIfXw8I6MG_Jpt_w1rZYXiKceEKR5VNDmYiqXeKjeBFDt-xZUFZAIWYOP10L27LH-QA-0ITNsKS8gW6AUGj6I0uGbcWvD3zkv-fL-1ND6YCPe07qkA4xGfv-cRp_zsv01cESWCm1FHRJ2ejFh7m8_PnGGmSdaSEsDlgwXUWdIdtwQ5FTn5C4Jl2KRJyLv_z3mfC8gby0mrN1dZuQJuOqEpmun473dExiW-2ApGaSXuccHAvfby8wbceBWwobeOHmBZLm3zBtaR6vv-LnnXPDtD4beIcGLec77L4PGv6eFkpI_c_sKvapmb0yvl5sLjVw9pLh2DpXHcp661In6nyLvba7q3JMH85YHE5GWbcUn-pz0IfjKECr0wcEz6jueaZvT4UQnzZqtE1xdaTh7PdgJFKRoFjUg6SxaYYjRGuoggQ0HsPEH7tAiAthJ82TGrxTx4zc8RRpMAVhlWzjVhrX3jt_DK5CBFjuRdfwuHwnUPjzhJ7K9661uqk6eLIJDxjJBgUuFhUzE7mmLW2SdJNyfcprTyRcEvuQcr5IKFWnr0pGBNm6KIbDrXCMo5IG48yqaqGxCEKy8PYvsitlwwNNHGt5hH7OXimKLAN4u8FH6M_1CppbEJ18m8Tmfmh2_98ax2Q9otJ--sJh8ECEHWuavPlTtIc0c5qLpOM5PIxfGT-xKKhOtYWpJmfK534hdrmBJfEvL0xES9b3Bui81yf1fwB9gOGFBivedvSENNeW8NBFsw4DXMH1oLnWpzpzwmwKSODj_mLH1TeuTseaozIRA45vUGp91hrvfarTNpgXkL5rDMa0lVTz-L-RkTm9djK90Tj65SbVbm_g8M98_rkngjKspFXxPKMRJb-HBg4u7HtDurbX_PBihTHJohfKW112cU7HVvyOvTm6ESjxAu8o8DIYMrLZ_h1ptDe-pHXvlw1p2II60XFoHIH4T9tH-38McZfGi8tmN_lvk6Bw_lVlwzW_eDUgTM42AOvsEZXkqH7sjDXv1a9IlYKS0gsa6Cku8eSpm6f8i3RWQgfTivxOBgU4aO26WbZmkWlETXUqv8WQBGoFLWG-CN1r2sZJSKKbUMJgiRtcYhhp6zIyva7xgMkNiRCKpWwLFUmk3AFCzTOiPCLUTNOsrpsqb_phROGoGQZn_sZZMShvrEwpjJGCWpWFxElCykT_7WwUU-fjHdOdNLkcNq5y-grwgDz3S4b05lhiXL5kSDrvnVYDDnPTpIdTOUHvXXUTOwb0brL_JYhEhAxj7loX_K869MNkbHmoqOdJGFG0QEZWvElhymAse0xTZ1lPOY7Gh4REt38hvtP3pLDaTe2Le9PmitAgcxw22dg2ojEk2JeCLTv3JAJQSmw32nS_XJebM0rjDGL3q-z7HbOUX0xJS_YX8q6oufbG2yrX_cngGtYbTf34IsqSIj7f2Y_WXc-edGRj-VLrcjEaX3wFCV8q4WS7jELUAmnHVbBMWlwu4VO1v13k60zPE5urk0R2w9tOdcd9O8IGCf7ZxcEXF5x1GYg1CwHiWQluPqkXMNwkUv7MvKA8Eu-bpD7lxpNEDvW_F4KrrOI_e4hw8zAtgg-Gr-bvNA8gV0MtxeuH5Pgsj1p2gpHXgrEqo1rW0NO3VklbrI9a-UrNy32q5HAaVfWJzpWfhd3lslXOxUWWBeed5T8q5fyfGwYs8Ef35mw2neBpuTaNZcB3l15skr8khvYTGOmLfYJU_XfgRHkj2RUsjogMKIyX2YvLFulLBIrVLZ87NbosniifTevO2CV_0W6-WoC16wse1J4LdjWJAwjojkWh3sw2QGcKMWly0?>
   </g>
-
-  </g>
+</g>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Panier client → validation → transaction    ·    Lignes de commande = snapshot (prix, nom figés)    ·    accessKey = jeton d’accès invité</text>
 </svg>

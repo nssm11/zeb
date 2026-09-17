@@ -33,11 +33,14 @@ Ils sont conçus pour être :
 Chaque dossier contient :
 
 - `diagramme_classes_*.puml` — source PlantUML (thème inclus, autonome)
-- `diagramme_classes_*.svg` — vectoriel, **titré** (titre centré + sous-titre)
-- `diagramme_classes_*.png` — haute résolution (≈ 192 dpi), rendu fidèle du SVG
+- `diagramme_classes_*.svg` — master vectoriel **4K 16:9** (viewBox
+  3840 × 2160) : titre centré + sous-titre + pied de page points clés
+- `diagramme_classes_*.png` — **4K UHD (3840 × 2160, 16:9)**, rendu fidèle du
+  SVG master
 
-Le bandeau de titre est ajouté en post-traitement du SVG ; les `.puml`
-contiennent uniquement le diagramme (reproductibles avec PlantUML standard).
+Le bandeau de titre, la mise en page 16:9 et le pied de page sont ajoutés en
+post-traitement du SVG ; les `.puml` contiennent uniquement le diagramme
+(reproductibles avec PlantUML standard).
 
 ## Correspondance avec le code source
 

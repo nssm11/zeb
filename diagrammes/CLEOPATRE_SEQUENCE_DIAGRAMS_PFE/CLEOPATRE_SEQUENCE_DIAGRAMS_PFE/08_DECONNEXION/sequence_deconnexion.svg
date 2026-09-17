@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 741 459" width="741" height="459">
-  <g transform="translate(0,0)">
-    <text x="370.5" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Déconnexion</text>
-    <text x="370.5" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="347.5" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Déconnexion</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(210.8,280.0) scale(4.6133)">
+<defs/>
   <g>
     <g>
       <title/>
@@ -83,6 +81,7 @@
     <text x="55.91" y="276.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Site déconnecté</text>
 <?plantuml-src hLRDZjis4BxhAOZD8ItGR6FvTmkq02rRpGARPBDARhrmfR7DBasg9BLPjoWGv52Wrw8lOUGHSelV94_IqPzDoJ9IeFL9Ez_7cMy-3iarTrocJBCrCIkMgBTSBic22GEUsIEtBBvRQfN99512QV8eB7uE8u45ouGDbRGls1h8fRIWk_68_mgar-y6g_n-u5D_v52erkfj1Gw7mwS3sWPVhtXy9y4OqZllEU1DALjBq6JYn6F1ZA7MQdwRMRYCbIo4FVLMF04ISnqBABzXdTeDMN0GYN4ZQx0hXQ5MJlARHyZqX6E8A9s0hg9qSZ6T3FTHfmUC7VjHnYAx4K1ImRYi8vMbX4HeEoYxIS5PFQ7Z-UZY26tcsLlXB1pGmQ1Fss1PpJyADz8zBynfqW-nTdw7tSWIGMwiLRLVio08fzJxtV4SPBO-ONaGqd3OjZouc0Pqy9yidsD9jpDN3iy7Vy5Y-9_6mCsTOZQsX5ACXjWokHHmJ3XHceRZiDSkNJdwHJlsMtLeVD1XZYjNAdjAoZISXFv9AKxPqNmq7WQDihql-cJWbmnajGNkpO5DZFfX7MpU68HSyGLSSGdjSPdHYOkUtD9hfYsFUSga_NUapX5m25tJs88F9xyDD0ztZ6VeMDGexCqdUxXJJW5r2Ta31ma_OlBqzDoLS6F7Xy6OpckeQzeAu1amNDEiXUNvFRDSoUE2_dmsRt4wRu0PlyVRlCENtdmw2nr2f-OAx5BjG0V5pt7Iy70w_3xj3_qyrGsOL4a3nvGn7VkZVZ7n3zSiIVBNkJXupdRNSJ-_YRp7v7ldHuAhtPylhtVlNz_CoUTtVvDejoqFnpSasMtnrPFmW0Or5c4EePOgixc1Y7t-uozyeutLQXEXmZpq7J5PckhgBtmI1IE2BoNatwOCOngm11RvRRW6QKcIaLYfEmvaPMtwKehDkUUnV8x8sHlB1JVCGgRF23FaZS7_7z93a-JiihvPVv9VlO07U_wp-RgaNZQ94UXxVEnByQQWHBH94VpsMvRPLG5I_6Z2ryhOfORerLL1c4qzBzT3dlo0nR3tG70q4ItGvDC7VAJsLiOeaNpww24BkH55hkkaXn6CvmKHQLhg5L54PrF4ejnTlYvyhUr4uCbXTRqJfcJkjb1bg0i7fTM5_xjjKRhMVmC9pz-FV3rQPOXupE8u0ouAvJajRnUBSEisjzl-0m00?>
   </g>
-
-  </g>
+</g>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">logoutAction → destroySession    ·    Suppression de session + cookie    ·    Redirection vers l’accueil</text>
 </svg>

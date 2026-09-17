@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1062 765" width="1062" height="765">
-  <g transform="translate(0,0)">
-    <text x="531.0" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Authentification</text>
-    <text x="531.0" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="508.0" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Authentification</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(571.1,280.0) scale(2.5404)">
+<defs/>
   <g>
     <rect x="22.91" y="282" width="1005.80" height="300" rx="4" ry="4" fill="#FAF7F1" stroke="#FAF7F1" stroke-width="1"/>
     <rect x="22.91" y="282" width="1005.80" height="300" rx="4" ry="4" fill="#00000000" stroke="#D5C7AE" stroke-width="1.50"/>
@@ -120,6 +118,7 @@
     <text x="55.91" y="568.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Espace connecté</text>
 <?plantuml-src hLRTRjis5BxNKn3PHHAiwU9_fy06oBAq6KZRB6ftCUo6aOvjDZAfaPJRR1Wmx690RuUzX9_3Rz8dsI4bsvGiemEs006Cytqyv-F7SoYgHyPpAkcAg2LDnNl65sHECmMUsYCFD7bSI57mD12PaEIBoFuvZ1JcjCXq9BX-HLT0Pbo3RCTZzWkGJgyThF9tWwxV7JeKNqhnlW87Wy5rts-2RvOiUUIW5EayxpZWVIbRSf1axCIJZ2hbQotPGw5XbWXkXLrxIvO2IPXCCYX_mohNJsJE84kL6rc1NWeCDNAINpr29YSSGqJ856GLzSSta_5W7tNsWB5ZFyfOh9yo87b66Tz5Aai9YT5s4Fef1sVrs1-5mviZj9vdRuMpiE_t-ps_2PRLkaVXMhgNrfmw_H1hvdVOjImn66ErsFar3O9eudk_EPu3BrOdB0yYFneqBGzk9e7V_q-MXrZItPahXvd6dzC4_gSsS7Fdc8qke1GZ8T6KBp8u9fmexKUZgDCiNJdwMJlsHtNOUB_575Sk5_gKb4aqZhedfJXbX-5mD0XgPJkVzKd1pmNmwWZScmCtCUn5ks3znY3abitXbd5ejilK7xleoIEzerApXEMKwtz7Qcq1Xz3MZGtuCFbDe3xS2SxGiQXXr0d7UxXLZeNQXEo1WuHlCNb-kkzAk7RYWs3aXpkehTiiy1rGN5ElXUNPccec-771RZWD6vpM6s3ArdYRj_ZI2IVJo26qQgx0DjKET53y4ZiDXzFXz_pUe6jItOFA1LTmJ1dve-wmPpl-mnrDK_DrjeFd7FSktZKtaNTEldR-I72x_VZwRll7c_kGVFhzRn9lD-LmF2Eqq4lWcirPOasgBSGycLWmRZn4wDEVVv7rTYCFv1GKmKtQzIX2MOh23HZm8X7YaG5PQfs_vjdJfUTHqo_axArc6LDKGo7F25NahS9tGdxO33cRxMxGd_Z5A_YWdxzJboLrLYV68DVuKIyLAak9_JebOmzVcMrQqCSVTVXEABsG47z_QmdJYUSPFUJg6on6Nk2vuA6m1JTVVCeoyYLP2OqxnujMuGEfner5WGy2WaCt5t9LuE19PCmC7lk8Esvw6DY5Vw2PUL5aw6OgEDzkyCV5ZoAzh4X6jA6LtfT4rtRF4f0udLZ1oH8a_XiTYS1d2dW8N1qI1JP8BfPKBKbQr3PaJYdJPEQUAkDhgr2PURAbzifhxR3T94jHe7pprVOjozgo_OXg4bCYEsys75ADGOPgd7on6n6IdeEKs24Uu3kqhkUKcXEacec916oykEpHVORAkf1BM32b9IgbkqOsirophrgChuwANUwuhcL7scuqVSZmq9hZy8pqhiaxKKXrsR3h7b9clkpL4Dcp4eLzW5-9EHe7bqUkXIetxmrymN9SkTrumDD_0000?>
   </g>
-
-  </g>
+</g>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">alt : identifiants valides / invalides    ·    Session 30 jours — cookie httpOnly    ·    Vérification dans lib/auth (scrypt)</text>
 </svg>

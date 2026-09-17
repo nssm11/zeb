@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1500 804" width="1500" height="804">
-  <g transform="translate(0,0)">
-    <text x="750.0" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Fidélité, Wishlist &amp; Gift Cards</text>
-    <text x="750.0" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="727.0" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Fidélité, Wishlist &amp; Gift Cards</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(120.0,281.0) scale(2.4000)">
+<defs/>
   <g>
     <g class="cluster" data-qualified-name="PF" id="ent0001" data-source-line="92">
       <rect x="255.50" y="5" width="206" height="549.50" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
@@ -265,6 +263,7 @@
     </g>
 <?plantuml-src hLZDRXit4BxlKn0kqCY5_oJBiYCa1jQov1Xn6Y5oaKFR0xrBIOntoSsIAzij31Gz5EYrw0FqM3UFq5lq9dcI3hdSNUwF5AEjBXPdXZCVvryMrvH5ECOX4dFiynlAPcYA0q4SaNEki7SzYtd2_04FU8o-6EcF9U6JAKu2EU9CVer3WiwP974pVq9_8AYztymq-Zk3ZjlfMI9k7FCRmpmuEDZhkbNcvPnwrum8WTexROlv9eKTCnAZ8ulk1LW8LygONYMId7kSQM1xpfpw17aqzWAIVYTX9E_Gb9B05pOb97BEWLJHYNvq43fPuJ7WyDWdiQ6wHqzFZWvoglK6eDNzaT8cyYuWA0emPHd5k1IX2RYTS7aN4UlsaNiux3sjSSjwSbTO5xjkjxllLfcfjKwDN5BtIZkdB5xGglejwPAM2L6EbJppr-bWC3fndNlBvuGbuGgN3qRkwA3gyi7Jau7R_Kyk7u99-sKs7AeIVuezyZ-bWQqx0cruHb8mCV4aPhE0r0LMc7P7XwDsrRJnw6VTaOUgU7YtmJasNCRbAYWdewDHPoKKosnls3iy69JCjZ_h9q7U9uIP4DYT0nxHsnzbn7B7GEY2Jia5PQIQBgVkaSrT6T8nZYNrQ8IPV9nGOmfO0atPM64NbLzbb8lRWnggW-gDsiEZdDq8HxEQWEIC0i8PA8zMvrtABaNyO73e3ZDMKxPfnWk2uKxP5fYd2omfPtM3dU7fi2BJs05EwGAwUODVsiEJqv4bq8ZPC9jGMwm2yIl8D2XEItxVtJ_eA5LlY8Wu4wGkSkWUTdhxEkDlnzZtrNJMXMU5EwDtL2Todg3drWSDBfQ_lXulVxvyCqIVVleTZQY_V0YeN3vieRTKp0Cg9FeIdT6fH0CS-w9q7RITyX1oY23_2M4p01SI9c7GKVMdZo8E3Kzi8QM622sqe0G87k03WWUHmycjusIjQQC0i86mGEEHhj9qSduZO4Yh8qBK1-rmf3X07p-CNtxyMvC9W0dGBapZMAIRnYw2g_gh5WZu7GxatLZZ0XMg7yz0wtEOx0ZTvwOkKhdB63E1FPKZwmqdG3htBOKVFumoNbGnfedGZPIuiVCIJfgiKscLefXW0K3wQ85ZRuxZLhktjwav7h0ayLtbSqb38YGE8_CWFG4jE-OX-0R2QTJwQcE1DvhZWiG21-OWe8w9LdLlXIdBZJH8RwqWPPnpIK9Zgi4vuvTRg71GpFt4a-j4zB0e7jxPUyJ3otWcS8_y-o1AVarir_Uwcy1E68LPOaG2V4K2EpeT0p9CwzPYTJFyu6nGNCU_xcLs70QbEagZSMP5GnMkgjlr3_UuJrvWCIyGLj-c9COncT9RwnL7wHieen8Klg91e71M4lqA1nY6xGekl4ecYfW1dMX2gbU8XFWdTyq18RSHXUniy5mbL_PJNz_NVFBeufwP2wjoOstHuX16XrpnVDC5pWOMbhmNrChzKLcloxtipQpYrRmZUSb3g_OjJwRVFHMh8D2dGbiLNkOk5Q2c5eBzTucGXZDDc5_Bsmc95zGZ8itOYPMnapcF31SzUnP2PmZ8Tqp4tcvgN-mAaDYHulZOm91y1djkLkUkbchbFQKSUzSFALFUMMy2Ap7RXdvgvbLZ8etiLf69cvOBAxAUJfyobi6SUDSy-GmKpqZPQ61lyyXhbNL6_MRDmHSmWOrtBoplZbEtv6Uj93-TOecli51G15K_7YHdnyVfsh2TVo2cWLwRX4Lqz73UQ6y03MtixUnyjT4qHFkcoJeDF7FBt0TD6XnSCVNLPCAUDavfz5ZQu8Pvjrf9iiHOfquF2oEGOYbayfRQppkKazCs6aNB7YZQYTCay5atDBWEXEq9tzUDfK05x4f7w9lEsuX0YTTAtkXqxFhSsJakp_k-AKQdLcTArFBSyY4a4fOpp1Xal5Cj1INTc3tOyvGRuAO7-SV3S8MfF9FxaAtla-LVC2KTHq-6Aoub3n6VwdrI_HU11w1ncY-Uu1hkNSDVdwfVqNgb1J6HnFh6Jcc714Ohf08j_q3lE4WiA6v0hkfJBrpeqo-_0VGmn0ni1dGHBny8QhNHwINieEqz54cXX8k6gc-O5JAH55ozV13Gbn7SL8ciUYw1-AYtrLvOpcVubKhC8WCZ0oMmjdiOEeP-T1_OxnCAReMf3mQ5MFwf82gKHBNrY2GIliCI5U1qeKUjTnWMRg64u4sH99kheMJ1r_-sIG9rPwvM3Z_HouL6P1o_uvGMZkS88dC5nXTKqAj0lQC5WU6CWMs1WR85GpNrZJh114y26qcfUSqIwgiE2IOXRaHvCb9dgvKzGRCOvhLAdcnEeTOS9t8JygxuWO9QCvn0UrRKyXw6MXxaJAmv-Q-ebXzpAZLDDsVKWWH5XbYhWErlvzJt2Vi-fhEvt3wsvsAf1ck2rNf8srWkvlCRjjrKNOrzfQeyZsBHMweYvPopsz8ZC3Iseygr-hPKtl5N8j93eWuyKritxLIwvafts7TA3R5g99k_Qz-PQK-7yxgm6Asfu3y0?>
   </g>
-
-  </g>
+</g>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Solde sur users.loyaltyPoints (1 DT = 10 pts)    ·    WishlistShare : le lien est la capacité    ·    GiftCard : code hashé, préfixe visible</text>
 </svg>

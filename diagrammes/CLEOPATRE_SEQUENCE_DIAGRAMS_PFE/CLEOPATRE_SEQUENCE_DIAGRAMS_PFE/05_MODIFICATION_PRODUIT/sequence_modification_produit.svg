@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 709 798" width="709" height="798">
-  <g transform="translate(0,0)">
-    <text x="354.5" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Modification d’un produit</text>
-    <text x="354.5" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="331.5" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Modification d’un produit</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(431.1,280.0) scale(2.4230)">
+<defs/>
   <g>
     <rect x="36.94" y="331" width="657.58" height="284" rx="4" ry="4" fill="#FAF7F1" stroke="#FAF7F1" stroke-width="1"/>
     <rect x="36.94" y="331" width="657.58" height="284" rx="4" ry="4" fill="#00000000" stroke="#D5C7AE" stroke-width="1.50"/>
@@ -124,8 +122,30 @@
     <polygon points="63.94,603 53.94,607 63.94,611 59.94,607" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
     <line x1="57.94" y1="607" x2="260.36" y2="607" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
     <text x="69.94" y="601.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Confirmation</text>
-<?plantuml-src hLRDRjj64BxpAGRk8GaGkz6_7A05A4fiNTY9QgKv5BsioP6rCRdBx2wLk4M1ehVU-m2zwjutq9lqIJfSYjAIefe2BK_4VD_yVJExf7xW8cEAfQ1NB9OVkBY79KiqUdgFtB7euLx9NCI1JAI2pqBxE8mObonFJ2Y5USLIX2jXKBNZ2_uZGgVN3kxYTuEktnqw55yf-M473WQ35ts_2RvPyUX1eDRGkUWuu6rPjXAeOEpOeuHfxHkZ-5rky2gImXRsmbln627YAagmVCSqCu-mv9Z4shMaQ5QIJ8sOy9C7C3cX625InQXsLdzyEHaFzbQd1x8Twr7Q5kOnGSWInaLbsKaAi23PKPh731tliJ-Q3I-Fq7gSlHIEOz_lztj-4oopTO_CjN0tLfmw_M1hndVOjIWBB8Grij9h6WJXnFT-TZH7aQSd90z2Fnmq9Gyk9u7V_q-IpoYbsvbR3YyMVyaY_9_Mm8sTKJHsZsKn2YF3n7s2nuGJgVrm57QQgNUAVbAE_QWEZVTRn77B5TASAcKIZiFkoLASjCFPS3G8QcaxdzH9u_iSnMu4xir1JGnxOMMitnW0rto9rrnWSrsc_jX5JuvqpfJX4S-OCF-ErBe23g5j6nlmuUGtWVhXZkWC7HSr33kpyHvkBST2RONiWKC9Nr7mxFJUbN1jueDWvCygg6tRBF0rClAfvwBqVCqCb-8uONSsdJKuhJV0bA_fDc_HfJERJ4E7q5hp3cohse4E5T_Gfj7XTFWzlpVe5g5kKMTIQ3ocZFnHTzYp6_znpkAu-3hRW-UCkx9tYvl8Um9VE0y4rzlVNi-tlxwvdS5Vl_mEY-scF1pF8PKnN_B82WJnarn0fcISSrEBG04rM-EyW29JI4fi58KtmdOJSsju2UljHZdXSb3RFnDyJkvhbl3OcYadr-Jr1xoJkGAZcD3CHXIO97ZXUQpOAZZpuvGBhebWC5Tdm3HOavSTseQpg-gk_K4yVOKVpSKx_Snolxkg4nUerlJvBulNbhBmwvI4tttEShCgSz5B7PvBRUuLBhwzjeJfnFDiGN3-9MMZzb_dQuMGCFfFY5POAUaHHepfX1Z1YYcwcnFK45F3sqtnak-Pn3clWiqTRxALcLv2M0jTptzZXrc6ZrOipJIW0Irp-alPLR7mYNSqIu_CHGvgcU2tvHIBEEK0FGkSL-wtXGsOdKNfQCrlYn5RfwLKQKwt3ednz7iPFwEH9gPggFWwqa5RipiA38NhlkMPKZHfCZPwRlD4-ZlT0zQytUp2xRIc_udzbYK7oG1aPkWlI4OFk-stZZNNRyX7K3lQjfDIS4oHLe3QquKZyL74_vIE1Y3fW2cXwwnA9EOkVaE6gYiw9rN4Oqq2APPSfVP8ULJCtm00?>
+<?plantuml-src hLRDRjj64BxpAGRk8GaGkz6_7A05A4fiNTY9QgKv5BsioP6rCRdBx2wLk4M1ehVU-m2zwjutq9lqIJfSYjAIefe2BK_4VD_yVJExf7xW8cEAfQ1NB9OVkBY79KiqUdgFtB7euLx9NCI1JAI2pqBxE8mObonFJ2Y5USLIX2jXKBNZ2_uZGgVN3kxYTuEktnqw55yf-M473WQ35ts_2RvPyUX1eDRGkUWuu6rPjXAeOEpOeuHfxHkZ-5rky2gImXRsmbln627YAagmVCSqCu-mv9Z4shMaQ5QIJ8sOy9C7C3cX625InQXsLdzyEHaFzbQd1x8Twr7Q5kOnGSWInaLbsKaAi23PKPh731tliJ-Q3I-Fq7gSlHIEOz_lztj-4oopTO_CjN0tLfmw_M1hndVOjIWBB8Grij9h6WJXnFT-TZH7aQSd90z2Fnmq9Gyk9u7V_q-IpoYbsvbR3YyMVyaY_9_Mm8sTKJHsZsKn2YF3n7s2nuGJgVrm57QQgNUAVbAE_QWEZVTRn77B5TASAcKIZiFkoLASjCFPS3G8QcaxdzH9u_iSnMu4xir1JGnxOMMitnW0rto9rrnWSrsc_jX5JuvqpfJX4S-OCF-ErBe23g5j6nlmuUGtWVhXZkWC7HSr33kpyHvkBST2RONiWKC9Nr7mxFJUbN1jueDWvCygg6tRBF0rClAfvwBqVCqCb-8uONSsdJKuhJV0bA_fDc_HfJERJ4E7q5hp3cohse4E5T_Gfj7XTFWzlpVe5g5kKMTIQ3ocZFnHTzYp6_znpkAu-3ft-_LnL_R-c4x14_Z2UI2utlxsUhxzzStj3FxwvNTOR3VbsNWEgOpvaaTM7uYVv08o9UEScre42gZP6kS559b2KMAZABmHjfkOMyDBM6ytoWcNWzh-cU1pSb-pXCVMJ3cv9gy_u9tC5HZ5X6Osei0amGlFOyLImPaVfrnmJGI3kJe3fi6QlEpGDPnTLLVj3-BfA_neBjxfPvRxtLMTk42rfgz_MRosb8LVfoJyxdEMcrMPYrxgy5ngSwzmyUsr9KmddcSBWlClAHkr_pfVAuI4qMz2jC9AIOymOamdn0XMJD7LdA26c1hURegNVCyapdaLREvuawtCz1B2MkXw_Xixp39yj69ffW4DQ9dJJygkYeLFlADPUcGkSb3B1ByjfrZ4AGVeMU2yShyjRC3iB4f7QtvRZDWwBQLASxfqI8odtylu6OqqCLL3nSUHpjcQtL5WA5ptBS-KeacJiT5pcoVIp-aUiERjPXTkfpNzJkotB3b81Y0pGpz1CdhORRzrhBb-Gpw2sj6sdPI2Ougq0jIUBXo9ZoB-ftGq04a7J0bTPrKYCNVn6p9KNT4vgI8UQn98iUGgjKVAesB-1W00?>
   </g>
-
-  </g>
+</g>
+<rect x="2258.9425770308126" y="280" width="1150" height="838" rx="24" fill="#FAF7F1" stroke="#DCCFBA" stroke-width="1.5"/>
+<text x="2322.9425770308126" y="384" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">LÉGENDE</text>
+<line x1="2322.9425770308126" y1="462" x2="2448.9425770308126" y2="462" stroke="#4A463F" stroke-width="2.5"/>
+<path d="M 2462.9425770308126 462 L 2444.9425770308126 454 L 2444.9425770308126 470 Z" fill="#4A463F"/>
+<text x="2492.9425770308126" y="471" font-family="Inter" font-size="25" fill="#4A443A">Appel</text>
+<line x1="2322.9425770308126" y1="536" x2="2448.9425770308126" y2="536" stroke="#7A7263" stroke-width="2.5" stroke-dasharray="10,7"/>
+<path d="M 2462.9425770308126 536 L 2444.9425770308126 528 M 2462.9425770308126 536 L 2444.9425770308126 544" stroke="#7A7263" stroke-width="2.5" fill="none"/>
+<text x="2492.9425770308126" y="545" font-family="Inter" font-size="25" fill="#4A443A">Retour</text>
+<rect x="2322.9425770308126" y="591" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
+<text x="2365.9425770308126" y="618" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">alt</text>
+<text x="2492.9425770308126" y="619" font-family="Inter" font-size="25" fill="#4A443A">Condition</text>
+<rect x="2322.9425770308126" y="665" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
+<text x="2365.9425770308126" y="692" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">opt</text>
+<text x="2492.9425770308126" y="693" font-family="Inter" font-size="25" fill="#4A443A">Optionnel</text>
+<text x="2322.9425770308126" y="800" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">POINTS CLÉS</text>
+<rect x="2322.9425770308126" y="849" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2354.9425770308126" y="866" font-family="Inter" font-size="25" fill="#4A443A">Charge puis mise à jour (transaction)</text>
+<rect x="2322.9425770308126" y="905" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2354.9425770308126" y="922" font-family="Inter" font-size="25" fill="#4A443A">alt : produit introuvable</text>
+<rect x="2322.9425770308126" y="961" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2354.9425770308126" y="978" font-family="Inter" font-size="25" fill="#4A443A">opt : mouvement de stock</text>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Charge puis mise à jour (transaction)    ·    alt : produit introuvable    ·    opt : mouvement de stock</text>
 </svg>

@@ -19,9 +19,20 @@ Chaque sous-dossier (`01_GLOBAL`, `02_AUTHENTIFICATION_UTILISATEURS`, …) conti
 
 | Fichier | Rôle |
 |---------|------|
-| `*.puml` | Source PlantUML (reproductible) |
-| `*.svg` | Vectoriel — version **titrée** (titre centré + sous-titre projet) |
-| `*.png` | Haute résolution (≈ 192 dpi), rendu fidèle du SVG titré |
+| `*.puml` | Source PlantUML (reproductible, thème inclus) |
+| `*.svg` | Vectoriel **4K 16:9** (viewBox 3840 × 2160) — master titré et composé |
+| `*.png` | **4K UHD (3840 × 2160, 16:9)** — rendu fidèle du SVG master |
+
+### Format des maîtres 4K
+
+Tous les diagrammes livrés au format **16:9** (présentation / diaporama /
+insertion rapport) :
+
+- bandeau de titre centré (titre semibold + sous-titre CLÉOPÂTRE + filet bleu)
+- diagramme mis à l'échelle vectoriellement (aucune distorsion)
+- pour les diagrammes verticaux (séquences) : panneau latéral conçu à part
+  (légende des flèches/fragments + points clés) pour équilibrer la composition
+- pied de page : points clés du diagramme sur une ligne
 
 ## Principe « Global → Détaillé »
 

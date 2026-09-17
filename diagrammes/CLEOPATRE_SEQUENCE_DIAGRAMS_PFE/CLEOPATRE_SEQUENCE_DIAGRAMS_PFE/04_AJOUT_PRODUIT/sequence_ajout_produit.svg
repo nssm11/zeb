@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 793 783" width="793" height="783">
-  <g transform="translate(0,0)">
-    <text x="396.5" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Ajout d’un produit</text>
-    <text x="396.5" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="373.5" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Ajout d’un produit</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(308.7,280.0) scale(2.4750)">
+<defs/>
   <g>
     <rect x="36.94" y="250" width="741.36" height="350" rx="4" ry="4" fill="#FAF7F1" stroke="#FAF7F1" stroke-width="1"/>
     <rect x="36.94" y="250" width="741.36" height="350" rx="4" ry="4" fill="#00000000" stroke="#D5C7AE" stroke-width="1.50"/>
@@ -124,8 +122,30 @@
     <polygon points="63.94,588 53.94,592 63.94,596 59.94,592" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
     <line x1="57.94" y1="592" x2="333.68" y2="592" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
     <text x="69.94" y="586.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Confirmation (fiche produit)</text>
-<?plantuml-src hLRDRjj64BxpAGRk8JRWkD6_7A06A8fiNJY9QgKv5BsioP6qCRMhxYwLk460ehVU-nAwzmtq9dsI3bUajAGef42h4p7VDt_VpAvMFtAnOeejGIzO8ZzmCOSPIpLwUeyyiFXnhcGcaa2cKi5NaVqvZ0HdB4jD98LvpPO8jyAWQiQd_5U4LgSPBEAtWxRVxZiKNodveG1xlTwBhby7tovu_2XGQsXTjHpmVbUs4gXWwDZZb6dj6wFuGsRmDfR25lR2M_048UOgJd7tZSkLUO8PnpJHhcM9PY79L8i9dpo0qGd5294gGLLO_U7rQDZRMvqUo7QinyusDKyfmYfbN9IMGbA0AScEqZojqF4U-eEmVts4LkFifN0Sktwts_7hu2vR-yXS2VVAYbEb7spr-0wx4cMAkR16bdgDWo0Q-TvdHtCKsVA4v47aHxswvC7rAF2x_qdoa5AwdRdby7pnPop6_saDtDWhYiRck2j6OMoOcATuJ3YHsey6KQkUkb3qYtBiHtLelDiWZbkkaEPKAQDe6BLFbkAaxOVzGI-ef6rzKIUDlsGeYX6uDmSrqUz4fR5wOm3SyHdUSO7rTHdxGnSzET89KuR7VCM4-NUanXLm24tRM8CF9xyEL0ztJ6VekAX-r0g7UxYn70ir5R873YLyIy5Nf_Tk1rSctWi6VbX2JTjcWU-GaKyr5wNdQsQu5CS9s-4uh74QRu0nNzDjtg1BAnoD8uVGM7C1DbNjG8UANz6cqU5q-1s_qsldeUvHhwJGU4mP-8DslsCt_kE49Kd-xsmFdZFkqjxERoBl6NpZ_22us_xnPhBz_Urz27__zYTCjvlTuRW4zbvc1f9dcO2Laad6JSML8ccsnaaEnIRNKWfu2VH7QTJsBrgk90FxSGbhblB42Wq_oUGIZ692C-jnIM6MCblZ4WKbGz16ne-09WyKen8QA5JCD6mtyMAxeNwkF8_bomLdVhBaWciAPp1JPq0iQ_9MX-xXxBQySdyMvw_nexbwhoyizyVRAd6AQaslW5qhsbAcVfMIyeUlMMOMkrpqKOKdKfkvmkaFTvOm7dcUBGYUtr0sKkSUQOnyBZ3lQYRLCgCJg13EHQu1oqgbBsf-KvdHSyAZRx9CVR8SQU-HcS2yA8BVRJUAqviapsEdu5dWUUb-RqV4h5g5fxM_oqTrL1rDxO9KJmtTitih5tQkcFyF-pQoBJLKYeQXyraUvawSlFQyFjlNIw0db-9pahkIoaDwMRf9AYbkI55oVPEj2Sb8H6UHgfHGA9pdcs5RAKGbYbmPUkNa6qQBOpXBuOQUT00Lv-zbfWJbrTRvU3k9Zo8feWNbcgfYjDkDhWVqjPQndONUh_K-YCChnMSDZPNoJegZ6AljPhjfqbNCk5hkJjlvZCSBF2mLPVm7?>
+<?plantuml-src hLRDRjj64BxpAGRk8JRWkD6_7A06A8fiNJY9QgKv5BsioP6qCRMhxYwLk460ehVU-nAwzmtq9dsI3bUajAGef42h4p7VDt_VpAvMFtAnOeejGIzO8ZzmCOSPIpLwUeyyiFXnhcGcaa2cKi5NaVqvZ0HdB4jD98LvpPO8jyAWQiQd_5U4LgSPBEAtWxRVxZiKNodveG1xlTwBhby7tovu_2XGQsXTjHpmVbUs4gXWwDZZb6dj6wFuGsRmDfR25lR2M_048UOgJd7tZSkLUO8PnpJHhcM9PY79L8i9dpo0qGd5294gGLLO_U7rQDZRMvqUo7QinyusDKyfmYfbN9IMGbA0AScEqZojqF4U-eEmVts4LkFifN0Sktwts_7hu2vR-yXS2VVAYbEb7spr-0wx4cMAkR16bdgDWo0Q-TvdHtCKsVA4v47aHxswvC7rAF2x_qdoa5AwdRdby7pnPop6_saDtDWhYiRck2j6OMoOcATuJ3YHsey6KQkUkb3qYtBiHtLelDiWZbkkaEPKAQDe6BLFbkAaxOVzGI-ef6rzKIUDlsGeYX6uDmSrqUz4fR5wOm3SyHdUSO7rTHdxGnSzET89KuR7VCM4-NUanXLm24tRM8CF9xyEL0ztJ6VekAX-r0g7UxYn70ir5R873YLyIy5Nf_Tk1rSctWi6VbX2JTjcWU-GaKyr5wNdQsQu5CS9s-4uh74QRu0nNzDjtg1BAnoD8uVGM7C1DbNjG8UANz6cqU5q-1s_qsldeUvHhwJGU4mP-8DslsCt_kE49Kd-xzpkLiTTshj3EWNFu1ld1y7Tzeyta-tlR-z3-FktFs6wtUpEnYMmzp8pa3pB1AoKJ39kAguKIRCrJd8eDhcKKi1BeFz9exP_qMub6TYFIrYpb2TMP_X99fTW51EQMOzB2hEKsHgNA2WPWZOoVWGqUQ0ObT10eMAcORk95ziDjNFbUIpVBJZpaoKNN5CuWvaw0s9PaxSwD0zdj-MD-xCuVuqVpTLxVM6vFzvMYLDKQte4x5hHbZBrgvIKFtpDChFOvQAFAZoHsimLJd-uiuJnoFDiGV3yXhAHElT8K-HpWNbNCwcM6Hr0XN0kSWrOLYfzKVERoenU4nvzasNga-L8Uu_C1EP54Vnkkr6SdYHv7Zi5pmBFI_TxEo9crIeyhVrTFggZwcXg5wHwQkYQtLkvi7F5_6_Ojv5jgQ5ID0oTp_8mT-BajUVrsRvU0hsu59-Jt9LK7jB3qarIIN53YfBhcsnDI4OYEejKfOH2uJpV3DjA8IfHvChG8oVVC5eSmraAD_IY0wWuVoyp9IYljix7sqby54aHBIZNL1MZtMvqFQ2ljOpjBFH-hVT175ufFcjeh9HtKXp5M6qtsqsJhcB6rN9tsivdF5xWOQaeupy0?>
   </g>
-
-  </g>
+</g>
+<rect x="2381.3233190271817" y="280" width="1150" height="838" rx="24" fill="#FAF7F1" stroke="#DCCFBA" stroke-width="1.5"/>
+<text x="2445.3233190271817" y="384" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">LÉGENDE</text>
+<line x1="2445.3233190271817" y1="462" x2="2571.3233190271817" y2="462" stroke="#4A463F" stroke-width="2.5"/>
+<path d="M 2585.3233190271817 462 L 2567.3233190271817 454 L 2567.3233190271817 470 Z" fill="#4A463F"/>
+<text x="2615.3233190271817" y="471" font-family="Inter" font-size="25" fill="#4A443A">Appel</text>
+<line x1="2445.3233190271817" y1="536" x2="2571.3233190271817" y2="536" stroke="#7A7263" stroke-width="2.5" stroke-dasharray="10,7"/>
+<path d="M 2585.3233190271817 536 L 2567.3233190271817 528 M 2585.3233190271817 536 L 2567.3233190271817 544" stroke="#7A7263" stroke-width="2.5" fill="none"/>
+<text x="2615.3233190271817" y="545" font-family="Inter" font-size="25" fill="#4A443A">Retour</text>
+<rect x="2445.3233190271817" y="591" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
+<text x="2488.3233190271817" y="618" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">alt</text>
+<text x="2615.3233190271817" y="619" font-family="Inter" font-size="25" fill="#4A443A">Condition</text>
+<rect x="2445.3233190271817" y="665" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
+<text x="2488.3233190271817" y="692" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">opt</text>
+<text x="2615.3233190271817" y="693" font-family="Inter" font-size="25" fill="#4A443A">Optionnel</text>
+<text x="2445.3233190271817" y="800" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">POINTS CLÉS</text>
+<rect x="2445.3233190271817" y="849" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2477.3233190271817" y="866" font-family="Inter" font-size="25" fill="#4A443A">Rôle admin vérifié (lib/auth)</text>
+<rect x="2445.3233190271817" y="905" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2477.3233190271817" y="922" font-family="Inter" font-size="25" fill="#4A443A">Validation Zod avant écriture</text>
+<rect x="2445.3233190271817" y="961" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2477.3233190271817" y="978" font-family="Inter" font-size="25" fill="#4A443A">opt : mouvement de stock · concerns</text>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Rôle admin vérifié (lib/auth)    ·    Validation Zod avant écriture    ·    opt : mouvement de stock · concerns</text>
 </svg>

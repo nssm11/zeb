@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 975 827" width="975" height="827">
-  <g transform="translate(0,0)">
-    <text x="487.5" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Commande</text>
-    <text x="487.5" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="464.5" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Commande</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(180.4,280.0) scale(2.3284)">
+<defs/>
   <g>
     <rect x="22.91" y="248" width="919.12" height="396" rx="4" ry="4" fill="#FAF7F1" stroke="#FAF7F1" stroke-width="1"/>
     <rect x="22.91" y="248" width="919.12" height="396" rx="4" ry="4" fill="#00000000" stroke="#D5C7AE" stroke-width="1.50"/>
@@ -126,8 +124,30 @@
     <polygon points="49.91,632 39.91,636 49.91,640 45.91,636" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
     <line x1="43.91" y1="636" x2="284.81" y2="636" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
     <text x="55.91" y="630.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Page de confirmation de commande</text>
-<?plantuml-src hLRDRkCs4BxhAOZq41jDqlM_iq0Na6MhJP6_nhiz5BrmfR73ZKngISgxQL6Ww6tlVOZrS-XD-YGTKfPDoJAsG9jJCD_7cU4ttuXMJuodLD8LKOyq5XyONv85JHHuQeUyfT7JKegCnu58X2HVXVRFOSIme5cYGy7rBLq1kU8QP3C-Pxy2wVIQmMt-Rj3rkqE7uaifFcp1mM3mek_NmTUFB7hYe1JfN7GSyA5eMtAGPEp4euGgvMijsTjCmrKak6tiXVV8OY0Har42nV-mIlKpMJ18OkL6Lg0V1OPgESbl7Y6J8ueX8cGCSXlrnvUJyM0NTUw0iKCzYjXSFoT0qeGoNaQsaX8oHzb1wESKdDDZVpGRNXwWrJmxAPo3VR_Vx_briAZMFGXNqjrOSQhqVQoUts5Niip12Aj5gTSq2CA9x_tkQ0uyMnsHF0ZzS52NFBYS17x_Fqa-mvBkpTnsc37-WaRmFzd0pPrYDhg4eXa9aQPycS0XuKXfFno5dNhfhQ9Vb6Ctglt5-mtYkEroeO-rCWd7OVTeAqxPuMmu6WILifqlwgJWVGPyEmBtou6N6FR2CbZzOX1opHPmpJZKxJBrnovwTAJtL6eMiPHo_Uz8ZHPm24rkhC7xpQy3rUMES8SEcng6dTbu1pUsOw6cHdR0leNlC7bwt7S5N9du81Zvin9gSfi5lWUAPwgri3nRKyq4FopOdKrdDKxZ5s3ArlWrRz2bCvjCGuVGsFCMREhQWVOTtw3JS3aTVi_l3RecrGEeL705XvIHF-eEUzRn7-zf79lNsIwUC-uotZLV8k-KVElyaU0w_tHtd__v-c56_lxZBpBFDyLod958h5QKutFMYXuXUXAPRbVEOYhqJmHtvlP6Iy79IxAc2Okjg6Ta3RX76KiIR1hpqIJA4aLQgHGhSOOlPfnl4gRppHccYh1XV5TnaZHh8rdc6vi5Nt-Iq7qpe4r4WI89M-9safQMb2jgwxSlF8yQuv6JDvebJ54DcJmXL94t2dzmf7jLoCbL-Id-XRTkuQE-UAVQ1VMgIfo3n9kGuehAKkP-bPAmjzzO5nImbKHLAVT2wQM4-O_NbZATU9xfYPo_me8eN82vyLSEtXRtadA6xLRmQse-MHPai0AkFGmZEFSHh0_2msY9_MGcOaykX5nbkF8IP_gpYDikwo7VH5cQVqOiEStsug7o6GgiKTX4ewrCO_YAhOka8YDAY-W98ofRBF0CCed9U5xsdNyozgcD4JccUyCnTtnPkf_4f-WPBEi1_iGiMYziW7x8b6AmpVuA1SHZTzaQ6yuu4CS5fEKQhxqxKKobkAioCpMQu5kTRwGm_JdDRQddfJgtMvOiJkQRmwH-cYOCTuTOUrkhL3nUSNX3YHlSQbHFRVS42rMl6c3jkeQ7iBCNYjDKFGhThX9_m7bor5MPGUSRl0ktTh8Ab5jNFJ95Ro1YM5OpE_8gfJGPTGTHSm8wVC7agfXdgnJ-Q_8EjDdpKnf5-MVLFl36lJM6cOzptfqNyFWV?>
+<?plantuml-src hLRRRjj647tNLopS1qkexKPtEK03K9JOkl2jLjA7eYzhSYHjJEuokqibJb2Ww5lU-n7HT_1F-YMTvKLQKXHIeFMJCUVipEoPCrof9yPZAcb4r9e6uZtZAxAaeOAMsY6Fr7zQIP7mm1MXaEGRB_kp604iQH9gJt1zIoCWLro3RCONx2EGRhyPBFBtt9xJ6raKHqhnlW27m-6BWLC7Nw-P_yH1ATAzw5hWGzwsv239n8hx8LNAqLgonqJ3bIzurjYBrfe5G7mc_H3o_o6AzJDPCWW3PKSYq6k1eLfEygb5oFI8OeW86O0ieixaSZePxgBM7J1sg4SUM-Zd44WSKiRBI24f8GkK7OH-Zi4wFN76yz7b0LhDivF2EZXm1eE-KmVpQhs3S2NTJIPEbRwFrVDRx4gM1HXXjIZrchckDtLQlrkQ0q-Y8vAxdkCDwvAxbrFN6VmdoUTOqhwPtGupnbzI7_ud6zYvOyn6Lv0t8y7NbAz2E2GSAUruOwzRBrqe-bKvTgFQNtpG88xTBXVwM2jJR-BrZhPYbHtDH-EXModR_QfE2jubm8iHs5yElCIexvN1wXU3a6ksX6l6eMwNcJEnqQCZlQTICv_5bEj_HsgqW4LeScCDtcz-7QWkjuyxTDZKoElE9pkuiPqCQcfa1-nR-06JnyTzbyELYG_TiJCleIQtPS2FGF5CjHQMPnkgcU271NlpsRp6QVm2pDW6l-ODkdJdqvbd4HfxBi2chYret_4DEWsNq-BtdVwmPr8zW8e5Lt186JlZtgYVEVx3FGq2ypht1jLnb_711BVWb7nl_H7tElryTv_--VfXJlx-uo-oIBVvRfmHNqGHvVYQjVqr-4yYqPtAMKo5zl7XpbpUI2auUKasD6H1fkaPsG2kKSB247l6V3Jqar2HTYn59CxmmGpIRSXqkZt3L3xsYyyg3f8c7IJBT9jbmSUVX7JV36WJKQ18o5QudAIj9UMAPlKx5wqMDRuZ9syq2vcY6X9vGgWYRnJ-teZtef2Jg_9B_1jlty87VV5MTNBgLPMu08at8VaLLKPPE5LAo1w_oqoGmvaagagv5qgl92n-liueischPNeYvw-m80hdOcxyaOEtnRMad66x5VoQcYzM1ZA8WEiMXX5SE0ZM1z72Q8dzOYQIdLmA6IMuyH9d-gi8EZRh8TtwIPn-GImyJVRYeV892gnHs52ZgqnZ-8XjygGY8KeB_maZAbakyGmoYSbuNlQTVZRsgOqHEQPxmp5tV5cQdmIdw1aismByXPctdji0_P0enQ38_We5n6DtoGORJZWGomMaRHklipkHJoM_gp8pDPhWKvrkfJ3zMSqLrFDIdTk29VEJwVOmgHF78SFT8PczCwjKF5vnU4E96rngL4yLUuA5gbTriNPTmqFOsWl5QQpMGdUgn9zmdXnrLMRGwHRlmZCxPGgKMrSzCaDl869OcMRPoAkKqcJK7aJD2UZm9PDHFizsAVotv2rei-UdrFVJBwfpu8txp1XcFjPvUrx0Wty0?>
   </g>
-
-  </g>
+</g>
+<rect x="2560.5942126514133" y="280" width="1099" height="838" rx="24" fill="#FAF7F1" stroke="#DCCFBA" stroke-width="1.5"/>
+<text x="2624.5942126514133" y="384" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">LÉGENDE</text>
+<line x1="2624.5942126514133" y1="462" x2="2750.5942126514133" y2="462" stroke="#4A463F" stroke-width="2.5"/>
+<path d="M 2764.5942126514133 462 L 2746.5942126514133 454 L 2746.5942126514133 470 Z" fill="#4A463F"/>
+<text x="2794.5942126514133" y="471" font-family="Inter" font-size="25" fill="#4A443A">Appel</text>
+<line x1="2624.5942126514133" y1="536" x2="2750.5942126514133" y2="536" stroke="#7A7263" stroke-width="2.5" stroke-dasharray="10,7"/>
+<path d="M 2764.5942126514133 536 L 2746.5942126514133 528 M 2764.5942126514133 536 L 2746.5942126514133 544" stroke="#7A7263" stroke-width="2.5" fill="none"/>
+<text x="2794.5942126514133" y="545" font-family="Inter" font-size="25" fill="#4A443A">Retour</text>
+<rect x="2624.5942126514133" y="591" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
+<text x="2667.5942126514133" y="618" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">alt</text>
+<text x="2794.5942126514133" y="619" font-family="Inter" font-size="25" fill="#4A443A">Condition</text>
+<rect x="2624.5942126514133" y="665" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
+<text x="2667.5942126514133" y="692" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">opt</text>
+<text x="2794.5942126514133" y="693" font-family="Inter" font-size="25" fill="#4A443A">Optionnel</text>
+<text x="2624.5942126514133" y="800" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">POINTS CLÉS</text>
+<rect x="2624.5942126514133" y="849" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2656.5942126514133" y="866" font-family="Inter" font-size="25" fill="#4A443A">Transaction verrouillée (stock)</text>
+<rect x="2624.5942126514133" y="905" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2656.5942126514133" y="922" font-family="Inter" font-size="25" fill="#4A443A">Promotions · fidélité · carte cadeau</text>
+<rect x="2624.5942126514133" y="961" width="12" height="12" rx="2.5" fill="#5B7C99"/>
+<text x="2656.5942126514133" y="978" font-family="Inter" font-size="25" fill="#4A443A">Confirmation : numéro + accessKey</text>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Transaction verrouillée (stock)    ·    Promotions · fidélité · carte cadeau    ·    Confirmation : numéro + accessKey</text>
 </svg>

@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 880 723" width="880" height="723">
-  <g transform="translate(0,0)">
-    <text x="440.0" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Administration</text>
-    <text x="440.0" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="417.0" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Administration</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(728.8,280.0) scale(2.7074)">
+<defs/>
   <g>
     <rect x="36.94" y="210" width="809.81" height="330" rx="4" ry="4" fill="#FAF7F1" stroke="#FAF7F1" stroke-width="1"/>
     <rect x="36.94" y="210" width="809.81" height="330" rx="4" ry="4" fill="#00000000" stroke="#D5C7AE" stroke-width="1.50"/>
@@ -115,8 +113,9 @@
     <polygon points="63.94,528 53.94,532 63.94,536 59.94,532" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
     <line x1="57.94" y1="532" x2="367.62" y2="532" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
     <text x="69.94" y="526.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Confirmation</text>
-<?plantuml-src hLRBRjj65DtpAmRk8ZOQEz5RBj008qfi3JYfQxbP5DsCo2jfOch8p0mTkq60eBlk-m5T5VM-Vw0_oPVqpf0KXnJL56YrCCRtdZdtyCoTXxhb8cMIROXQioXvnyMAB5cim5Exp8A5jokPP2BoapYHv8l0_Xn414kMnJf8X7x5Da0kX0RPdf_pdu5qUkt9Wh_hTsbtw42ebCcx8ZaO39xtQJDvi-RXhG2bIEUiuoIlSzbIW2HZ9nx6J2cgjUIBJCD5c0WhxBctvX6GaCimXdmCcrG_a2M7E59kP0DwdM2emKdUUuHC3ZY6cKH688ie7PzFneDTrFa6ZEtxaSVc-Y46aiQCYp9IM4h876s7H3-auCmUqz5iUBwNhVFih70czcc_twFDP5wjknUkqRsqvjJXLQp9xw1hB7Cmnkgaz6lg-y64UXySpq5acmEM-m4D1atB_VE9J_l_oV8PbdI_p9N3JUClMGZ_Knkut2coiHNaOYI4cebL3Fk00wLfC0ewpTA5ev-rOxTKrOVtMynnvOf47v8o2SP1zw0Kf-nmDXmD_5hPpcTzKl0s0r4iWNjou4SCUq4Ph9yOX5po9Lno0SrscTAncpsuf5TCQXxob0dzxq2jBU00shgnaQvsVZDHtzmXxg5zKSEWCnllqgroRAfDo2vHIVW6oTF3VPUdQoi-y4TqLgRQkiqclWM6S-gri3o_OvedOhzWTpQTDJ2j9y2Kt-5ftk9BPpQP1WwWLNEHR5Fjf2h5Bx7JS7Cw-1xj3Rg6wXfKcWW5-v0H7NM7FTlnzrSiYipjR3UUiznbl6jE8ky9-Thv4Vzo--jtLzjVRgvdvDF7tyXy-vXlZgU4HHikkDBIMbIRXYmq3BT_Ai8oU_kV9iibnnrrZFUabjk_iBVm7hI3awSapJWYGqEZJ7m5oeoH1V6R3HCHA4J99Cgunb4OSn1ceB8qJQG-8NUSaHWK7lZo3YzgMd1PYMUUnqopaIDQAOPC7X6cY0rvQUK6EReeZ-2VnF4hkDTdRzI9nVvmKGVMYrd8dDOXCLyyOvbUvxLmK4zV9Kgl9Co_lxI0wSJph21o-WAhaQzo5z6HkeqUvX1X-10ZyRZY4lA9pyf_vvejbvw587GwGU0SsyEir9UvyHu6JokQwt9LuYUPvZ5NrgI2OQSdGoDDoYoFns9TJED2PIXDuLTXSnbvXjWgGcQ8kBbkJ6qqJ96O4Um30VU61V2jMB3y0ySDMyI0Bg2-1MudipiRHbdwgdcgrjbrJjaudpx-SL9KU84hLircjVumxmVg-Fnw-oWvFkD8N7Ik4L6wazFaxcmVTrDj-3MBpQlFz6U4dxrznC7nZqbqieFPvS573Dd-JjuacQnXpO4mgOfCIueDL_Ytc55GbNPSRnyLFebPYvD-8fPSRl8b117z3G00?>
+<?plantuml-src hLRBRXit5DtFLn3k8ZOQEz5RBj00r4ZJ6d1IrtApABgXPguanYDoGd8Skq60eBlk-m5T5VM-Vw0_oPVqSXuQpcZK56YrCEXx3yyzStZvqBTS94on3T5h5ibtNAp8aiKQFBtBB5Xukr8o5P4lOwd85q7sSn0HB5aQcq0AyufjW5m80wezF-S_0-dqsfC5VzVlqkxGWL2bvBiYEHWCdlTfCtcpvk6j0Ar9vwpZ9AzpsKg08cCd7iPCQsgCuelKm4KeHIRikRVc4P2Ggp26V0oRn3oG9OSuqcva0sOjCTJW9EyzGYO77CECL16e8ah7vvFnO1TrlW5Z-txaiRbvY84aCUEYZ1IM4Z97sq6QXmISsMCwcWtFzx9rdfqLpiG-xVTxj9dCgtNtmZMwbvavTNWLQ_8xw1hB7AonHfP-JNq_c53lW-CvY7Hpm78_eC6WQRb_Fl5f_pzPFiEIxfUvShXj_2KBuNzg0vSxGJQsWboCWj0miOfX7t2WD0r6GQTPkd3qitRibghwy7wBEQvS8SqXAPDW77GFId7A3cV3qS2lbUryrYSDRrCGnHAu9mT-nB0NbC7wYK789L_29HVGR9Sf7RlPWqjwnPJX8K-OCFyErDe23g2j6nlfQkSt4_ND7U8UsXSr33gpyIxTAYTBjGdP9Ie9to1vShZlydHjnGV-YCxAL5ktPOblWU6SUYqip--OuLBi5-pEfhC6flK4cF8xFCrRVEdC9jF00RHgBf9jgfrKfVWbTXfkJWVVexr1rr9TWqwaqB0F6T5HTzZBElx-YaMHlPsx_Vfob_7-67V14_AryoF-vVRNxwwslznSpyYdZx-H-VOntnjF2OisN71jLEPGRHgoq33S_ga9IxFB_rGkbnmtr35UaqPj_yBMmcim6vmy9KdA4HbQ6ctZAz1sZ2o8tsoOY40ZIiaevGP7OSn1s85EaqGgSqBkE2CnQ3plrHtUqxJWoYIUUHwplKQEQAKOKdL4c2PPo4igCyZHHNa2_oIENy6zENkZJpBi3nTrOBrO1fdJEYJcYsSiDUky5WxgwIkfpKh1_FlB332TU5ucY9o-m6hagzn5TAHkeuSvH5W-n2WyhRY2VEApyj-vOSkbbq4GEfqWS8xTOLVgoznu3uEd5SrrkIhnazJmcElCf89XfoT58stABe_7ObDCuqAdA4tZLs5lMNcME5E4p11nUzlOscYO9Z4Zs0S2xYqBu5EnOFa7ZXksY05TG7qBt4rsSpQCokYhvgbQPzSvPUDy-lZ7IL7X1QvODPlL-iC-7wZZy-lje-BuYYDnqRbMHEbEJfExittSJSt2hrbi7tssFoFyxEqZ3ev_bD793fOj3xvXoFPtyaQcgeQrvy6aAZ8jAJPSuzzYHa5Lsd6zVTJu8cOjJlfIBBdQv4i88leR?>
   </g>
-
-  </g>
+</g>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">requireAdmin / requireStaff    ·    alt : rôle insuffisant → /connexion    ·    Commandes · produits · clients · support</text>
 </svg>

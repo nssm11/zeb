@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1464 1015" width="1464" height="1015">
-  <g transform="translate(0,0)">
-    <text x="732.0" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Gestion des produits</text>
-    <text x="732.0" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="709.0" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Gestion des produits</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(559.8,280.0) scale(1.8582)">
+<defs/>
   <g>
     <g class="cluster" data-qualified-name="PC" id="ent0001" data-source-line="92">
       <rect x="842" y="5" width="620" height="735" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
@@ -279,6 +277,7 @@
     </g>
 <?plantuml-src jLZRRjmu4dtNLn1UODEzwrkttROJ90Ralim4OqyQRcVdONOmO4li5iSIgP1KE-r1WC6-xVl-H7O-OT_YFzalsQ94ITJDJf0T8q3agc9LiUhKXPQtbCLOu0Z90FlyZh8rMk5G4aSMd2NsRjU29ymVyv0BzATP-cD9-6I5ar3DE5FVuuYWrqmHqSvVq7k21aVjJAD_E1wwmnDBn1M2tndcQ3GwF7Rhp9k0UhUCI8a6-mEBUPsvBHWHwCoYUo6MqbLAq6MYo6kFizInGoUWFa4U5Lv8icyInMgBLfI4lhGf4L411r9D9_hLGUYY8sB0uS8dmb3Ti-SNPwE2Qjq1QCruPBI5seO4nI6cBAUOa2AqWB0JhhOniKwVkQVJa-SDRbLF4GhhuB5xV7parfcPjM63N55tbGQdAbxIwlejwOgM1T61LJoFrsGydbsupWShveGbKKV8npDtDgg7VFpyOkmUVrN8fs3Ilfdj3jN0Ns6F_9zWOEkEGHjUaymPGJo5sJeaJO4Eq-xiT3QecpOHVJ8SHQhAYn-t1CTsbt7LvSh5x6msx7J5CdioFJaTZIjc1q_6IP9t2M4c1NRdW4kS7CroOhLZ87H9L-IICbA7oyGzixcTAPrZeQX7OypKvmcrGi0IQ4DZZLrMVfrHBMuFQgZfrCbiC3qhsAtkfAmsHmf6wS8te3pknbt6hcHyD3vrfpch3Mqfurk2uKpL5fYd6wmePqs3m-baMfDfxG0Jke5ktXANmVHYChC4Mdqsp3QlBLRfyHKW3OhJaZzoZqP3hUgQo9WpIPeYf-xfyEGeHVpxEVPzFPtJmhFIdTE7kXCvpz0hwmUDBn_--MR-y8-Rwodwxs__GjyGgGC2CrUYM70_eKgYdeSL3law8VtAQL0sPOggXuyI-GagfD1VOVW9By3CfrARXjz1LMZfT9oy6UsCYsFQ0P8hZ0Lb-W9mQWTXYURZj5wp6JhNQZoLKX2YFde1LIqe3j6dt-VVVVfFIfPXiWR61cjNH6zmSjW7Ti8eb7ykSfjO4iTD0QQtbL9YU7ZOpmu6NAW9aPwWSHgmKkOeb_4hR4NUgynRjXR4ft1HQPC3w3ZyhIGsRIaWXA_rxVJSMCEAykdtMNuz23TPSx7juiCzDaH8qiM707laYeOXZOWiHJBTF89UILpLmPUAUxUMsbUm66bwoEyMcdKJ208X2lsApCYSnIhH2kCiYJyRmYk4TK6IB4XoHe0AWGB19USXmSmmlYTt3TeOoXC6wvocNjay1PyGHI-zmY-IiwLnr4ihVs4kKd8sF4mWvmTf5i01-5fnyKF0epB7MOm4U4XyLu544llc6xAduwLm58FKXmAn5pgLNuRNuPDmr28cNt1_iRLO9pbGeGrlA_1hZspfwTZWwWzpjgikv5k3sD8n04Nss4W12uXaoePpvWbKuXlTWHjujEx40G62_M5N0hk2bvVvK6zKLVi6-BN2d7-tYyhYpWvqYsWJwMvRgwBCWY_mAekgLLFQQVZsqzCVh0vyLMdMVuPkAxb7q_emlVVAwhsBW8IhnoC9BJmaULMXtkKDXCN0CLa-mbGmjQvWkWLGKeJvsMSrsqNiPAa2mh0auiUVJ2vaEjX91xmd2Vyo61oR79lSDzqkN7Ax6gtXNxJp8Uvf_NRqsYVkOn2sI9OmkLLYTkeka1L6PI4_VrmmvfAQKhMzWkOdKs8z7WtFvfYAp_Cf1iclzAOsg4jdhic6mk1uDFDFk9V0YIuUl49rxLIzMdA_qdgBoITIPqp9cYJ_3TnPqSwk_9fjeFb1MxxY6nB1vrTTHR_nWHCPNJ_htrF6kmJh1MnRkqdwLhFQczqz5aHig5VkTbd7M5WTm_KZodASPjBevSji9Vmxay8xq5qAciq1rfBxIfwVc-j9lCa1wgOoFHZ6KHzy0Mf49NcPaM55Ja9rdlKv_vT4gdIoV_OPRITjRFQ9WWCzevLU5frivMleDpbmSLX95CaWQTZKtpNuwDUdiTwEB-co5hAGBW_Cncq7R4sKYPVihMW8Iv7irnWNsmMqk9xkSyPLegkc1sDERAlM5m6FFojniEp5bRmbouYgoWtB02Y-NeVa1og3aCeyhmLY-ms4JJXZ3n_pTy34GjO40h34KdkbPrT856U53_uIKZuHzFu-96-khqp_uA460loNctc6zeeVgCmmctiMqSbsjvt13X3Hpk7-_bzsYXV8Ytn9TugzgKlGMjWFhEsyws11Vb5kFhs0FdmKwI0dVITNtMemNpdAFTli5DB9MLzwhjsUwQmlofxJ8TXiOVQPjYQnltzknMzy_NO2aKlV7auBChLquOpaiCMhJgq5S7GpVfSy_1jAsB5ghLF6ILlXaYi53mA-ggrV-kKjw7jONb2KJ_FU04rkO2CT71uU5jH--kTM_VQ8e0VHlP2Iv3tgaVjx70YyYm8SHJYwfAjT_I8M9ERfSBsnNpCICmdl_5KIxQAru58I-BUBOe8JL_5OhwsxQ0jw5uH9keI7j0DBLThBQwXV9zJNbUOJfFkZTZ_Mlriry0nCWEyw64N3xmKuKNr8IVc4xwrnuWMa3q_-wbRPymMdYcZfl9nH3wBRDzMrzsD0VP-mdmHT1shll81_MHw5YC_ls5w1Z09j7Nm3w0Br3KirkTf2tNJCo3NCvW8P1Xq3nGQxKGODIUD_Ee-SRDrkQ86HvEXLjkisvMXocXjYro4zhrfBfYqxfbJigcc8DQkqLTnSE2-unrsePVz_?>
   </g>
-
-  </g>
+</g>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Prix en millimes (1 DT = 1000)    ·    Stock multi-lieux (ezzahra · hammamLif · entrepôt)    ·    Archivage = statut, jamais de suppression</text>
 </svg>

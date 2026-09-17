@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1673 671" width="1673" height="671">
-  <g transform="translate(0,0)">
-    <text x="836.5" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Administration</text>
-    <text x="836.5" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="813.5" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Administration</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(120.0,513.4) scale(2.1518)">
+<defs/>
   <g>
     <g class="cluster" data-qualified-name="PR" id="ent0001" data-source-line="92">
       <rect x="504" y="303.50" width="128" height="257.50" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
@@ -263,6 +261,7 @@
     </g>
 <?plantuml-src hLXBJnn74BxFhsWHoGRBW5bOmCX16lRX86E3Tl4fYQpUcTxT3ZFTc-wUnJX2YdA8b6kKNv1Jebnpoyty4_-IL3zcjkTba9ALB6QgggkggxvwZEKLPGiiS8ha7CVych8Pck94aa0Md0cEhcQ2PopkyOGBzCNG_3o9c4nnbgWXP-eDJWawPOg8PlwOVY1ePxUPwVHtUfsmi--9X4BmQyViThlFzi8gyt9Eeoj6f4GxMpiUSsJT5em8TEZHemHB6Iebw2HJv3JYp3ZsB9ZJcA28YYWXzfca2tM3ffGaiVGfAL5p3gIAJlH3WD19IyI0mqLCXAE6XyzF3hi5rRi3qEhniBInkaa8MYIOifpYGehG6C9EkBfP4E_qONWms7zUuvRr5A7m3kw5UtkxOPLfhNLgv9AwroOuPV4LhQhVaovf6HCTMCNpUFLxlU596DnwCISiIrj2tXk6msurvBtd9xrmxp-5V00c_Plvxb0D_2cEoFy40r_t0hJX6R7E218fp6O9gGkqc0w71yETgcaNqNl3KQHgTV6zXk3uxZAksbmv6HuEEwskU6Rt1_i7tLx9xCwzSPBa-ummbmA_Sy0bzdU7ER7SCH0werDoHXcfmgKV7lhSrfHUOA5eH1UOgOS9DKB04sX2OuMzglmgerpS4THGtQdzuSxWi60tkcDOJOuKZ9KBBq7veXrtbbtAUBTt40voLXFQ3EChWk5CsHQOfqkiA6TrWvr1Vr2HQUm0VRg4RjuGbvt1IN_e2JJwx9XDNdkibSUl0MbGd9xyRhZRxMXL8o8Nd4bI5pa83phxkmRnxozm7ElfR0hFItTEx-XE53n6Nte_r3kx--Nyukwdoz40VVhnDnJ6AMLKAc7YWjRrQD_aqocDo4Rf92WQtVsT4FaKpOWqmZ6HAE9fYfb-saOHLZZXiup0iymM2ouKj221u11AUPpflrZR2uAyCwrPdUWHmb5qzuTSGrYYYv6fL3iztqeOrFeL8HgZ8oXcGN5YtacAQGAa9HRH70j34nnWVeGo47kddmrHTnu9L4NUAo3SmZyp9WefPo3AfE8fiPhS3SopzLgVlFLyV-dYKCJ0Uj_pl3_NI6bn7poO0BFilrHOPTfNWx5tzjLm5lWc9RgGdO1xzqKWYn5qlLcFnwIYrymXXfCtkWcN8k4vEbY2GkUjiN-gNTP7P-3enx-6hpx-Su-NgOLinJhMpS5NLh8z8YeJRAIxj5GjmNgOEy9eMldJagySfpPVhxnyNGZ0QTJc1DEhR4k-5lQa7mi0KtJLSkSJ0OXvg9bRtx-KcqiunDOphTSvwq_At-aNGrtY92CbNy2kD1rHaoSSgW2pagtnd2JJ5XSLLQRElfESJHwYh9_npz_smPf6P4d9TOiobuK704KhQGFAs3MlHqZT_HxDyy8UUq1n8fUmCf0skBXCA2EpIaNXX6FuDIue5nI-9PgpRvhr9PPNzsIb4Q2D2ZFeTzZ3qmCGtvAUKlo8MC80aIX-Z4lpnSOnzE9ehgGLmhn3BrxOCV4DaoBQnfQwRLHiANbyx9pC5Z5Mn7Gismtj-NNN8vuY1jrjmuXEikIgBaXZwGj90ZFJQwxjwYHUMhkwZTRbWBZXUMZxMiLoLPthE8u_vIBTS2FdEvX6Ozr2QZntpdQ26ZSc2L4rFeqj5o9CX75ELu3dbWMAxxyUlIF8i1FIqr9VKm_C3GS5cP6NTAfwMCHE2gUmEQcdYBnVK04nSbUDC2pWIKKsWiTJurS5u-VZps5XaqiV3l3TBMWarvrFJDBPNEMlCSKpng7l5mAumBobL4oVqGdOJkZ4sjf-KhLJic8rAWNO0OLLYxN2w7F6xlxC-qdVguC-pAG9bWHiIwe_unHdXULu0iNM5_J3XuISZrxRLW6r1zGB-9ERUOmsYnzqkCHUqYC6Pfa2vchnEJBf3EoUihQpfhbhpxQsdgpvAy5HFdyR1SlpUoLhPrnPDX-mq3mq5wHoIbMdwV97guuU1ALUiRLrxBQh8mjT1Lld0bEYwxWkkhBR6xtjwmLLLrPTpaG8WgBNKf0ocsEGOr8B52219LFHX4eI52JDpnDPLrrm0lCbFE4AW8ZurDWq_xcH9T8ioy8knVaE3GCcNq3DbXphbE0CURiwiDPdHFKo8O1fBl7fvr-jees0G1gqpGf4PXcDDInXXKZX7h0JGm3XtGFCOpGJD34uAPhw-XnAQ0E2iujYg2Ju1WPQ2g4WcQQwZNuz5fn2FmHAZdhzTG4DfXIOpQ_dD8OBVIjqFMqUv_LVnBnP0ABje5ZZkqmNkAe9b4PtK1xaDM6J6risEIlcrspps2kFgYVP8dVJtNA5aAgI0XF_0W00?>
   </g>
-
-  </g>
+</g>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Accès réservé : rôles support &amp; admin    ·    Actions : admin.ts + admin-os.ts    ·    Commandes · catalogue · support · métriques</text>
 </svg>

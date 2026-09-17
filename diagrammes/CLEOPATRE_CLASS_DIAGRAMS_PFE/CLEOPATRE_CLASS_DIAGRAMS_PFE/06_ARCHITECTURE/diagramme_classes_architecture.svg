@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1326 775" width="1326" height="775">
-  <g transform="translate(0,0)">
-    <text x="663.0" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Architecture</text>
-    <text x="663.0" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="640.0" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Architecture</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(260.1,280.0) scale(2.5036)">
+<defs/>
   <g>
     <g class="cluster" data-qualified-name="PI" id="ent0001" data-source-line="92">
       <rect x="484" y="12" width="671" height="161" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
@@ -222,6 +220,7 @@
     </g>
 <?plantuml-src hLVDRXit4BxlKn3f8N8AMP5ioRBX2bZh9p7WnAfbzD2Y1sgNabZlaXkIwpWf0XGz5EYrw4kuVO0UUelU94_I8VUFNAsG0grFtfcFvCUPRsOeUKTPWWMEaTpWaB-bR8rME9B4awLdYOExjU0f2ySyuW9zCJD_5Y8aAvn6QiQPUerZWYwP8gBPlw3l2UeUDJlp_NlZdjyRM11V2FusT_Rx_UV7Vjrvkw717IDIekvXrtBUPBG58m8DBNiGOIbzfGHTfefS1fmPOi-z3Gq92gW88fBzJ-94lKChIg9GsfQOg0q7KsrFzAE7qCMUY867Yv28tEeFJo-6_T9gtG5ik_78R0lrBY8eYJ1bXIKFAK8B23lXwbr2hDL3_sGwEDtnklkKeR0M7ll7nqT-tPcTrjinEzkzCi5nuPMjlh-5TdPP41rOnOjuJSRZsONlVR1YJbWQxmdvUERF-lMGZqylnlxnVmhv58wqRsRJeLhuAnoG_qa6zju9x8RN92CZIA0mMqTa5x3dQ7zsCklMZyuZ-jbmbAcgBdxS41oRBkDg7vMBsN3Msql5EdOm7PpqnywntS_6IP8tAM5v2kpE0PSO7CqAezin4BgYAt956QdBPU8FRU_UbCwnK3IW2MRgtu4Q9M01cjHOSrULNtUunHr03UsI6iowqs7fRgHZN4r4IaT5uGLidkpNNUPsCjuVd_ZJmjMaDkDuIJ2iSS-2u-azLfIptGDxqycqXcdi01Dw3zsy8IxTwSLaPW4QEUVE9jQMgsBy2fG6nMdXZ_oZVazlTKDamfaakv0J_wGtE3AAVvZZCDJJsHIUbUx2tjETo7kAlhB-qFXg--lrVFlpxSqKVVhfTr1-iA4AUaSg2C994j408dHFd5MmITvv8NOmdYLq6yCGBsb4rVPHehDin9jEz-cNtm0lxc72wf03pfWcF0RrPUuv4P9AQ5W1yRoYJJsfjcYz9W_gy0U9_2JH8nli1qyGbcX-QQeucwnpM2NH-JdmxhGaNEEWysmqCW24bh2AGk6Z3e8haJKNLF-V21wcL1b8m65m6m2FOypWOhcPCVAWhzg1_Yq3GHDz2-F3GP0I6g5MGDdsCSRcY0DmVIXP-M5CcKqDQuF5BCHoi-HOX0M9xEoAN4uZeeGfRPPfad2HSOwtZp1auL3f73g6gt1cyEVdKWITe3HO9mDfeZa7i2dS13IkYbE3F2IW8-tKbDrRpIzD7ifB9TJQs7nAWa5DrhT5snZoWpBc7wp4-uNm8EOjLpfvsdqhxNwgDeMmiilYxAk3mNEev6XKOXSRdZHZ9NXSx7X3WZkuOpC-oBtk6fFiFMIqgm5zlMW2jhbqiTE7X81aeKAQjoUbtrttcYkwoeCfcvSo6vAjjhDH56ehXdH5a76zDgBBphCy6PDQCgxeCZz1etQJC0PHkHWjipf6uOYlwp1ZT97NkljA5sWwicm8TerQKObLbE6gaGiYshGR5QjbeTP4qFVlOQ1UtxpAOpAtOZ81saiiYTwKwZUPuipM94Wfnlc9uR8ZpRTBViwbMWko-FeASDP7zmIgS_u2kYx9-3r5xV8FsdAK9TKoUbahEZmSEOLpXbPSn2ay2A2NMnYxO5oCrTVCPhRoQyYoLsYWbTap_KpT4EWInBF95EG0uza4ikL6F5wzEhMlb8Bdi2dfQSzk7MbtaNUlqAys5ddpBCgElPAUOowLvbXBQJdMKXlF85-v4ixqo56wsrVkTdjaYq17xasw_GE2wddc9RtaIl4OyPK50_aKWxCxi6Od-lWNF2gW_57tj1ZDriG0xormXT_w8Hel5kZ-sFpMSYPuw-EVA0LUCZD__Fj0B_i6HpJC-lQtFDGM2MyM_HbmVaT9MzybDEyJ2Gy7T3DTtEfHagdSZEU4fm91AUav2Ce0Ww1ClsGYJGASO8ALzzj7ePyQA6LcsHc2ij4J61Mr-AKT209NqM6g5SWw1Rfhis5CuJQ4mOya-6x1B8HSIFrJdaRRHo8FTake_HtysWy9-pxaRrdRAIT7pKquMsfrVoMxAYKbHj3rHhL7rgkYpgO1OTTGCyxcxN0gK6NPvRsx0L3KY5qkEx2gHAlYQQQaCPNywv2iLBoyOdRSLkh_0G00?>
   </g>
-
-  </g>
+</g>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Interface → Server Actions → lib/* → Drizzle → PostgreSQL    ·    Pas de REST API pour le commerce principal    ·    Zod · session cookie-based · Server Components</text>
 </svg>

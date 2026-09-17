@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 833 617" width="833" height="617">
-  <g transform="translate(0,0)">
-    <text x="416.5" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Archivage d’un produit</text>
-    <text x="416.5" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-    <rect x="393.5" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
-  </g>
-  <g transform="translate(0,84)">
-
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
+<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Archivage d’un produit</text>
+<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
+<g transform="translate(568.1,280.0) scale(3.2458)">
+<defs/>
   <g>
     <g>
       <title/>
@@ -102,6 +100,7 @@
     <text x="594.12" y="435.35" font-size="11" fill="#6E675C" xml:space="preserve" style="white-space: pre" font-family="Inter">dans le catalogue public (status ≠ active)</text>
 <?plantuml-src hLRDRjj64BxpAGRkmJPGkz6_t205A4fi3JY9QgKv5BsioP6qCRNBxYwTk4M0eBVS-m2v6WLwwgstw4to91qkHMb9KKY1bXS9ytqxFz_Epgw-vI9bYgr0BraiNtEnW3bBD7fwYzomw7QXP2RYG2PImHUX_Hn6Z7EM9IQKmZnZAuHBOL0rupF-2qAhqmnk_BU3jj_kEnHVAVbw0_PwlKTTlmw-MFBeLg3Mq3flEU1raROIg63esAE4QUqRe_XDPl0oai8cziXRyXWXuYfAiFYFgzJSmvnZ4clNiaApb6Ig-OHVFO3H0SK8aIf6jR7wmulHiBUrEZMGRL-FmZOpzmb2cZ0kIij6Ke0PoOxItAVeh1xwWqd_OW-j-jbAuIpi-jrknw-3HRJsdhdYxgaLfqhVsUh-7NR5omnpOOqizHe7GJZolRUEvYYorG79Wz0FUtN9WujHu7V_a-GJ2kbMvgR3yyQVimZ_fpPmVQVaZIsmI4PXP9XO9BXFE13Q3mTXgnvwe-XdvTXkrQxmReCuRhf2caEfZC9Xs3wOYXEsF-aFUa4bREkpEcdyEKEnsG9tSb0H_KvO6giJ0-2Ap_6A2wotozWVkkZ1BPqoPNZ4KoRCloCrje13QEh66hmx-NMWUhWZEaFxIVN3rcIuXHlJiL1J8bjWbyAtv3mzt7S5NDdnNZ3m9oNKr6qM-0uPhQd6el3yZXaknNx0zcGygN4Q9y2Otz4qRz2bDHcDGuVGcFC6RChQWNOPFwLEeyFfy3j-fzVENLsZJgNGk4yP-8DslsCx_isKnN5-Ezk3vsntQM_dayWxXYVE1y7L-ltpwVgt5zSJ-FJkTvYj7uh3yIKm5Ir97veNyN4c85KophYfB2TlLySx7ce3n8oMD7XmXSBGrGtQC9CPEB6_6fx0npyshZ66Zt-VmcFomh8e4yJDqbHHaRGba2xlDQTSSXy9e_irMkAvvx6yh-38ZrTSS6re-cEcZe1fi2OltHKEHvVbjFr9d3p3D-RybJwrt1ykgyGPgZjw0EGTGK9RoiolKX9-ynNBpBA8HN-gy5Hgir0u-_xA4iOZpxC9mTat50s-XkVPdTfLKifP8qtfWK2ahMhh3pkvrWya5w01BJDwMtYqW9RDV5gcsHrESuUHAKhmo4nWdYR1BzSFYjC39NUird_HdM21itBvTMu3PlKh5bhpIvRahnc2vbAjCfeLLC39Zp8-tR368s85IwOMbbMMHEQjw-d6vYoWopolwvNCL9vwSriqETdgOBsLaWLIpBbQsNDiDSdhjg8sBFJifIFplQOTegbTRWTr7G4ew2rB6q0PqeDFqwEJtP1QK03HxPcS4ntXCM121OjZbkPNolfFGwCqqqICcT2v5X4pB94BQjyqkqbujEt_J-y_0Ci73vvwA69x2_u3?>
   </g>
-
-  </g>
+</g>
+<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
+<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">status = « archived » — pas de DELETE    ·    Fiche consultable en back-office    ·    Invisible du catalogue public</text>
 </svg>
