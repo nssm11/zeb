@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1350" viewBox="0 0 2400 1350" font-family="Inter">
+<defs>
+<filter id="shCard" x="-6%" y="-6%" width="112%" height="116%"><feDropShadow dx="0" dy="2.5" stdDeviation="6.5" flood-color="#111827" flood-opacity="0.055"/></filter>
+<filter id="shChip" x="-6%" y="-6%" width="112%" height="116%"><feDropShadow dx="0" dy="1.2" stdDeviation="2.4" flood-color="#111827" flood-opacity="0.032"/></filter>
+</defs>
+<rect width="2400" height="1350" fill="#FAFAF9"/>
+<rect x="40.00" y="40.00" width="704.00" height="452.00" rx="12" fill="#FFFBF5" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shCard)"/>
+<rect x="66.00" y="68.00" width="4.00" height="24.00" rx="2" fill="#1E3A5F"/>
+<text x="84.00" y="88.00" font-family="Inter" font-size="24" font-weight="600" fill="#1E3A5F">Utilisateurs &amp; Auth</text>
+<text x="66.00" y="114.00" font-family="Inter" font-size="14.5" font-weight="400" fill="#6B7280">Comptes, sessions et adresses</text>
+<line x1="66.00" y1="122.00" x2="718.00" y2="122.00" stroke="#EAE3DA" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="66.00" y="140.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="88.00" y="175.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">User</text>
+<rect x="66.00" y="210.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="88.00" y="245.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">Session</text>
+<rect x="66.00" y="280.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="88.00" y="315.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">Address</text>
+<rect x="66.00" y="350.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="88.00" y="385.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">AuthLib</text>
+<rect x="612.40" y="366.00" width="83.60" height="24.00" rx="12" fill="#F1F5F9"/>
+<text x="654.20" y="383.00" font-family="Inter" font-size="12.5" font-weight="500" fill="#475569" text-anchor="middle" letter-spacing="0.15">«module»</text>
+<rect x="66.00" y="420.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="88.00" y="455.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">AuthActions</text>
+<rect x="613.27" y="436.00" width="82.73" height="24.00" rx="12" fill="#FDF4E7"/>
+<text x="654.64" y="453.00" font-family="Inter" font-size="12.5" font-weight="500" fill="#B45309" text-anchor="middle" letter-spacing="0.15">«actions»</text>
+<rect x="800.00" y="40.00" width="704.00" height="452.00" rx="12" fill="#FFFBF5" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shCard)"/>
+<rect x="826.00" y="68.00" width="4.00" height="24.00" rx="2" fill="#1E3A5F"/>
+<text x="844.00" y="88.00" font-family="Inter" font-size="24" font-weight="600" fill="#1E3A5F">Catalogue</text>
+<text x="826.00" y="114.00" font-family="Inter" font-size="14.5" font-weight="400" fill="#6B7280">Produits, marques et mouvements de stock</text>
+<line x1="826.00" y1="122.00" x2="1478.00" y2="122.00" stroke="#EAE3DA" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="826.00" y="140.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="848.00" y="175.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">Product</text>
+<rect x="826.00" y="210.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="848.00" y="245.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">Brand</text>
+<rect x="826.00" y="280.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="848.00" y="315.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">Concern</text>
+<rect x="826.00" y="350.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="848.00" y="385.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">StockMovement</text>
+<rect x="826.00" y="420.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="848.00" y="455.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">CatalogLib</text>
+<rect x="1372.40" y="436.00" width="83.60" height="24.00" rx="12" fill="#F1F5F9"/>
+<text x="1414.20" y="453.00" font-family="Inter" font-size="12.5" font-weight="500" fill="#475569" text-anchor="middle" letter-spacing="0.15">«module»</text>
+<rect x="40.00" y="536.00" width="704.00" height="452.00" rx="12" fill="#FFFBF5" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shCard)"/>
+<rect x="66.00" y="564.00" width="4.00" height="24.00" rx="2" fill="#1E3A5F"/>
+<text x="84.00" y="584.00" font-family="Inter" font-size="24" font-weight="600" fill="#1E3A5F">Expérience client</text>
+<text x="66.00" y="610.00" font-family="Inter" font-size="14.5" font-weight="400" fill="#6B7280">Wishlist, fidélité et cartes cadeaux</text>
+<line x1="66.00" y1="618.00" x2="718.00" y2="618.00" stroke="#EAE3DA" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="66.00" y="636.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="88.00" y="671.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">Wishlist</text>
+<rect x="66.00" y="706.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="88.00" y="741.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">WishlistItem</text>
+<rect x="66.00" y="776.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="88.00" y="811.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">WishlistShare</text>
+<rect x="66.00" y="846.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="88.00" y="881.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">GiftCard</text>
+<rect x="66.00" y="916.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="88.00" y="951.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">LoyaltyTransaction</text>
+<rect x="800.00" y="536.00" width="704.00" height="452.00" rx="12" fill="#FFFBF5" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shCard)"/>
+<rect x="826.00" y="564.00" width="4.00" height="24.00" rx="2" fill="#1E3A5F"/>
+<text x="844.00" y="584.00" font-family="Inter" font-size="24" font-weight="600" fill="#1E3A5F">Commandes</text>
+<text x="826.00" y="610.00" font-family="Inter" font-size="14.5" font-weight="400" fill="#6B7280">Panier et cycle de vie de la commande</text>
+<line x1="826.00" y1="618.00" x2="1478.00" y2="618.00" stroke="#EAE3DA" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="826.00" y="636.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="848.00" y="671.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">Order</text>
+<rect x="826.00" y="706.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="848.00" y="741.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">OrderItem</text>
+<rect x="826.00" y="776.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="848.00" y="811.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">OrderEvent</text>
+<rect x="826.00" y="846.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="848.00" y="881.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">CartLib</text>
+<rect x="1372.40" y="862.00" width="83.60" height="24.00" rx="12" fill="#F1F5F9"/>
+<text x="1414.20" y="879.00" font-family="Inter" font-size="12.5" font-weight="500" fill="#475569" text-anchor="middle" letter-spacing="0.15">«module»</text>
+<rect x="826.00" y="916.00" width="652.00" height="56.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="848.00" y="951.56" font-family="Inter" font-size="21" font-weight="500" fill="#111827">OrdersLib</text>
+<rect x="1372.40" y="932.00" width="83.60" height="24.00" rx="12" fill="#F1F5F9"/>
+<text x="1414.20" y="949.00" font-family="Inter" font-size="12.5" font-weight="500" fill="#475569" text-anchor="middle" letter-spacing="0.15">«module»</text>
+<rect x="1560.00" y="40.00" width="800.00" height="948.00" rx="12" fill="#F0F7F4" stroke="#D8E8E0" stroke-width="1.0" filter="url(#shCard)"/>
+<rect x="1586.00" y="68.00" width="4.00" height="24.00" rx="2" fill="#1E3A5F"/>
+<text x="1604.00" y="88.00" font-family="Inter" font-size="24" font-weight="600" fill="#1E3A5F">Persistance</text>
+<text x="1586.00" y="114.00" font-family="Inter" font-size="14.5" font-weight="400" fill="#6B7280">Drizzle ORM · PostgreSQL</text>
+<line x1="1586.00" y1="122.00" x2="2334.00" y2="122.00" stroke="#DCEAE3" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="1586.00" y="140.00" width="748.00" height="110.00" rx="10" fill="#FFFFFF" stroke="#E2EDE8" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="1608.00" y="187.00" font-family="Inter" font-size="20" font-weight="500" fill="#111827">Schema</text>
+<text x="1608.00" y="218.00" font-family="Inter" font-size="13.5" font-weight="400" fill="#6B7280">Définition Drizzle des tables</text>
+<rect x="1586.00" y="280.00" width="748.00" height="110.00" rx="10" fill="#FFFFFF" stroke="#E2EDE8" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="1608.00" y="327.00" font-family="Inter" font-size="20" font-weight="500" fill="#111827">PostgreSQL</text>
+<text x="1608.00" y="358.00" font-family="Inter" font-size="13.5" font-weight="400" fill="#6B7280">Moteur relationnel — instance partagée</text>
+<rect x="2217.83" y="323.00" width="94.17" height="24.00" rx="12" fill="#FDF4E7"/>
+<text x="2264.91" y="340.00" font-family="Inter" font-size="12.5" font-weight="500" fill="#B45309" text-anchor="middle" letter-spacing="0.15">«singleton»</text>
+<rect x="1586.00" y="420.00" width="748.00" height="110.00" rx="10" fill="#FFFFFF" stroke="#E2EDE8" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="1608.00" y="467.00" font-family="Inter" font-size="20" font-weight="500" fill="#111827">Migrations</text>
+<text x="1608.00" y="498.00" font-family="Inter" font-size="13.5" font-weight="400" fill="#6B7280">Évolution versionnée du schéma</text>
+<rect x="1586.00" y="560.00" width="748.00" height="110.00" rx="10" fill="#FFFFFF" stroke="#E2EDE8" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="1608.00" y="607.00" font-family="Inter" font-size="20" font-weight="500" fill="#111827">OrderEvent</text>
+<text x="1608.00" y="638.00" font-family="Inter" font-size="13.5" font-weight="400" fill="#6B7280">Table des événements de commande</text>
+<rect x="1586.00" y="700.00" width="748.00" height="110.00" rx="10" fill="#FFFFFF" stroke="#E2EDE8" stroke-width="1.0" filter="url(#shChip)"/>
+<text x="1608.00" y="747.00" font-family="Inter" font-size="20" font-weight="500" fill="#111827">OrderItem</text>
+<text x="1608.00" y="778.00" font-family="Inter" font-size="13.5" font-weight="400" fill="#6B7280">Table des lignes de commande</text>
+<rect x="1586.00" y="832.00" width="748.00" height="130.00" rx="10" fill="#F8FCFA" stroke="#E4EFE9" stroke-width="1.0"/>
+<rect x="1606.00" y="862.00" width="3.00" height="70.00" rx="1.5" fill="#B45309" opacity="0.9"/>
+<text x="1624.00" y="888.00" font-family="Inter" font-size="14.5" font-weight="400" fill="#4B5563">Une seule instance (singleton), partagée par les</text>
+<text x="1624.00" y="912.00" font-family="Inter" font-size="14.5" font-weight="400" fill="#4B5563">modules métier — accès via Drizzle ORM.</text>
+<text x="1624.00" y="938.00" font-family="Inter" font-size="13" font-weight="400" fill="#9CA3AF">OrderItem et OrderEvent sont vues comme tables</text>
+<rect x="40.00" y="1052.00" width="2320.00" height="258.00" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shCard)"/>
+<text x="66.00" y="1161.00" font-family="Inter" font-size="24" font-weight="600" fill="#1E3A5F">Services Applicatifs</text>
+<rect x="67.00" y="1171.00" width="3.00" height="14.00" rx="1.5" fill="#1E3A5F" opacity="0.75"/>
+<text x="79.00" y="1183.00" font-family="Inter" font-size="14" font-weight="400" fill="#6B7280">src/lib — modules métier</text>
+<rect x="67.00" y="1195.00" width="3.00" height="14.00" rx="1.5" fill="#B45309" opacity="0.75"/>
+<text x="79.00" y="1207.00" font-family="Inter" font-size="14" font-weight="400" fill="#6B7280">src/actions — Server Actions</text>
+<path d="M 607.40 1135.00 L 607.40 1020.00 Q 607.40 1008.00 619.40 1008.00 L 750.00 1008.00 Q 762.00 1008.00 762.00 996.00 L 762.00 534.00 Q 762.00 522.00 750.00 522.00 L 482.00 522.00 Q 470.00 522.00 470.00 510.00 L 470.00 492.00" fill="none" stroke="#1E3A5F" stroke-width="1.7" stroke-dasharray="7 5" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+<path d="M 994.20 1135.00 L 994.20 1032.00 Q 994.20 1020.00 982.20 1020.00 L 792.00 1020.00 Q 780.00 1020.00 780.00 1008.00 L 780.00 518.00 Q 780.00 506.00 768.00 506.00 L 542.00 506.00 Q 530.00 506.00 530.00 499.00 L 530.00 492.00" fill="none" stroke="#1E3A5F" stroke-width="1.7" stroke-dasharray="7 5" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+<path d="M 1381.00 1135.00 L 1381.00 1020.00 Q 1381.00 1008.00 1393.00 1008.00 L 1514.00 1008.00 Q 1526.00 1008.00 1526.00 996.00 L 1526.00 534.00 Q 1526.00 522.00 1514.00 522.00 L 1162.00 522.00 Q 1150.00 522.00 1150.00 510.00 L 1150.00 492.00" fill="none" stroke="#1E3A5F" stroke-width="1.7" stroke-dasharray="7 5" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+<path d="M 1514.00 1135.00 L 1514.00 272.00 Q 1514.00 260.00 1509.00 260.00 L 1504.00 260.00" fill="none" stroke="#1E3A5F" stroke-width="1.7" stroke-dasharray="7 5" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+<path d="M 1541.00 1135.00 L 1541.00 822.00 Q 1541.00 810.00 1529.00 810.00 L 1504.00 810.00" fill="none" stroke="#1E3A5F" stroke-width="1.7" stroke-dasharray="7 5" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+<path d="M 2120.00 1135.00 L 2120.00 712.00 Q 2120.00 700.00 2108.00 700.00 L 1504.00 700.00" fill="none" stroke="#1E3A5F" stroke-width="1.7" stroke-dasharray="7 5" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+<path d="M 2192.00 1135.00 L 2192.00 988.00" fill="none" stroke="#1E3A5F" stroke-width="1.7" stroke-dasharray="7 5" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+<rect x="428.00" y="1135.00" width="358.80" height="92.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<rect x="446.00" y="1157.00" width="3.00" height="48.00" rx="1.5" fill="#1E3A5F" opacity="0.85"/>
+<text x="461.00" y="1177.00" font-family="JetBrains Mono" font-size="18" font-weight="400" fill="#111827">src/lib/auth.ts</text>
+<text x="461.00" y="1203.00" font-family="Inter" font-size="14" font-weight="400" fill="#6B7280">Authentification et sessions</text>
+<rect x="814.80" y="1135.00" width="358.80" height="92.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<rect x="832.80" y="1157.00" width="3.00" height="48.00" rx="1.5" fill="#B45309" opacity="0.85"/>
+<text x="847.80" y="1177.00" font-family="JetBrains Mono" font-size="18" font-weight="400" fill="#111827">src/actions/auth.ts</text>
+<text x="847.80" y="1203.00" font-family="Inter" font-size="14" font-weight="400" fill="#6B7280">Connexion, inscription</text>
+<rect x="1201.60" y="1135.00" width="358.80" height="92.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<rect x="1219.60" y="1157.00" width="3.00" height="48.00" rx="1.5" fill="#1E3A5F" opacity="0.85"/>
+<text x="1234.60" y="1177.00" font-family="JetBrains Mono" font-size="18" font-weight="400" fill="#111827">src/lib/catalog.ts</text>
+<text x="1234.60" y="1203.00" font-family="Inter" font-size="14" font-weight="400" fill="#6B7280">Catalogue, stock et recherche</text>
+<rect x="1588.40" y="1135.00" width="358.80" height="92.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<rect x="1606.40" y="1157.00" width="3.00" height="48.00" rx="1.5" fill="#B45309" opacity="0.85"/>
+<text x="1621.40" y="1177.00" font-family="JetBrains Mono" font-size="18" font-weight="400" fill="#111827">src/actions/admin.ts</text>
+<text x="1621.40" y="1203.00" font-family="Inter" font-size="14" font-weight="400" fill="#6B7280">Administration du catalogue</text>
+<rect x="1975.20" y="1135.00" width="358.80" height="92.00" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.0" filter="url(#shChip)"/>
+<rect x="1993.20" y="1157.00" width="3.00" height="48.00" rx="1.5" fill="#1E3A5F" opacity="0.85"/>
+<text x="2008.20" y="1177.00" font-family="JetBrains Mono" font-size="18" font-weight="400" fill="#111827">src/lib/orders.ts</text>
+<text x="2008.20" y="1203.00" font-family="Inter" font-size="14" font-weight="400" fill="#6B7280">Panier, commandes et paiement</text>
+<circle cx="607.40" cy="1135.00" r="3.4" fill="#1E3A5F" opacity="0.45"/>
+<line x1="470.00" y1="492.00" x2="464.00" y2="502.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<line x1="470.00" y1="492.00" x2="476.00" y2="502.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<circle cx="994.20" cy="1135.00" r="3.4" fill="#1E3A5F" opacity="0.45"/>
+<line x1="530.00" y1="492.00" x2="524.00" y2="502.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<line x1="530.00" y1="492.00" x2="536.00" y2="502.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<circle cx="1381.00" cy="1135.00" r="3.4" fill="#1E3A5F" opacity="0.45"/>
+<line x1="1150.00" y1="492.00" x2="1144.00" y2="502.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<line x1="1150.00" y1="492.00" x2="1156.00" y2="502.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<circle cx="1514.00" cy="1135.00" r="3.4" fill="#1E3A5F" opacity="0.45"/>
+<line x1="1504.00" y1="260.00" x2="1514.00" y2="254.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<line x1="1504.00" y1="260.00" x2="1514.00" y2="266.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<circle cx="1541.00" cy="1135.00" r="3.4" fill="#1E3A5F" opacity="0.45"/>
+<line x1="1504.00" y1="810.00" x2="1514.00" y2="804.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<line x1="1504.00" y1="810.00" x2="1514.00" y2="816.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<circle cx="2120.00" cy="1135.00" r="3.4" fill="#1E3A5F" opacity="0.45"/>
+<line x1="1504.00" y1="700.00" x2="1514.00" y2="694.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<line x1="1504.00" y1="700.00" x2="1514.00" y2="706.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<circle cx="2192.00" cy="1135.00" r="3.4" fill="#1E3A5F" opacity="0.45"/>
+<line x1="2192.00" y1="988.00" x2="2186.00" y2="998.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<line x1="2192.00" y1="988.00" x2="2198.00" y2="998.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<line x1="66.00" y1="1285.00" x2="98.00" y2="1285.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="7 5" opacity="0.55"/>
+<line x1="66.00" y1="1285.00" x2="76.00" y2="1279.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<line x1="66.00" y1="1285.00" x2="76.00" y2="1291.00" stroke="#1E3A5F" stroke-width="1.7" stroke-linecap="round" opacity="0.55"/>
+<text x="110.00" y="1290.00" font-family="Inter" font-size="13" font-weight="400" fill="#9CA3AF">dépendance — le service applicatif utilise le domaine</text>
+</svg>
