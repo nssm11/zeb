@@ -1,0 +1,253 @@
+@startuml
+skinparam shadowing false
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Inter
+skinparam defaultFontSize 13
+skinparam defaultFontColor #2C2A26
+skinparam ArrowColor #55504A
+skinparam ArrowThickness 1.1
+skinparam RoundCorner 8
+skinparam classAttributeIconSize 0
+hide circle
+hide empty fields
+hide empty methods
+skinparam class {
+  BackgroundColor #FFFFFF
+  BorderColor #A89B85
+  BorderThickness 1
+  FontColor #2C2A26
+  FontStyle plain
+  FontSize 13
+  StereotypeFontColor #8A7E69
+  StereotypeFontStyle plain
+  AttributeFontColor #4A443A
+  AttributeFontSize 12
+  AttributeFontStyle plain
+  MethodFontSize 12
+  MethodFontColor #4A443A
+  MethodFontStyle plain
+  SeparatorColor #DCCFBA
+}
+skinparam enum {
+  BackgroundColor #FCFAF5
+  BorderColor #C9BCA4
+  BorderThickness 1
+  FontColor #2C2A26
+  FontStyle plain
+  EnumFontSize 12
+}
+skinparam interface {
+  BackgroundColor #FFFFFF
+  BorderColor #A89B85
+  BorderThickness 1
+}
+skinparam packageStyle rectangle
+skinparam package {
+  BackgroundColor #FAF7F1
+  BorderColor #DCCFBA
+  BorderThickness 1
+  FontColor #4A443A
+  FontSize 14
+  FontStyle plain
+}
+skinparam note {
+  BackgroundColor #FBF8F2
+  BorderColor #DCCFBA
+  FontColor #6E675C
+  FontSize 11
+  BorderThickness 1
+}
+skinparam sequence {
+  ArrowColor #4A463F
+  ArrowThickness 1.1
+  LifeLineBorderColor #C9BDA8
+  LifeLineBackgroundColor #FFFFFF
+  ParticipantBackgroundColor #FFFFFF
+  ParticipantBorderColor #A89B85
+  ParticipantFontColor #2C2A26
+  ParticipantFontSize 13
+  ParticipantFontStyle plain
+  ActorBackgroundColor #F6F1E8
+  ActorBorderColor #A89B85
+  ActorFontColor #2C2A26
+  ActorFontSize 13
+  GroupBackgroundColor #FAF7F1
+  GroupBorderColor #D5C7AE
+  GroupFontColor #4A443A
+  GroupHeaderFontSize 13
+  ActivationBackgroundColor #F2EDE3
+  ActivationBorderColor #C9BCA4
+  DividerBackgroundColor #F1EBDF
+  DividerBorderColor #D5C7AE
+  DividerFontColor #4A443A
+  DividerFontSize 13
+  MessageFontColor #3A352E
+  ResponseMessageFontColor #7A7263
+  BoxPadding 14
+  ParticipantPadding 22
+}
+
+' ============ CLÉOPÂTRE — Commandes & Checkout ============
+' Panier (client-side) → validation → checkout → commande → lignes → événements
+
+package "Commandes — entités de domaine" as PC {
+  class Order {
+    id : serial «PK»
+    number : varchar(24) «unique»
+    userId : integer «FK»
+    accessKey : varchar(64)
+    status : order_status
+    paymentMethod : payment_method
+    paymentStatus : payment_status
+    shippingMethod : shipping_method
+    shippingAddress : jsonb
+    subtotalMillimes : integer
+    discountMillimes : integer
+    shippingMillimes : integer
+    totalMillimes : integer
+    promoCode : varchar(40)
+    loyaltyEarned / loyaltySpent : integer
+    createdAt / updatedAt : timestamp
+  }
+  class OrderItem {
+    id : serial «PK»
+    orderId : integer «FK»
+    productId : integer «FK»
+    name / sku : snapshot
+    unitPriceMillimes : integer
+    quantity : integer
+    lineTotalMillimes : integer
+  }
+  class OrderEvent {
+    id : serial «PK»
+    orderId : integer «FK»
+    status : order_status
+    actorId : integer
+    message : varchar(300)
+    createdAt : timestamp
+  }
+  class Promotion {
+    id : serial «PK»
+    code : varchar(40) «unique»
+    type : promo_type
+    value : integer
+    minSubtotalMillimes : integer
+    usageLimit / usageCount : integer
+    startsAt / endsAt : timestamp
+    isActive : boolean
+  }
+  enum order_status {
+    pending
+    confirmed
+    preparing
+    shipped
+    delivered
+    cancelled
+    returned
+  }
+  enum payment_method {
+    cod
+    bank_transfer
+    card
+    gift_card
+  }
+  enum payment_status {
+    pending
+    paid
+    refunded
+    failed
+  }
+  enum shipping_method {
+    standard
+    express
+    pickup
+  }
+  enum promo_type {
+    percent
+    fixed
+    free_shipping
+  }
+}
+
+package "Panier (côté client)" as PP {
+  class CartState <<type>> {
+    lines : CartLine[]
+    giftWrap : boolean
+    note : string
+    promoCode : string
+  }
+  class CartLine <<type>> {
+    productId : number
+    slug / name / brandName
+    priceMillimes : number
+    quantity / stock : number
+    duo : CartDuo
+  }
+}
+
+package "Services commande & checkout" as PS {
+  class CartLib <<module\nsrc/lib/cart.ts>> {
+    MAX_CART_QTY = 20
+    addLine()
+    setQtyLine()
+    removeLine()
+    clampQty()
+    duoSavingsTotal()
+  }
+  class CheckoutService <<module\nsrc/actions/checkout.ts>> {
+    placeOrderAction(input) : Promise<ActionResult>
+    cancelOrderAction(orderId) : Promise<ActionResult>
+  }
+  class ShopPromoService <<module\nsrc/actions/shop.ts>> {
+    validatePromoAction(code, lines) : Promise<ActionResult>
+  }
+  class AdminOrderService <<module\nsrc/actions/admin.ts>> {
+    updateOrderStatusAction()
+    bulkOrderStatusAction()
+    setPaymentStatusAction()
+    saveOrderNotesAction()
+  }
+}
+
+package "Liens externes" as PL {
+  class User
+  class Product
+  class Database <<singleton>>
+}
+
+' ---------- relations ----------
+User "1" -- "0..*" Order : userId
+Order "1" -- "1..*" OrderItem : orderId
+Order "1" -- "0..*" OrderEvent : orderId
+Order "0..*" -- "0..1" Promotion : promoCode
+OrderItem "0..*" -- "0..1" Product : productId (snapshot)
+CartState *-- CartLine : lines
+
+CartLib ..> CartState : gère
+CheckoutService ..> CartState : lit le panier
+CheckoutService ..> Order : crée
+ShopPromoService ..> Promotion : valide
+AdminOrderService ..> Order : statut / paiement
+
+note bottom of Database
+  Prix en millimes (1 DT = 1000)
+  Points fidélité : 1 DT = 10 pts (1000 pts = 10 DT)
+  OrderItem = snapshot (nom, SKU, prix, image figés)
+  accessKey = jeton d'accès invité
+end note
+
+' ---------- guidage de mise en page ----------
+' grille : Services (haut) / Commandes (centre) / Panier (droite) / Liens externes (bas)
+payment_method -[hidden]right-> payment_status
+payment_status -[hidden]right-> shipping_method
+shipping_method -[hidden]right-> order_status
+Promotion -[hidden]left-> OrderItem
+OrderItem -[hidden]right-> OrderEvent
+OrderEvent -[hidden]right-> CartState
+Order -[hidden]down-> User
+User -[hidden]right-> Product
+Product -[hidden]right-> Database
+Order -[hidden]down-> OrderItem
+promo_type -[hidden]down-> Promotion
+
+@enduml

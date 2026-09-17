@@ -1,0 +1,181 @@
+@startuml
+skinparam shadowing false
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Inter
+skinparam defaultFontSize 13
+skinparam defaultFontColor #2C2A26
+skinparam ArrowColor #55504A
+skinparam ArrowThickness 1.1
+skinparam RoundCorner 8
+skinparam classAttributeIconSize 0
+hide circle
+hide empty fields
+hide empty methods
+skinparam class {
+  BackgroundColor #FFFFFF
+  BorderColor #A89B85
+  BorderThickness 1
+  FontColor #2C2A26
+  FontStyle plain
+  FontSize 13
+  StereotypeFontColor #8A7E69
+  StereotypeFontStyle plain
+  AttributeFontColor #4A443A
+  AttributeFontSize 12
+  AttributeFontStyle plain
+  MethodFontSize 12
+  MethodFontColor #4A443A
+  MethodFontStyle plain
+  SeparatorColor #DCCFBA
+}
+skinparam enum {
+  BackgroundColor #FCFAF5
+  BorderColor #C9BCA4
+  BorderThickness 1
+  FontColor #2C2A26
+  FontStyle plain
+  EnumFontSize 12
+}
+skinparam interface {
+  BackgroundColor #FFFFFF
+  BorderColor #A89B85
+  BorderThickness 1
+}
+skinparam packageStyle rectangle
+skinparam package {
+  BackgroundColor #FAF7F1
+  BorderColor #DCCFBA
+  BorderThickness 1
+  FontColor #4A443A
+  FontSize 14
+  FontStyle plain
+}
+skinparam note {
+  BackgroundColor #FBF8F2
+  BorderColor #DCCFBA
+  FontColor #6E675C
+  FontSize 11
+  BorderThickness 1
+}
+skinparam sequence {
+  ArrowColor #4A463F
+  ArrowThickness 1.1
+  LifeLineBorderColor #C9BDA8
+  LifeLineBackgroundColor #FFFFFF
+  ParticipantBackgroundColor #FFFFFF
+  ParticipantBorderColor #A89B85
+  ParticipantFontColor #2C2A26
+  ParticipantFontSize 13
+  ParticipantFontStyle plain
+  ActorBackgroundColor #F6F1E8
+  ActorBorderColor #A89B85
+  ActorFontColor #2C2A26
+  ActorFontSize 13
+  GroupBackgroundColor #FAF7F1
+  GroupBorderColor #D5C7AE
+  GroupFontColor #4A443A
+  GroupHeaderFontSize 13
+  ActivationBackgroundColor #F2EDE3
+  ActivationBorderColor #C9BCA4
+  DividerBackgroundColor #F1EBDF
+  DividerBorderColor #D5C7AE
+  DividerFontColor #4A443A
+  DividerFontSize 13
+  MessageFontColor #3A352E
+  ResponseMessageFontColor #7A7263
+  BoxPadding 14
+  ParticipantPadding 22
+}
+
+' ============ CLÉOPÂTRE — Architecture applicative ============
+' Separation des responsabilités : Interface → Server Actions → Domaine → Persistance
+
+package "Interface (Next.js App Router)" as PI {
+  class Pages <<app/(site)/*>> {
+    boutique / categorie / produit
+    compte / commandes
+    connexion / inscription
+    accueil (cinématique)
+  }
+  class AdminPages <<app/admin/*>> {
+    dashboard
+    commandes / produits
+    clients / support
+    métriques
+  }
+  class Components <<src/components/*>> {
+    cinematic / account / product
+    cart / admin
+  }
+  class APIRoutes <<app/api/*>> {
+    /api/search
+    /api/support
+    /api/products
+  }
+}
+
+package "Application (Server Actions)" as PA {
+  class AuthActions <<src/actions/auth.ts>>
+  class ShopActions <<src/actions/shop.ts>>
+  class CheckoutActions <<src/actions/checkout.ts>>
+  class AdminActions <<src/actions/admin.ts>>
+  class AdminOS <<src/actions/admin-os.ts>>
+  class ExperienceActions <<src/actions/experience.ts>>
+  class NotificationsActions <<src/actions/notifications.ts>>
+}
+
+package "Domaine (modules src/lib/*)" as PD {
+  class AuthLib <<src/lib/auth.ts>>
+  class CartLib <<src/lib/cart.ts>>
+  class CatalogLib <<src/lib/catalog.ts>>
+  class OrdersLib <<src/lib/orders.ts>>
+  class AdminLib <<src/lib/admin/*>>
+  class EmailLib <<src/lib/email.ts>>
+}
+
+package "Persistance (Drizzle ORM)" as PP {
+  class Database <<singleton>>
+  class Schema <<src/db/schema.ts>>
+  class PostgreSQL <<PostgreSQL 17 / PGlite>>
+}
+
+' ---------- relations ----------
+Pages ..> AuthActions : formulaires
+Pages ..> ShopActions : formulaires
+AdminPages ..> AdminActions : formulaires
+APIRoutes ..> CatalogLib : recherche
+AuthActions ..> AuthLib
+ShopActions ..> CartLib
+CheckoutActions ..> OrdersLib
+AdminActions ..> AdminLib
+ExperienceActions ..> EmailLib
+AuthLib ..> Database
+CatalogLib ..> Database
+OrdersLib ..> Database
+AdminLib ..> Database
+EmailLib ..> Database
+Database *-- Schema : contient
+Database --> PostgreSQL : requêtes
+
+note bottom of PostgreSQL
+  Next.js 16 App Router · React 19 Server Components · Tailwind CSS v4
+  Server Actions (« use server ») · Validation Zod · session cookie-based
+  Pas de REST API classique pour le commerce principal
+  Source de vérité unique : schéma Drizzle + PostgreSQL
+end note
+
+' ---------- guidage de mise en page (couches empilées) ----------
+Pages -[hidden]down-> AuthActions
+AuthActions -[hidden]down-> AuthLib
+AuthLib -[hidden]down-> Database
+Components -[hidden]right-> AdminPages
+Pages -[hidden]right-> AdminPages
+ShopActions -[hidden]right-> AdminActions
+AuthLib -[hidden]right-> CartLib
+CartLib -[hidden]right-> CatalogLib
+CatalogLib -[hidden]right-> OrdersLib
+OrdersLib -[hidden]right-> AdminLib
+Database -[hidden]right-> Schema
+Schema -[hidden]right-> PostgreSQL
+
+@enduml
