@@ -1,0 +1,242 @@
+@startuml
+skinparam shadowing false
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Inter
+skinparam defaultFontSize 13
+skinparam defaultFontColor #2C2A26
+skinparam ArrowColor #55504A
+skinparam ArrowThickness 1.1
+skinparam RoundCorner 8
+skinparam classAttributeIconSize 0
+hide circle
+hide empty fields
+hide empty methods
+skinparam class {
+  BackgroundColor #FFFFFF
+  BorderColor #A89B85
+  BorderThickness 1
+  FontColor #2C2A26
+  FontStyle plain
+  FontSize 13
+  StereotypeFontColor #8A7E69
+  StereotypeFontStyle plain
+  AttributeFontColor #4A443A
+  AttributeFontSize 12
+  AttributeFontStyle plain
+  MethodFontSize 12
+  MethodFontColor #4A443A
+  MethodFontStyle plain
+  SeparatorColor #DCCFBA
+}
+skinparam enum {
+  BackgroundColor #FCFAF5
+  BorderColor #C9BCA4
+  BorderThickness 1
+  FontColor #2C2A26
+  FontStyle plain
+  EnumFontSize 12
+}
+skinparam interface {
+  BackgroundColor #FFFFFF
+  BorderColor #A89B85
+  BorderThickness 1
+}
+skinparam packageStyle rectangle
+skinparam package {
+  BackgroundColor #FAF7F1
+  BorderColor #DCCFBA
+  BorderThickness 1
+  FontColor #4A443A
+  FontSize 14
+  FontStyle plain
+}
+skinparam note {
+  BackgroundColor #FBF8F2
+  BorderColor #DCCFBA
+  FontColor #6E675C
+  FontSize 11
+  BorderThickness 1
+}
+skinparam sequence {
+  ArrowColor #4A463F
+  ArrowThickness 1.1
+  LifeLineBorderColor #C9BDA8
+  LifeLineBackgroundColor #FFFFFF
+  ParticipantBackgroundColor #FFFFFF
+  ParticipantBorderColor #A89B85
+  ParticipantFontColor #2C2A26
+  ParticipantFontSize 13
+  ParticipantFontStyle plain
+  ActorBackgroundColor #F6F1E8
+  ActorBorderColor #A89B85
+  ActorFontColor #2C2A26
+  ActorFontSize 13
+  GroupBackgroundColor #FAF7F1
+  GroupBorderColor #D5C7AE
+  GroupFontColor #4A443A
+  GroupHeaderFontSize 13
+  ActivationBackgroundColor #F2EDE3
+  ActivationBorderColor #C9BCA4
+  DividerBackgroundColor #F1EBDF
+  DividerBorderColor #D5C7AE
+  DividerFontColor #4A443A
+  DividerFontSize 13
+  MessageFontColor #3A352E
+  ResponseMessageFontColor #7A7263
+  BoxPadding 14
+  ParticipantPadding 22
+}
+
+' ============ CLÉOPÂTRE — Fidélité, Wishlist & Gift Cards ============
+' Domaine d'engagement client : points, listes d'envies, cartes cadeaux
+
+package "Fidélité" as PF {
+  class User {
+    id : serial «PK»
+    email / firstName / lastName
+    loyaltyPoints : integer = 0
+  }
+  class LoyaltyTransaction {
+    id : serial «PK»
+    userId : integer «FK»
+    points : integer
+    kind : LoyaltyKind
+    orderId : integer «FK»
+    reason : varchar(160)
+    createdAt : timestamp
+  }
+  enum LoyaltyKind {
+    award
+    redemption
+    reversal
+    restore
+  }
+}
+
+package "Wishlist" as PW {
+  class WishlistItem {
+    userId : integer «PK, FK»
+    productId : integer «PK, FK»
+    note : varchar(200)
+    createdAt : timestamp
+  }
+  class WishlistShare {
+    id : serial «PK»
+    userId : integer «FK»
+    token : varchar(64) «unique»
+    label : varchar(120)
+    message : varchar(400)
+    revokedAt : timestamp
+    createdAt : timestamp
+  }
+}
+
+package "Cartes cadeaux" as PG {
+  class GiftCard {
+    id : serial «PK»
+    codeHash : varchar «unique»
+    codePrefix : varchar(8)
+    initialMillimes : integer
+    balanceMillimes : integer
+    status : GiftCardStatus
+    issuedBy : integer «FK»
+    expiresAt : timestamp
+    note : varchar(300)
+  }
+  class GiftCardTransaction {
+    id : serial «PK»
+    giftCardId : integer «FK»
+    orderId : integer «FK»
+    amountMillimes : integer
+    kind : GCTransactionKind
+    reason : varchar(200)
+    createdAt : timestamp
+  }
+  enum GiftCardStatus {
+    active
+    redeemed
+    expired
+    cancelled
+  }
+  enum GCTransactionKind {
+    issue
+    redemption
+    adjust
+    refund
+  }
+}
+
+package "Services" as PS {
+  class ShopService <<module\nsrc/actions/shop.ts>> {
+    toggleWishlistAction(productId)
+  }
+  class AdminGiftService <<module\nsrc/actions/admin.ts>> {
+    issueGiftCardAction(amount, expiresAt)
+    cancelGiftCardAction(cardId)
+  }
+  class CheckoutService <<module\nsrc/actions/checkout.ts>> {
+    placeOrderAction()
+  }
+}
+
+package "Liens" as PL {
+  class Product
+  class Order
+  class Database <<singleton>>
+}
+
+' ---------- relations ----------
+User "1" -- "0..*" LoyaltyTransaction : userId
+LoyaltyTransaction "0..*" -- "0..1" Order : orderId
+User "1" -- "0..*" WishlistItem
+WishlistItem "0..*" -- "1" Product : productId
+User "1" -- "0..*" WishlistShare
+User "0..1" -- "0..*" GiftCard : issuedBy
+GiftCard "1" -- "0..*" GiftCardTransaction : giftCardId
+GiftCardTransaction "0..*" -- "0..1" Order : orderId
+LoyaltyTransaction -- LoyaltyKind : kind
+GiftCard -- GiftCardStatus : status
+GiftCardTransaction -- GCTransactionKind : kind
+
+ShopService ..> WishlistItem : toggle
+AdminGiftService ..> GiftCard : émet / annule
+CheckoutService ..> LoyaltyTransaction : accorde / consomme
+AdminGiftService ..> Database : requêtes
+
+note bottom of User
+  Solde fidélité stocké directement
+  sur User.loyaltyPoints
+  (mis à jour via LoyaltyTransaction)
+  award → commande livrée (1 DT = 10 pts)
+  redemption → points utilisés en réduction
+end note
+
+note bottom of WishlistShare
+  Le token est une capacité :
+  quiconque possède le lien
+  peut lire la liste (jamais le compte)
+end note
+
+note bottom of GiftCard
+  Seul le hash du code est stocké.
+  codePrefix = début visible
+  (reconnaissable, inutilisable seul)
+end note
+
+' ---------- guidage de mise en page ----------
+' grille : Services (haut) / Fidélité (gauche) / Cartes cadeaux (centre) / Wishlist (droite) / Liens (bas droite)
+CheckoutService -[hidden]right-> ShopService
+ShopService -[hidden]right-> AdminGiftService
+User -[hidden]down-> LoyaltyTransaction
+LoyaltyTransaction -[hidden]right-> GiftCard
+GiftCard -[hidden]right-> WishlistShare
+LoyaltyKind -[hidden]down-> LoyaltyTransaction
+GiftCardTransaction -[hidden]down-> GCTransactionKind
+WishlistShare -[hidden]right-> WishlistItem
+GiftCard -[hidden]down-> GiftCardTransaction
+GiftCardStatus -[hidden]right-> GiftCardTransaction
+WishlistItem -[hidden]down-> Product
+GiftCardTransaction -[hidden]right-> Order
+LoyaltyTransaction -[hidden]down-> Order
+
+@enduml

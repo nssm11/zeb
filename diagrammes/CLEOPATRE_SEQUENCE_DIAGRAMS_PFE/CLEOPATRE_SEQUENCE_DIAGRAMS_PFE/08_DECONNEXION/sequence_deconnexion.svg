@@ -1,1 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="372px" preserveAspectRatio="none" style="width:694px;height:372px;background:#FFFFFF;" version="1.1" viewBox="0 0 694 372" width="694px" zoomAndPan="magnify"><defs/><g><line style="stroke:#8A857C;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="38" x2="38" y1="80.7295" y2="365.1846"/><line style="stroke:#8A857C;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="149.5283" x2="149.5283" y1="80.7295" y2="365.1846"/><line style="stroke:#8A857C;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="267.2048" x2="267.2048" y1="80.7295" y2="365.1846"/><line style="stroke:#8A857C;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="403.6633" x2="403.6633" y1="80.7295" y2="365.1846"/><line style="stroke:#8A857C;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="541.969" x2="541.969" y1="80.7295" y2="365.1846"/><line style="stroke:#8A857C;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="642.259" x2="642.259" y1="80.7295" y2="365.1846"/><text fill="#2C2A26" font-family="Inter" font-size="13" lengthAdjust="spacing" textLength="61.9468" x="5" y="77.5938">Utilisateur</text><ellipse cx="38.9734" cy="13.5" fill="#F8F5F0" rx="8" ry="8" style="stroke:#2C2A26;stroke-width:0.5;"/><path d="M38.9734,21.5 L38.9734,48.5 M25.9734,29.5 L51.9734,29.5 M38.9734,48.5 L25.9734,63.5 M38.9734,48.5 L51.9734,63.5 " fill="none" style="stroke:#2C2A26;stroke-width:0.5;"/><rect fill="#FFFFFF" height="29.7295" rx="2.5" ry="2.5" style="stroke:#2C2A26;stroke-width:0.5;" width="69.0151" x="115.5283" y="50"/><text fill="#2C2A26" font-family="Inter" font-size="13" lengthAdjust="spacing" textLength="55.0151" x="122.5283" y="69.5938">Interface</text><rect fill="#FFFFFF" height="29.7295" rx="2.5" ry="2.5" style="stroke:#2C2A26;stroke-width:0.5;" width="91.9238" x="222.2048" y="50"/><text fill="#2C2A26" font-family="Inter" font-size="13" lengthAdjust="spacing" textLength="77.9238" x="229.2048" y="69.5938">logoutAction</text><rect fill="#FFFFFF" height="29.7295" rx="2.5" ry="2.5" style="stroke:#2C2A26;stroke-width:0.5;" width="59.8682" x="374.6633" y="50"/><text fill="#2C2A26" font-family="Inter" font-size="13" lengthAdjust="spacing" textLength="45.8682" x="381.6633" y="69.5938">lib/auth</text><rect fill="#FFFFFF" height="29.7295" rx="2.5" ry="2.5" style="stroke:#2C2A26;stroke-width:0.5;" width="87.29" x="498.969" y="50"/><text fill="#2C2A26" font-family="Inter" font-size="13" lengthAdjust="spacing" textLength="73.29" x="505.969" y="69.5938">PostgreSQL</text><rect fill="#FFFFFF" height="45.459" rx="2.5" ry="2.5" style="stroke:#2C2A26;stroke-width:0.5;" width="92.6665" x="596.259" y="34.2705"/><text fill="#2C2A26" font-family="Inter" font-size="13" lengthAdjust="spacing" textLength="42.9482" x="621.1182" y="53.8643">Cookie</text><text fill="#2C2A26" font-family="Inter" font-size="13" lengthAdjust="spacing" textLength="78.6665" x="603.259" y="69.5938">cleo_session</text><polygon fill="#2C2A26" points="138.0359,109.6689,148.0359,113.6689,138.0359,117.6689" style="stroke:#2C2A26;stroke-width:1;"/><line style="stroke:#2C2A26;stroke-width:1.4;" x1="38.9734" x2="144.0359" y1="113.6689" y2="113.6689"/><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="87.0625" x="45.9734" y="108.292">D&#233;connexion</text><polygon fill="#2C2A26" points="256.1667,140.6084,266.1667,144.6084,256.1667,148.6084" style="stroke:#2C2A26;stroke-width:1;"/><line style="stroke:#2C2A26;stroke-width:1.4;" x1="150.0359" x2="262.1667" y1="144.6084" y2="144.6084"/><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="94.1309" x="157.0359" y="139.2314">logoutAction()</text><polygon fill="#2C2A26" points="392.5974,171.5479,402.5974,175.5479,392.5974,179.5479" style="stroke:#2C2A26;stroke-width:1;"/><line style="stroke:#2C2A26;stroke-width:1.4;" x1="268.1667" x2="398.5974" y1="175.5479" y2="175.5479"/><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="112.4307" x="275.1667" y="170.1709">destroySession()</text><polygon fill="#2C2A26" points="630.5923,202.4873,640.5923,206.4873,630.5923,210.4873" style="stroke:#2C2A26;stroke-width:1;"/><line style="stroke:#2C2A26;stroke-width:1.4;" x1="404.5974" x2="636.5923" y1="206.4873" y2="206.4873"/><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="20.2139" x="411.5974" y="201.1104">lire</text><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="3.9375" x="431.8113" y="201.1104">&#160;</text><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="11.9629" x="435.7488" y="201.1104">id</text><polygon fill="#2C2A26" points="530.614,250.3662,540.614,254.3662,530.614,258.3662" style="stroke:#2C2A26;stroke-width:1;"/><line style="stroke:#2C2A26;stroke-width:1.4;" x1="404.5974" x2="536.614" y1="254.3662" y2="254.3662"/><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="52.3018" x="411.5974" y="232.0498">DELETE</text><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="3.9375" x="463.8992" y="232.0498">&#160;</text><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="57.7773" x="467.8367" y="232.0498">sessions</text><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="50.0391" x="411.5974" y="248.9893">WHERE</text><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="3.9375" x="461.6365" y="248.9893">&#160;</text><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="11.9629" x="465.574" y="248.9893">id</text><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="3.9375" x="477.5369" y="248.9893">&#160;</text><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="9.2627" x="481.4744" y="248.9893">=</text><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="3.9375" x="490.7371" y="248.9893">&#160;</text><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="7.1572" x="494.6746" y="248.9893">?</text><polygon fill="#2C2A26" points="630.5923,281.3057,640.5923,285.3057,630.5923,289.3057" style="stroke:#2C2A26;stroke-width:1;"/><line style="stroke:#2C2A26;stroke-width:1.4;" x1="404.5974" x2="636.5923" y1="285.3057" y2="285.3057"/><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="51.2422" x="411.5974" y="279.9287">delete()</text><polygon fill="#2C2A26" points="161.0359,312.2451,151.0359,316.2451,161.0359,320.2451" style="stroke:#2C2A26;stroke-width:1;"/><line style="stroke:#2C2A26;stroke-width:1.4;stroke-dasharray:2.0,2.0;" x1="155.0359" x2="267.1667" y1="316.2451" y2="316.2451"/><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="79.707" x="167.0359" y="310.8682">redirect("/")</text><polygon fill="#2C2A26" points="49.9734,343.1846,39.9734,347.1846,49.9734,351.1846" style="stroke:#2C2A26;stroke-width:1;"/><line style="stroke:#2C2A26;stroke-width:1.4;stroke-dasharray:2.0,2.0;" x1="43.9734" x2="149.0359" y1="347.1846" y2="347.1846"/><text fill="#2C2A26" font-family="Inter" font-size="14" lengthAdjust="spacing" textLength="48.877" x="55.9734" y="341.8076">Accueil</text><!--SRC=[XPBHJjj044NV_HKZzmKUMaA0DY2rbUquAb9Q0GRnWbGjwucpocOdtLqNw1_rE_fZ7Ji1resXbcnPSwxdtfcrMoYp4bOiuLR8HMMfDcL6cYoycRHNv9uKRYvAkbEcWfdG3WDIuapKsa_8-6zYYN1gFDf-NgXV2Fk7_N3ZFCo6oV1z84ca9vjk1HnDZYQ3BHdP4kshdPvp70JeJ5Ylf5e9uzF_xY8KlseO2Fjj2_nHev4uLJE-3NRQZPBHqOUiHvrOItSlUNP4btCb5mQTW_rtXzrDg9_2ApBRqmxoD3_eruRfikDqT1mQByNzLtOI5RPp3WVXwJZ_e96VLabVBtKKYUOi8BxoIYidFDOs1k7Wol6_itfU6yJjxpGJ4jVyj4irLLJx9YAPLb0a_mZKxPwe_Ro52RzqyHavNraipgUjO9nsSKQqK7XZf4RwxdYwHvirYA8cBxpznBdW1CP_Vaio1kzP5N65wqN2zJ3apcx4DIPD5cObybBeeLZtPjhMcQyTcg-LHL3b4nYdZLK-pIzps4HoD-RwItwHimm-mkVj7YLgzBZnVenhiUJMqk_4U_5kcxSXpK0dVEYoHgMZlm00]--></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 741 459" width="741" height="459">
+  <g transform="translate(0,0)">
+    <text x="370.5" y="36" font-family="Inter" font-size="20" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Déconnexion</text>
+    <text x="370.5" y="56" font-family="Inter" font-size="9.5" font-weight="500" letter-spacing="2.6" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
+    <rect x="347.5" y="64" width="46" height="2" rx="1" fill="#5B7C99"/>
+  </g>
+  <g transform="translate(0,84)">
+
+  <defs/>
+  <g>
+    <g>
+      <title/>
+      <rect x="35.41" y="75" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="38.91" y1="75" x2="38.91" y2="300" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+    </g>
+    <g>
+      <title/>
+      <rect x="244.95" y="75" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="248.45" y1="75" x2="248.45" y2="300" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+    </g>
+    <g>
+      <title/>
+      <rect x="422.84" y="75" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="426.34" y1="75" x2="426.34" y2="300" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+    </g>
+    <g>
+      <title/>
+      <rect x="541.29" y="75" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="544.79" y1="75" x2="544.79" y2="300" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+    </g>
+    <g>
+      <title/>
+      <rect x="688.92" y="75" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="692.42" y1="75" x2="692.42" y2="300" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+    </g>
+    <text x="5" y="71.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Utilisateur</text>
+    <circle cx="38.91" cy="13.50" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
+    <path d="M38.91,21.50 L38.91,48.50 M25.91,29.50 L51.91,29.50 M38.91,48.50 L25.91,63.50 M38.91,48.50 L51.91,63.50" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
+    <rect x="214.00" y="36" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="221.00" y="48.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
+    <text x="222.49" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
+    <rect x="374.17" y="50" width="104.33" height="24" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="381.17" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions</text>
+    <rect x="514.85" y="49" width="59.87" height="25" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="521.85" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">lib/auth</text>
+    <rect x="648.98" y="48" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="655.98" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
+    <text x="5" y="306.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Utilisateur</text>
+    <circle cx="38.91" cy="318.50" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
+    <path d="M38.91,326.50 L38.91,353.50 M25.91,334.50 L51.91,334.50 M38.91,353.50 L25.91,368.50 M38.91,353.50 L51.91,368.50" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
+    <rect x="214.00" y="300" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="221.00" y="312.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
+    <text x="222.49" y="327.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
+    <rect x="374.17" y="300" width="104.33" height="24" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="381.17" y="313.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions</text>
+    <rect x="514.85" y="300" width="59.87" height="25" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="521.85" y="314.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">lib/auth</text>
+    <rect x="648.98" y="300" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="655.98" y="315.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
+    <polygon points="236.45,98 246.45,102 236.45,106 240.45,102" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="38.91" y1="102" x2="242.45" y2="102" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="45.91" y="96.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Clique sur « Se déconnecter »</text>
+    <polygon points="414.34,125 424.34,129 414.34,133 418.34,129" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="248.45" y1="129" x2="420.34" y2="129" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="255.45" y="123.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">logoutAction</text>
+    <polygon points="532.79,152 542.79,156 532.79,160 536.79,156" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="426.34" y1="156" x2="538.79" y2="156" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="433.34" y="150.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">destroySession</text>
+    <polygon points="680.42,179 690.42,183 680.42,187 684.42,183" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="544.79" y1="183" x2="686.42" y2="183" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="551.79" y="177.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Supprime la session</text>
+    <polygon points="555.79,206 545.79,210 555.79,214 551.79,210" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="549.79" y1="210" x2="691.42" y2="210" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="561.79" y="204.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Session supprimée</text>
+    <polygon points="437.34,230 427.34,234 437.34,238 433.34,234" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="431.34" y1="234" x2="543.79" y2="234" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="443.34" y="228.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Cookie effacé</text>
+    <polygon points="259.45,254 249.45,258 259.45,262 255.45,258" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="253.45" y1="258" x2="425.34" y2="258" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="265.45" y="252.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Redirection vers l'accueil</text>
+    <polygon points="49.91,278 39.91,282 49.91,286 45.91,282" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="43.91" y1="282" x2="247.45" y2="282" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="55.91" y="276.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Site déconnecté</text>
+<?plantuml-src hLRDZjis4BxhAOZD8ItGR6FvTmkq02rRpGARPBDARhrmfR7DBasg9BLPjoWGv52Wrw8lOUGHSelV94_IqPzDoJ9IeFL9Ez_7cMy-3iarTrocJBCrCIkMgBTSBic22GEUsIEtBBvRQfN99512QV8eB7uE8u45ouGDbRGls1h8fRIWk_68_mgar-y6g_n-u5D_v52erkfj1Gw7mwS3sWPVhtXy9y4OqZllEU1DALjBq6JYn6F1ZA7MQdwRMRYCbIo4FVLMF04ISnqBABzXdTeDMN0GYN4ZQx0hXQ5MJlARHyZqX6E8A9s0hg9qSZ6T3FTHfmUC7VjHnYAx4K1ImRYi8vMbX4HeEoYxIS5PFQ7Z-UZY26tcsLlXB1pGmQ1Fss1PpJyADz8zBynfqW-nTdw7tSWIGMwiLRLVio08fzJxtV4SPBO-ONaGqd3OjZouc0Pqy9yidsD9jpDN3iy7Vy5Y-9_6mCsTOZQsX5ACXjWokHHmJ3XHceRZiDSkNJdwHJlsMtLeVD1XZYjNAdjAoZISXFv9AKxPqNmq7WQDihql-cJWbmnajGNkpO5DZFfX7MpU68HSyGLSSGdjSPdHYOkUtD9hfYsFUSga_NUapX5m25tJs88F9xyDD0ztZ6VeMDGexCqdUxXJJW5r2Ta31ma_OlBqzDoLS6F7Xy6OpckeQzeAu1amNDEiXUNvFRDSoUE2_dmsRt4wRu0PlyVRlCENtdmw2nr2f-OAx5BjG0V5pt7Iy70w_3xj3_qyrGsOL4a3nvGn7VkZVZ7n3zSiIVBNkJXupdRNSJ-_YRp7v7ldHuAhtPylhtVlNz_CoUTtVvDejoqFnpSasMtnrPFmW0Or5c4EePOgixc1Y7t-uozyeutLQXEXmZpq7J5PckhgBtmI1IE2BoNatwOCOngm11RvRRW6QKcIaLYfEmvaPMtwKehDkUUnV8x8sHlB1JVCGgRF23FaZS7_7z93a-JiihvPVv9VlO07U_wp-RgaNZQ94UXxVEnByQQWHBH94VpsMvRPLG5I_6Z2ryhOfORerLL1c4qzBzT3dlo0nR3tG70q4ItGvDC7VAJsLiOeaNpww24BkH55hkkaXn6CvmKHQLhg5L54PrF4ejnTlYvyhUr4uCbXTRqJfcJkjb1bg0i7fTM5_xjjKRhMVmC9pz-FV3rQPOXupE8u0ouAvJajRnUBSEisjzl-0m00?>
+  </g>
+
+  </g>
+</svg>

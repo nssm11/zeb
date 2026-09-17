@@ -1,0 +1,178 @@
+@startuml
+skinparam shadowing false
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Inter
+skinparam defaultFontSize 13
+skinparam defaultFontColor #2C2A26
+skinparam ArrowColor #55504A
+skinparam ArrowThickness 1.1
+skinparam RoundCorner 8
+skinparam classAttributeIconSize 0
+hide circle
+hide empty fields
+hide empty methods
+skinparam class {
+  BackgroundColor #FFFFFF
+  BorderColor #A89B85
+  BorderThickness 1
+  FontColor #2C2A26
+  FontStyle plain
+  FontSize 13
+  StereotypeFontColor #8A7E69
+  StereotypeFontStyle plain
+  AttributeFontColor #4A443A
+  AttributeFontSize 12
+  AttributeFontStyle plain
+  MethodFontSize 12
+  MethodFontColor #4A443A
+  MethodFontStyle plain
+  SeparatorColor #DCCFBA
+}
+skinparam enum {
+  BackgroundColor #FCFAF5
+  BorderColor #C9BCA4
+  BorderThickness 1
+  FontColor #2C2A26
+  FontStyle plain
+  EnumFontSize 12
+}
+skinparam interface {
+  BackgroundColor #FFFFFF
+  BorderColor #A89B85
+  BorderThickness 1
+}
+skinparam packageStyle rectangle
+skinparam package {
+  BackgroundColor #FAF7F1
+  BorderColor #DCCFBA
+  BorderThickness 1
+  FontColor #4A443A
+  FontSize 14
+  FontStyle plain
+}
+skinparam note {
+  BackgroundColor #FBF8F2
+  BorderColor #DCCFBA
+  FontColor #6E675C
+  FontSize 11
+  BorderThickness 1
+}
+skinparam sequence {
+  ArrowColor #4A463F
+  ArrowThickness 1.1
+  LifeLineBorderColor #C9BDA8
+  LifeLineBackgroundColor #FFFFFF
+  ParticipantBackgroundColor #FFFFFF
+  ParticipantBorderColor #A89B85
+  ParticipantFontColor #2C2A26
+  ParticipantFontSize 13
+  ParticipantFontStyle plain
+  ActorBackgroundColor #F6F1E8
+  ActorBorderColor #A89B85
+  ActorFontColor #2C2A26
+  ActorFontSize 13
+  GroupBackgroundColor #FAF7F1
+  GroupBorderColor #D5C7AE
+  GroupFontColor #4A443A
+  GroupHeaderFontSize 13
+  ActivationBackgroundColor #F2EDE3
+  ActivationBorderColor #C9BCA4
+  DividerBackgroundColor #F1EBDF
+  DividerBorderColor #D5C7AE
+  DividerFontColor #4A443A
+  DividerFontSize 13
+  MessageFontColor #3A352E
+  ResponseMessageFontColor #7A7263
+  BoxPadding 14
+  ParticipantPadding 22
+}
+
+' ============ CLÉOPÂTRE — Accès aux données ============
+' Couche de persistance : Drizzle ORM + PostgreSQL / PGlite (src/db/*)
+
+package "Couche d'accès aux données (src/db/)" as CD {
+  class Database <<singleton>> {
+    db : NodePgDatabase
+    pool : Pool
+    create() : Stored
+    close() : Promise<void>
+  }
+  class Schema <<src/db/schema.ts>> {
+    users / sessions / addresses : pgTable
+    products / brands / categories : pgTable
+    orders / orderItems / orderEvents : pgTable
+    reviews / supportTickets : pgTable
+    promotions / giftCards : pgTable
+    « … 50+ tables »
+    relations déclaratives (relations)
+  }
+  class Seed <<src/db/seed.ts>> {
+    seed() : Promise<void>
+  }
+}
+
+package "Backends de persistance" as PB {
+  class PostgreSQL {
+    connectionString : DATABASE_URL
+    Pool (max : 10 connexions)
+  }
+  class PGlite {
+    dataDir : string
+    Postgres embarqué (WASM)
+  }
+}
+
+package "Opérations CRUD typiques" as PQ {
+  class QueryPatterns <<responsabilité>> {
+    SELECT  db.select().from(…)
+    INSERT  db.insert(…).values(…)
+    UPDATE  db.update(…).set(…)
+    DELETE  db.delete(…).where(…)
+    transaction  db.transaction(…)
+  }
+}
+
+package "Consommateurs" as PC {
+  class AuthLib <<module>>
+  class AdminActions <<module>>
+  class ShopActions <<module>>
+  class CheckoutActions <<module>>
+  class CatalogLib <<module>>
+}
+
+' ---------- relations ----------
+Database *-- Schema : contient
+Seed ..> Schema : peuplement initial
+Database --> PostgreSQL : backend principal
+Database ..> PGlite : fallback (sandbox)
+AuthLib ..> Database
+AdminActions ..> Database
+ShopActions ..> Database
+CheckoutActions ..> Database
+CatalogLib ..> Database
+QueryPatterns ..> Schema : opère sur
+
+note bottom of Database
+  DATABASE_URL obligatoire.
+  Si l'url commence par « pglite: » → backend embarqué.
+  Sinon → node-postgres + Pool.
+  Cache globalThis pour éviter
+  plusieurs clients PGlite.
+end note
+
+note right of Schema
+  Drizzle ORM 0.45
+  Types TypeScript inférés
+  Relations déclaratives
+  Enums PostgreSQL natifs
+  Index & contraintes uniques
+end note
+
+' ---------- guidage de mise en page ----------
+Database -[hidden]right-> PostgreSQL
+PostgreSQL -[hidden]down-> PGlite
+Schema -[hidden]right-> QueryPatterns
+QueryPatterns -[hidden]down-> AuthLib
+AuthLib -[hidden]right-> AdminActions
+
+@enduml

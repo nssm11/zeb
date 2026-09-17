@@ -1,34 +1,95 @@
 @startuml
-skinparam backgroundColor #FFFFFF
 skinparam shadowing false
+skinparam backgroundColor #FFFFFF
 skinparam defaultFontName Inter
-skinparam defaultFontSize 14
+skinparam defaultFontSize 13
 skinparam defaultFontColor #2C2A26
-skinparam ActorBackgroundColor #F8F5F0
-skinparam ActorBorderColor #2C2A26
-skinparam ActorFontColor #2C2A26
-skinparam ActorFontSize 13
-skinparam ParticipantBackgroundColor #FFFFFF
-skinparam ParticipantBorderColor #2C2A26
-skinparam ParticipantFontColor #2C2A26
-skinparam ParticipantFontSize 13
-skinparam SequenceLifeLineBorderColor #8A857C
-skinparam SequenceLifeLineBackgroundColor #FFFFFF
-skinparam SequenceArrowColor #2C2A26
-skinparam SequenceArrowThickness 1.4
-skinparam SequenceGroupBackgroundColor #FAF8F5
-skinparam SequenceGroupBorderColor #C9B896
-skinparam SequenceGroupFontColor #2C2A26
-skinparam SequenceGroupHeaderFontSize 12
-skinparam SequenceBoxBackgroundColor #FFFFFF
-skinparam SequenceBoxBorderColor #C9B896
-skinparam ActivationBackgroundColor #F0EBE3
-skinparam ActivationBorderColor #C9B896
-skinparam Padding 8
-skinparam ParticipantPadding 18
-skinparam BoxPadding 12
-skinparam maxMessageSize 200
-skinparam style strictuml
+skinparam ArrowColor #55504A
+skinparam ArrowThickness 1.1
+skinparam RoundCorner 8
+skinparam classAttributeIconSize 0
+hide circle
+hide empty fields
+hide empty methods
+skinparam class {
+  BackgroundColor #FFFFFF
+  BorderColor #A89B85
+  BorderThickness 1
+  FontColor #2C2A26
+  FontStyle plain
+  FontSize 13
+  StereotypeFontColor #8A7E69
+  StereotypeFontStyle plain
+  AttributeFontColor #4A443A
+  AttributeFontSize 12
+  AttributeFontStyle plain
+  MethodFontSize 12
+  MethodFontColor #4A443A
+  MethodFontStyle plain
+  SeparatorColor #DCCFBA
+}
+skinparam enum {
+  BackgroundColor #FCFAF5
+  BorderColor #C9BCA4
+  BorderThickness 1
+  FontColor #2C2A26
+  FontStyle plain
+  EnumFontSize 12
+}
+skinparam interface {
+  BackgroundColor #FFFFFF
+  BorderColor #A89B85
+  BorderThickness 1
+}
+skinparam packageStyle rectangle
+skinparam package {
+  BackgroundColor #FAF7F1
+  BorderColor #DCCFBA
+  BorderThickness 1
+  FontColor #4A443A
+  FontSize 14
+  FontStyle plain
+}
+skinparam note {
+  BackgroundColor #FBF8F2
+  BorderColor #DCCFBA
+  FontColor #6E675C
+  FontSize 11
+  BorderThickness 1
+}
+skinparam sequence {
+  ArrowColor #4A463F
+  ArrowThickness 1.1
+  LifeLineBorderColor #C9BDA8
+  LifeLineBackgroundColor #FFFFFF
+  ParticipantBackgroundColor #FFFFFF
+  ParticipantBorderColor #A89B85
+  ParticipantFontColor #2C2A26
+  ParticipantFontSize 13
+  ParticipantFontStyle plain
+  ActorBackgroundColor #F6F1E8
+  ActorBorderColor #A89B85
+  ActorFontColor #2C2A26
+  ActorFontSize 13
+  GroupBackgroundColor #FAF7F1
+  GroupBorderColor #D5C7AE
+  GroupFontColor #4A443A
+  GroupHeaderFontSize 13
+  ActivationBackgroundColor #F2EDE3
+  ActivationBorderColor #C9BCA4
+  DividerBackgroundColor #F1EBDF
+  DividerBorderColor #D5C7AE
+  DividerFontColor #4A443A
+  DividerFontSize 13
+  MessageFontColor #3A352E
+  ResponseMessageFontColor #7A7263
+  BoxPadding 14
+  ParticipantPadding 22
+}
+
+' ============ CLÉOPÂTRE — Séquence, vue globale ============
+' Cinq scénarios majeurs : consultation, authentification, commande,
+' administration, déconnexion. Messages de niveau élevé uniquement.
 
 actor "Utilisateur" as User
 actor "Administrateur" as Admin
@@ -37,48 +98,48 @@ participant "Server Actions" as SA
 participant "lib/auth" as Auth
 participant "PostgreSQL" as DB
 
-== Consultation ==
-User -> UI : GET /boutique\nGET /produit/{slug}
-UI -> DB : SELECT products\n(status = active)
-DB --> UI
-UI --> User
+== 01 · Consultation ==
+User -> UI : Accède à la boutique
+UI -> DB : Récupère les données du catalogue
+DB --> UI : Données du catalogue
+UI --> User : Affiche le catalogue
 
-== Authentification ==
-User -> UI : POST /connexion
-UI -> SA : loginAction
-SA -> Auth : verifyPassword
-Auth -> DB : SELECT users
-DB --> Auth
-Auth -> DB : INSERT sessions
-Auth --> SA : session
-SA --> UI : redirect
-UI --> User
+== 02 · Authentification ==
+User -> UI : Soumet ses identifiants
+UI -> SA : Demande d'authentification
+SA -> Auth : Vérifie les identifiants
+Auth -> DB : Consultation du compte
+DB --> Auth : Compte + hash
+Auth --> SA : Session établie
+SA --> UI : Résultat de l'authentification
+UI --> User : Espace connecté
 
-== Commande ==
-User -> UI : POST /commande
-UI -> SA : placeOrderAction
-SA -> Auth : getCurrentUser
-SA -> DB : INSERT orders\n+ order_items
-SA -> DB : UPDATE stock
-SA --> UI : confirmation
-UI --> User
+== 03 · Commande ==
+User -> UI : Valide son panier
+UI -> SA : Soumet la commande
+SA -> SA : Valide le panier et le stock
+SA -> DB : Enregistre la commande
+DB --> SA : Commande enregistrée
+SA --> UI : Confirmation
+UI --> User : Page de confirmation de commande
 
-== Administration ==
-Admin -> UI : /admin/*
-UI -> Auth : requireAdmin
-Auth -> DB : session + rôle
-Auth --> UI
-UI -> SA : saveProductAction\nupdateOrderStatus...
-SA -> DB : INSERT / UPDATE
-SA --> UI
-UI --> Admin
+== 04 · Administration ==
+Admin -> UI : Accède au back-office
+UI -> Auth : Vérifie le rôle
+Auth -> DB : Session + rôle
+DB --> Auth : Rôle vérifié
+Auth --> UI : Accès autorisé
+Admin -> UI : Action de gestion
+UI -> SA : Requête de gestion
+SA -> DB : Met à jour les données
+SA --> UI : Résultat
+UI --> Admin : Confirmation
 
-== Déconnexion ==
-User -> UI : Déconnexion
-UI -> SA : logoutAction
-SA -> Auth : destroySession
-Auth -> DB : DELETE session
-SA --> UI : redirect /
-UI --> User
-
-@enduml
+== 05 · Déconnexion ==
+User -> UI : Se déconnecte
+UI -> SA : Demande de déconnexion
+SA -> Auth : Détruit la session
+Auth -> DB : Supprime la session
+Auth --> SA : Session détruite
+SA --> UI : Redirection
+UI --> User : Site déconnecté

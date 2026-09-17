@@ -1,42 +1,117 @@
 @startuml
-skinparam backgroundColor #FFFFFF
 skinparam shadowing false
+skinparam backgroundColor #FFFFFF
 skinparam defaultFontName Inter
-skinparam defaultFontSize 14
+skinparam defaultFontSize 13
 skinparam defaultFontColor #2C2A26
-skinparam ActorBackgroundColor #F8F5F0
-skinparam ActorBorderColor #2C2A26
-skinparam ActorFontSize 13
-skinparam ParticipantBackgroundColor #FFFFFF
-skinparam ParticipantBorderColor #2C2A26
-skinparam ParticipantFontSize 13
-skinparam SequenceLifeLineBorderColor #8A857C
-skinparam SequenceArrowColor #2C2A26
-skinparam SequenceArrowThickness 1.4
-skinparam ActivationBackgroundColor #F0EBE3
-skinparam ActivationBorderColor #C9B896
-skinparam maxMessageSize 220
-skinparam style strictuml
+skinparam ArrowColor #55504A
+skinparam ArrowThickness 1.1
+skinparam RoundCorner 8
+skinparam classAttributeIconSize 0
+hide circle
+hide empty fields
+hide empty methods
+skinparam class {
+  BackgroundColor #FFFFFF
+  BorderColor #A89B85
+  BorderThickness 1
+  FontColor #2C2A26
+  FontStyle plain
+  FontSize 13
+  StereotypeFontColor #8A7E69
+  StereotypeFontStyle plain
+  AttributeFontColor #4A443A
+  AttributeFontSize 12
+  AttributeFontStyle plain
+  MethodFontSize 12
+  MethodFontColor #4A443A
+  MethodFontStyle plain
+  SeparatorColor #DCCFBA
+}
+skinparam enum {
+  BackgroundColor #FCFAF5
+  BorderColor #C9BCA4
+  BorderThickness 1
+  FontColor #2C2A26
+  FontStyle plain
+  EnumFontSize 12
+}
+skinparam interface {
+  BackgroundColor #FFFFFF
+  BorderColor #A89B85
+  BorderThickness 1
+}
+skinparam packageStyle rectangle
+skinparam package {
+  BackgroundColor #FAF7F1
+  BorderColor #DCCFBA
+  BorderThickness 1
+  FontColor #4A443A
+  FontSize 14
+  FontStyle plain
+}
+skinparam note {
+  BackgroundColor #FBF8F2
+  BorderColor #DCCFBA
+  FontColor #6E675C
+  FontSize 11
+  BorderThickness 1
+}
+skinparam sequence {
+  ArrowColor #4A463F
+  ArrowThickness 1.1
+  LifeLineBorderColor #C9BDA8
+  LifeLineBackgroundColor #FFFFFF
+  ParticipantBackgroundColor #FFFFFF
+  ParticipantBorderColor #A89B85
+  ParticipantFontColor #2C2A26
+  ParticipantFontSize 13
+  ParticipantFontStyle plain
+  ActorBackgroundColor #F6F1E8
+  ActorBorderColor #A89B85
+  ActorFontColor #2C2A26
+  ActorFontSize 13
+  GroupBackgroundColor #FAF7F1
+  GroupBorderColor #D5C7AE
+  GroupFontColor #4A443A
+  GroupHeaderFontSize 13
+  ActivationBackgroundColor #F2EDE3
+  ActivationBorderColor #C9BCA4
+  DividerBackgroundColor #F1EBDF
+  DividerBorderColor #D5C7AE
+  DividerFontColor #4A443A
+  DividerFontSize 13
+  MessageFontColor #3A352E
+  ResponseMessageFontColor #7A7263
+  BoxPadding 14
+  ParticipantPadding 22
+}
+
+' ============ CLÉOPÂTRE — Séquence, archivage d'un produit ============
+' L'archivage est un changement de statut (status = « archived ») ;
+' aucune suppression physique de la fiche.
 
 actor "Administrateur" as Admin
-participant "Back-office\nfiche produit" as UI
-participant "saveProductAction" as SA
+participant "Interface\n(Next.js)" as UI
+participant "Server Actions" as SA
 participant "lib/auth" as Auth
 participant "PostgreSQL" as DB
 
-Admin -> UI : Ouvre fiche
-Admin -> UI : status → archived\n+ soumettre
-UI -> SA : saveProductAction(form)
-
-SA -> Auth : adminOnly()
-Auth --> SA : Admin
-SA -> SA : productSchema
-SA -> DB : BEGIN
-SA -> DB : SELECT products
-SA -> DB : UPDATE products\nSET status = 'archived'
-SA -> DB : COMMIT
-SA -> SA : audit + revalidatePath
-SA --> UI : ok({ id })
+Admin -> UI : Ouvre la fiche produit
+Admin -> UI : Passe le statut à « archivé » et soumet
+UI -> SA : saveProductAction
+SA -> Auth : Vérifie le rôle
+Auth --> SA : Rôle admin
+SA -> SA : Valide le formulaire (Zod)
+SA -> DB : Charge le produit
+DB --> SA : Produit
+SA -> DB : Met à jour : status = « archived »
+DB --> SA : Produit archivé
+SA --> UI : Confirmation
 UI --> Admin : Produit archivé
 
-@enduml
+note over DB
+  La fiche reste en base et consultable
+  en back-office ; elle n'apparaît plus
+  dans le catalogue public (status ≠ active)
+end note

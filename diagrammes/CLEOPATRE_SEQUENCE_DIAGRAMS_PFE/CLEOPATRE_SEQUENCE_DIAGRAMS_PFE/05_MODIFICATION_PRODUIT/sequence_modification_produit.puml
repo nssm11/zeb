@@ -1,58 +1,122 @@
 @startuml
-skinparam backgroundColor #FFFFFF
 skinparam shadowing false
+skinparam backgroundColor #FFFFFF
 skinparam defaultFontName Inter
-skinparam defaultFontSize 14
+skinparam defaultFontSize 13
 skinparam defaultFontColor #2C2A26
-skinparam ActorBackgroundColor #F8F5F0
-skinparam ActorBorderColor #2C2A26
-skinparam ActorFontSize 13
-skinparam ParticipantBackgroundColor #FFFFFF
-skinparam ParticipantBorderColor #2C2A26
-skinparam ParticipantFontSize 13
-skinparam SequenceLifeLineBorderColor #8A857C
-skinparam SequenceArrowColor #2C2A26
-skinparam SequenceArrowThickness 1.4
-skinparam SequenceGroupBackgroundColor #FAF8F5
-skinparam SequenceGroupBorderColor #C9B896
-skinparam ActivationBackgroundColor #F0EBE3
-skinparam ActivationBorderColor #C9B896
-skinparam maxMessageSize 220
-skinparam style strictuml
+skinparam ArrowColor #55504A
+skinparam ArrowThickness 1.1
+skinparam RoundCorner 8
+skinparam classAttributeIconSize 0
+hide circle
+hide empty fields
+hide empty methods
+skinparam class {
+  BackgroundColor #FFFFFF
+  BorderColor #A89B85
+  BorderThickness 1
+  FontColor #2C2A26
+  FontStyle plain
+  FontSize 13
+  StereotypeFontColor #8A7E69
+  StereotypeFontStyle plain
+  AttributeFontColor #4A443A
+  AttributeFontSize 12
+  AttributeFontStyle plain
+  MethodFontSize 12
+  MethodFontColor #4A443A
+  MethodFontStyle plain
+  SeparatorColor #DCCFBA
+}
+skinparam enum {
+  BackgroundColor #FCFAF5
+  BorderColor #C9BCA4
+  BorderThickness 1
+  FontColor #2C2A26
+  FontStyle plain
+  EnumFontSize 12
+}
+skinparam interface {
+  BackgroundColor #FFFFFF
+  BorderColor #A89B85
+  BorderThickness 1
+}
+skinparam packageStyle rectangle
+skinparam package {
+  BackgroundColor #FAF7F1
+  BorderColor #DCCFBA
+  BorderThickness 1
+  FontColor #4A443A
+  FontSize 14
+  FontStyle plain
+}
+skinparam note {
+  BackgroundColor #FBF8F2
+  BorderColor #DCCFBA
+  FontColor #6E675C
+  FontSize 11
+  BorderThickness 1
+}
+skinparam sequence {
+  ArrowColor #4A463F
+  ArrowThickness 1.1
+  LifeLineBorderColor #C9BDA8
+  LifeLineBackgroundColor #FFFFFF
+  ParticipantBackgroundColor #FFFFFF
+  ParticipantBorderColor #A89B85
+  ParticipantFontColor #2C2A26
+  ParticipantFontSize 13
+  ParticipantFontStyle plain
+  ActorBackgroundColor #F6F1E8
+  ActorBorderColor #A89B85
+  ActorFontColor #2C2A26
+  ActorFontSize 13
+  GroupBackgroundColor #FAF7F1
+  GroupBorderColor #D5C7AE
+  GroupFontColor #4A443A
+  GroupHeaderFontSize 13
+  ActivationBackgroundColor #F2EDE3
+  ActivationBorderColor #C9BCA4
+  DividerBackgroundColor #F1EBDF
+  DividerBorderColor #D5C7AE
+  DividerFontColor #4A443A
+  DividerFontSize 13
+  MessageFontColor #3A352E
+  ResponseMessageFontColor #7A7263
+  BoxPadding 14
+  ParticipantPadding 22
+}
+
+' ============ CLÉOPÂTRE — Séquence, modification d'un produit ============
+' saveProductAction en mode édition : vérification du rôle,
+' validation, mise à jour transactionnelle.
 
 actor "Administrateur" as Admin
-participant "Back-office\nfiche produit" as UI
-participant "saveProductAction" as SA
+participant "Interface\n(Next.js)" as UI
+participant "Server Actions" as SA
 participant "lib/auth" as Auth
 participant "PostgreSQL" as DB
 
-Admin -> UI : Charge fiche (id > 0)
-UI -> DB : SELECT product
-DB --> UI
-Admin -> UI : Modifier + soumettre
-UI -> SA : saveProductAction(form)
+Admin -> UI : Ouvre la fiche produit
+UI -> DB : Charge les données du produit
+DB --> UI : Produit
+UI --> Admin : Fiche produit
+Admin -> UI : Modifie les champs et soumet
+UI -> SA : saveProductAction
+SA -> Auth : Vérifie le rôle
+Auth --> SA : Rôle admin
+SA -> SA : Valide le formulaire (Zod)
 
-SA -> Auth : adminOnly()
-Auth --> SA : Admin
-
-SA -> SA : productSchema
-alt Validation OK
-  SA -> DB : BEGIN
-  SA -> DB : SELECT products\nWHERE id = ?
-  DB --> SA : before
-  alt Introuvable
-    SA --> UI : fail(notFound)
-  else
-    SA -> DB : UPDATE products
-    opt stock modifié
-      SA -> DB : recordMovement\n(type = adjust)
-    end
-    SA -> DB : DELETE + INSERT\nproduct_concerns
-    SA -> DB : COMMIT
-    SA -> SA : audit + revalidatePath
-    SA --> UI : ok({ id })
-    UI --> Admin : Fiche mise à jour
+alt Produit introuvable
+  SA --> UI : Erreur
+  UI --> Admin : Produit introuvable
+else Produit trouvé
+  SA -> DB : Met à jour le produit
+  opt Stock modifié
+    SA -> DB : Journalise le mouvement de stock
   end
+  SA -> DB : Met à jour les concerns
+  SA -> DB : Valide la transaction
+  SA --> UI : Produit mis à jour
+  UI --> Admin : Confirmation
 end
-
-@enduml

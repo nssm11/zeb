@@ -1,110 +1,106 @@
-# CLÉOPÂTRE — Diagrammes de Séquence (PFE)
+# CLÉOPÂTRE — Diagrammes de séquence (PFE)
 
 ## Objectif
 
-Package de diagrammes de séquence UML 2.x destinés à la section **I. Diagramme de Séquence** du rapport de Projet de Fin d’Études.
+Package de diagrammes de séquence UML 2.x destinés à la section
+**Diagrammes de séquence** du rapport de Projet de Fin d’Études.
 
-Les diagrammes documentent le comportement **réel** de la plateforme Cléopâtre (Next.js 16, Server Actions, Drizzle ORM, PostgreSQL).
-
----
+Les diagrammes documentent le comportement **réel** de la plateforme CLÉOPÂTRE
+(Next.js 16, Server Actions, Drizzle ORM, PostgreSQL).
 
 ## Principe de lecture
 
 | Niveau | Rôle |
 |--------|------|
-| **01 – Global** | Vue d’ensemble pure. Tous les flux majeurs apparaissent ensemble sur un seul diagramme. Aucune explication à l’intérieur de l’image. |
-| **02 à 10 – Détaillés** | Un workflow réel par diagramme, expliqué chronologiquement avec les conditions du code (`alt` / `opt`). |
-
----
-
-## Design
-
-- Fond blanc pur
-- Typographie Inter
-- Palette sobre (ivoire / charbon / champagne)
-- Aucun titre, aucun numéro de figure, aucune note décorative à l’intérieur des images
-- Export haute résolution PNG + SVG vectoriel
-
----
+| **01 – Vue globale** | Tous les flux majeurs sur un seul diagramme, en 5 scénarios numérotés (01 Consultation · 02 Authentification · 03 Commande · 04 Administration · 05 Déconnexion). Messages de niveau élevé uniquement — aucun SQL, aucune route HTTP. |
+| **02 → 10 – Détaillés** | Un workflow réel par diagramme, chronologique, avec les conditions du code (`alt` / `opt`) et les noms d’actions réels (`saveProductAction`, `placeOrderAction`, …). |
 
 ## Contenu
 
 | Dossier | Diagramme | Workflow réel |
 |---------|-----------|---------------|
-| 01_GLOBAL | sequence_global | Tous les flux majeurs ensemble |
-| 02_AUTHENTIFICATION | sequence_authentification | loginAction → session |
-| 03_GESTION_PRODUITS | sequence_gestion_produits | Vue d’ensemble CRUD produits |
-| 04_AJOUT_PRODUIT | sequence_ajout_produit | saveProductAction (INSERT) |
-| 05_MODIFICATION_PRODUIT | sequence_modification_produit | saveProductAction (UPDATE) |
-| 06_ARCHIVAGE_PRODUIT | sequence_archivage_produit | status = archived |
-| 07_CONSULTATION | sequence_consultation | Server Components + SELECT |
-| 08_DECONNEXION | sequence_deconnexion | logoutAction → destroySession |
-| 09_ADMINISTRATION | sequence_administration | Back-office (admin / support) |
-| 10_COMMANDE | sequence_commande | placeOrderAction (checkout) |
+| 01_GLOBAL | `sequence_global` | Tous les flux majeurs ensemble |
+| 02_AUTHENTIFICATION | `sequence_authentification` | `loginAction` → session (cookie httpOnly) |
+| 03_GESTION_PRODUITS | `sequence_gestion_produits` | Vue d’ensemble du cycle CRUD produits |
+| 04_AJOUT_PRODUIT | `sequence_ajout_produit` | `saveProductAction` (création, transaction, stock, concerns) |
+| 05_MODIFICATION_PRODUIT | `sequence_modification_produit` | `saveProductAction` (édition) |
+| 06_ARCHIVAGE_PRODUIT | `sequence_archivage_produit` | `status = « archived »` (pas de suppression physique) |
+| 07_CONSULTATION | `sequence_consultation` | Server Components + lecture catalogue |
+| 08_DECONNEXION | `sequence_deconnexion` | `logoutAction` → `destroySession` |
+| 09_ADMINISTRATION | `sequence_administration` | Back-office, `requireAdmin` / `requireStaff` |
+| 10_COMMANDE | `sequence_commande` | `placeOrderAction` (checkout complet) |
 
----
+Chaque dossier contient :
+
+- `sequence_*.puml` — source PlantUML (thème inclus, autonome)
+- `sequence_*.svg` — vectoriel, **titré** (titre centré + sous-titre projet)
+- `sequence_*.png` — haute résolution (≈ 192 dpi), rendu fidèle du SVG
+
+## Design
+
+- Fond blanc pur, typographie **Inter**
+- Palette sobre (ivoire / charbon / champagne, accent bleu discret)
+- Titres centrés, sobres et identiques d’un diagramme à l’autre
+- Lifelines fines, fragments `alt` / `opt` discrets, activations subtiles
+- Lisibles en noir et blanc (la sémantique ne repose pas sur la couleur)
 
 ## Correspondance code source
 
-**Authentification**  
-`src/actions/auth.ts` → `loginAction`, `logoutAction`  
+**Authentification / Déconnexion**
+`src/actions/auth.ts` → `loginAction`, `logoutAction`
 `src/lib/auth.ts` → `createSession`, `destroySession`, `verifyPassword`, `getCurrentUser`
 
-**Produits**  
-`src/actions/admin.ts` → `saveProductAction` (création, modification et archivage)
+**Produits**
+`src/actions/admin.ts` → `saveProductAction` (création, modification, archivage)
 
-**Consultation**  
-`src/app/(site)/boutique/page.tsx`  
-`src/app/(site)/produit/[slug]/page.tsx`
+**Consultation**
+`src/app/(site)/boutique/page.tsx` · `src/app/(site)/produit/[slug]/page.tsx`
+`src/lib/catalog.ts`
 
-**Commande**  
-`src/actions/checkout.ts` → `placeOrderAction`  
-`src/lib/orders.ts`
+**Commande**
+`src/actions/checkout.ts` → `placeOrderAction` · `src/lib/orders.ts`
 
-**Administration**  
-`src/actions/admin.ts` + `src/actions/admin-os.ts`  
-`requireAdmin` / `requireStaff`
-
----
+**Administration**
+`src/actions/admin.ts` + `src/actions/admin-os.ts` · `requireAdmin` / `requireStaff`
 
 ## Choix de modélisation
 
-Le projet utilise des **Server Actions** et des modules fonctionnels (pas de couches Controller/Service/Repository classiques).  
-Les lifelines représentent donc les modules logiques réels :
+Le projet utilise des **Server Actions** et des modules fonctionnels (pas de
+couches Controller/Service/Repository classiques). Les lifelines représentent
+donc les modules logiques réels :
 
-- Pages (boundary)
-- Server Actions (control)
-- `lib/auth` (session)
-- PostgreSQL (entity)
+- **Utilisateur / Administrateur** — acteurs
+- **Interface (Next.js)** — boundary (pages App Router)
+- **Server Actions** — control (`src/actions/*`)
+- **lib/auth, lib/orders, lib/catalog** — modules métier (`src/lib/*`)
+- **PostgreSQL** — entity (via Drizzle ORM)
 
 Ceci reste conforme à UML 2.x.
 
----
-
 ## Reproduction
 
+Les `.puml` sont autonomes (thème inclus) :
+
 ```bash
-java -jar plantuml.jar -tsvg -tpng *.puml
+# PlantUML standard (Java)
+java -jar plantuml.jar -tsvg -tpng sequence_authentification.puml
 ```
 
-Les fichiers `.puml` fournis correspondent exactement aux images livrées.
+Ou avec le moteur PlantUML JavaScript (sans Java) : `npm install @plantuml/core`
+puis `renderToString(lines, onSuccess, onError)`.
 
-### StarUML
-Chaque diagramme peut être reconstruit manuellement :
-1. Sequence Diagram
-2. Actors + Lifelines listés
-3. Messages dans l’ordre chronologique
-4. Fragments `alt` / `opt` là où indiqués
-5. Style : fond blanc, police lisible, pas de titre interne
-
----
+Le bandeau de titre centré est ajouté au SVG en post-traitement lors de la
+génération du présent package ; le `.puml` contient uniquement le diagramme.
 
 ## Limitations
 
-- Les e-mails asynchrones (Brevo/Resend) ne sont pas représentés comme participants principaux.
+- Les e-mails asynchrones (Brevo/Resend) ne sont pas représentés comme
+  participants principaux.
 - Le panier côté client n’apparaît qu’au moment du checkout.
-- L’archivage produit se fait par statut (`archived`) ; il n’existe pas de DELETE physique dans le code.
+- L’archivage produit se fait par statut (`archived`) ; il n’existe pas de
+  DELETE physique dans le code.
 
 ---
 
-*Généré à partir de l’analyse du code source du projet Cléopâtre — Espace Santé Beauté.*
+*Généré à partir de l’analyse du code source du projet CLÉOPÂTRE — Espace
+Santé Beauté. PlantUML 1.2026.8 (moteur JS `@plantuml/core`) · septembre 2026.*
