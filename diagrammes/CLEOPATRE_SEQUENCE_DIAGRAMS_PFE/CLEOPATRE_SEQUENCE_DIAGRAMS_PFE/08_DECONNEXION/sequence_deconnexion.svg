@@ -1,87 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3840 2160" width="3840" height="2160">
 <rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
-<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Déconnexion</text>
-<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
-<g transform="translate(210.8,280.0) scale(4.6133)">
+<g transform="translate(60.0007,60) scale(5.020241)">
 <defs/>
-  <g>
-    <g>
+  <g >
+    <g >
       <title/>
-      <rect x="35.41" y="75" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="38.91" y1="75" x2="38.91" y2="300" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="35.48" y="91.1774" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="38.98" y1="91.1774" x2="38.98" y2="316.177" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="244.95" y="75" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="248.45" y1="75" x2="248.45" y2="300" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="245.02" y="91.1774" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="248.52" y1="91.1774" x2="248.52" y2="316.177" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="422.84" y="75" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="426.34" y1="75" x2="426.34" y2="300" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="422.91" y="91.1774" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="426.41" y1="91.1774" x2="426.41" y2="316.177" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="541.29" y="75" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="544.79" y1="75" x2="544.79" y2="300" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="541.36" y="91.1774" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="544.86" y1="91.1774" x2="544.86" y2="316.177" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="688.92" y="75" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="692.42" y1="75" x2="692.42" y2="300" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="688.99" y="91.1774" width="8" height="225" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="692.49" y1="91.1774" x2="692.49" y2="316.177" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <text x="5" y="71.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Utilisateur</text>
-    <circle cx="38.91" cy="13.50" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
-    <path d="M38.91,21.50 L38.91,48.50 M25.91,29.50 L51.91,29.50 M38.91,48.50 L25.91,63.50 M38.91,48.50 L51.91,63.50" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
-    <rect x="214.00" y="36" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="221.00" y="48.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
-    <text x="222.49" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
-    <rect x="374.17" y="50" width="104.33" height="24" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="381.17" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions</text>
-    <rect x="514.85" y="49" width="59.87" height="25" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="521.85" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">lib/auth</text>
-    <rect x="648.98" y="48" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="655.98" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
-    <text x="5" y="306.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Utilisateur</text>
-    <circle cx="38.91" cy="318.50" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
-    <path d="M38.91,326.50 L38.91,353.50 M25.91,334.50 L51.91,334.50 M38.91,353.50 L25.91,368.50 M38.91,353.50 L51.91,368.50" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
-    <rect x="214.00" y="300" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="221.00" y="312.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
-    <text x="222.49" y="327.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
-    <rect x="374.17" y="300" width="104.33" height="24" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="381.17" y="313.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions</text>
-    <rect x="514.85" y="300" width="59.87" height="25" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="521.85" y="314.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">lib/auth</text>
-    <rect x="648.98" y="300" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="655.98" y="315.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
-    <polygon points="236.45,98 246.45,102 236.45,106 240.45,102" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="38.91" y1="102" x2="242.45" y2="102" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="45.91" y="96.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Clique sur « Se déconnecter »</text>
-    <polygon points="414.34,125 424.34,129 414.34,133 418.34,129" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="248.45" y1="129" x2="420.34" y2="129" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="255.45" y="123.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">logoutAction</text>
-    <polygon points="532.79,152 542.79,156 532.79,160 536.79,156" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="426.34" y1="156" x2="538.79" y2="156" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="433.34" y="150.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">destroySession</text>
-    <polygon points="680.42,179 690.42,183 680.42,187 684.42,183" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="544.79" y1="183" x2="686.42" y2="183" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="551.79" y="177.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Supprime la session</text>
-    <polygon points="555.79,206 545.79,210 555.79,214 551.79,210" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="549.79" y1="210" x2="691.42" y2="210" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="561.79" y="204.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Session supprimée</text>
-    <polygon points="437.34,230 427.34,234 437.34,238 433.34,234" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="431.34" y1="234" x2="543.79" y2="234" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="443.34" y="228.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Cookie effacé</text>
-    <polygon points="259.45,254 249.45,258 259.45,262 255.45,258" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="253.45" y1="258" x2="425.34" y2="258" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="265.45" y="252.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Redirection vers l'accueil</text>
-    <polygon points="49.91,278 39.91,282 49.91,286 45.91,282" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="43.91" y1="282" x2="247.45" y2="282" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="55.91" y="276.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Site déconnecté</text>
+    <text x="5.07" y="88.0374" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Utilisateur</text>
+    <circle cx="38.98" cy="29.6774" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
+    <path d="M38.98,37.6774 L38.98,64.6774 M25.98,45.6774 L51.98,45.6774 M38.98,64.6774 L25.98,79.6774 M38.98,64.6774 L51.98,79.6774" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
+    <rect x="214.07" y="52.1774" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="221.07" y="65.0374" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
+    <text x="222.56" y="80.0374" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
+    <rect x="374.24" y="66.1774" width="104.33" height="24" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="381.24" y="80.0374" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions</text>
+    <rect x="514.92" y="65.1774" width="59.87" height="25" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="521.92" y="80.0374" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">lib/auth</text>
+    <rect x="649.05" y="64.1774" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="656.05" y="80.0374" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
+    <text x="5.07" y="323.037" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Utilisateur</text>
+    <circle cx="38.98" cy="334.677" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
+    <path d="M38.98,342.677 L38.98,369.677 M25.98,350.677 L51.98,350.677 M38.98,369.677 L25.98,384.677 M38.98,369.677 L51.98,384.677" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
+    <rect x="214.07" y="316.177" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="221.07" y="329.037" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
+    <text x="222.56" y="344.037" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
+    <rect x="374.24" y="316.177" width="104.33" height="24" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="381.24" y="330.037" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions</text>
+    <rect x="514.92" y="316.177" width="59.87" height="25" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="521.92" y="331.037" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">lib/auth</text>
+    <rect x="649.05" y="316.177" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="656.05" y="332.037" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
+    <polygon points="236.52,114.177 246.52,118.177 236.52,122.177 240.52,118.177" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="38.98" y1="118.177" x2="242.52" y2="118.177" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="45.98" y="113.037" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Clique sur « Se déconnecter »</text>
+    <polygon points="414.41,141.177 424.41,145.177 414.41,149.177 418.41,145.177" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="248.52" y1="145.177" x2="420.41" y2="145.177" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="255.52" y="140.037" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">logoutAction</text>
+    <polygon points="532.86,168.177 542.86,172.177 532.86,176.177 536.86,172.177" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="426.41" y1="172.177" x2="538.86" y2="172.177" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="433.41" y="167.037" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">destroySession</text>
+    <polygon points="680.49,195.177 690.49,199.177 680.49,203.177 684.49,199.177" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="544.86" y1="199.177" x2="686.49" y2="199.177" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="551.86" y="194.037" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Supprime la session</text>
+    <polygon points="555.86,222.177 545.86,226.177 555.86,230.177 551.86,226.177" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="549.86" y1="226.177" x2="691.49" y2="226.177" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="561.86" y="221.037" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Session supprimée</text>
+    <polygon points="437.41,246.177 427.41,250.177 437.41,254.177 433.41,250.177" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="431.41" y1="250.177" x2="543.86" y2="250.177" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="443.41" y="245.037" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Cookie effacé</text>
+    <polygon points="259.52,270.177 249.52,274.177 259.52,278.177 255.52,274.177" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="253.52" y1="274.177" x2="425.41" y2="274.177" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="265.52" y="269.037" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Redirection vers l'accueil</text>
+    <polygon points="49.98,294.177 39.98,298.177 49.98,302.177 45.98,298.177" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="43.98" y1="298.177" x2="247.52" y2="298.177" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="55.98" y="293.037" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Site déconnecté</text>
 <?plantuml-src hLRDZjis4BxhAOZD8ItGR6FvTmkq02rRpGARPBDARhrmfR7DBasg9BLPjoWGv52Wrw8lOUGHSelV94_IqPzDoJ9IeFL9Ez_7cMy-3iarTrocJBCrCIkMgBTSBic22GEUsIEtBBvRQfN99512QV8eB7uE8u45ouGDbRGls1h8fRIWk_68_mgar-y6g_n-u5D_v52erkfj1Gw7mwS3sWPVhtXy9y4OqZllEU1DALjBq6JYn6F1ZA7MQdwRMRYCbIo4FVLMF04ISnqBABzXdTeDMN0GYN4ZQx0hXQ5MJlARHyZqX6E8A9s0hg9qSZ6T3FTHfmUC7VjHnYAx4K1ImRYi8vMbX4HeEoYxIS5PFQ7Z-UZY26tcsLlXB1pGmQ1Fss1PpJyADz8zBynfqW-nTdw7tSWIGMwiLRLVio08fzJxtV4SPBO-ONaGqd3OjZouc0Pqy9yidsD9jpDN3iy7Vy5Y-9_6mCsTOZQsX5ACXjWokHHmJ3XHceRZiDSkNJdwHJlsMtLeVD1XZYjNAdjAoZISXFv9AKxPqNmq7WQDihql-cJWbmnajGNkpO5DZFfX7MpU68HSyGLSSGdjSPdHYOkUtD9hfYsFUSga_NUapX5m25tJs88F9xyDD0ztZ6VeMDGexCqdUxXJJW5r2Ta31ma_OlBqzDoLS6F7Xy6OpckeQzeAu1amNDEiXUNvFRDSoUE2_dmsRt4wRu0PlyVRlCENtdmw2nr2f-OAx5BjG0V5pt7Iy70w_3xj3_qyrGsOL4a3nvGn7VkZVZ7n3zSiIVBNkJXupdRNSJ-_YRp7v7ldHuAhtPylhtVlNz_CoUTtVvDejoqFnpSasMtnrPFmW0Or5c4EePOgixc1Y7t-uozyeutLQXEXmZpq7J5PckhgBtmI1IE2BoNatwOCOngm11RvRRW6QKcIaLYfEmvaPMtwKehDkUUnV8x8sHlB1JVCGgRF23FaZS7_7z93a-JiihvPVv9VlO07U_wp-RgaNZQ94UXxVEnByQQWHBH94VpsMvRPLG5I_6Z2ryhOfORerLL1c4qzBzT3dlo0nR3tG70q4ItGvDC7VAJsLiOeaNpww24BkH55hkkaXn6CvmKHQLhg5L54PrF4ejnTlYvyhUr4uCbXTRqJfcJkjb1bg0i7fTM5_xjjKRhMVmC9pz-FV3rQPOXupE8u0ouAvJajRnUBSEisjzl-0m00?>
   </g>
 </g>
-<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
-<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">logoutAction → destroySession    ·    Suppression de session + cookie    ·    Redirection vers l’accueil</text>
 </svg>

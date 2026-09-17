@@ -1,241 +1,204 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3840 2160" width="3840" height="2160">
 <rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
-<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Vue globale</text>
-<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
-<g transform="translate(690.8,280.0) scale(1.3495)">
+<g transform="translate(60.0036,60) scale(1.511111)">
 <defs/>
-  <g>
-    <g>
+  <g >
+    <g >
       <title/>
-      <rect x="35.41" y="75" width="8" height="1132" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="38.91" y1="75" x2="38.91" y2="1207" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="70.41" y="109.5" width="31.5644" height="1132" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="73.91" y1="109.5" x2="73.91" y2="1241.5" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="127.26" y="75" width="8" height="1132" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="130.76" y1="75" x2="130.76" y2="1207" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="409.244" y="109.5" width="31.5644" height="1132" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="412.744" y1="109.5" x2="412.744" y2="1241.5" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="290.90" y="75" width="8" height="1132" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="294.40" y1="75" x2="294.40" y2="1207" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="940.194" y="109.5" width="8" height="1132" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="943.694" y1="109.5" x2="943.694" y2="1241.5" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="489.60" y="75" width="8" height="1132" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="493.10" y1="75" x2="493.10" y2="1207" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="1469.03" y="109.5" width="8" height="1132" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="1472.53" y1="109.5" x2="1472.53" y2="1241.5" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="664.65" y="75" width="8" height="1132" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="668.15" y1="75" x2="668.15" y2="1207" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="1917.87" y="109.5" width="8" height="1132" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="1921.37" y1="109.5" x2="1921.37" y2="1241.5" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="835.24" y="75" width="8" height="1132" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="838.74" y1="75" x2="838.74" y2="1207" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="2374.82" y="109.5" width="8" height="1132" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="2378.32" y1="109.5" x2="2378.32" y2="1241.5" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <text x="5" y="71.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Utilisateur</text>
-    <circle cx="38.91" cy="13.50" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
-    <path d="M38.91,21.50 L38.91,48.50 M25.91,29.50 L51.91,29.50 M38.91,48.50 L25.91,63.50 M38.91,48.50 L51.91,63.50" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="82.82" y="71.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Administrateur</text>
-    <circle cx="130.76" cy="13.50" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
-    <path d="M130.76,21.50 L130.76,48.50 M117.76,29.50 L143.76,29.50 M130.76,48.50 L117.76,63.50 M130.76,48.50 L143.76,63.50" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
-    <rect x="259.96" y="36" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="266.96" y="48.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
-    <text x="268.44" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
-    <rect x="440.93" y="50" width="104.33" height="24" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="447.93" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions</text>
-    <rect x="638.21" y="49" width="59.87" height="25" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="645.21" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">lib/auth</text>
-    <rect x="795.30" y="48" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="802.30" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
-    <text x="5" y="1213.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Utilisateur</text>
-    <circle cx="38.91" cy="1225.50" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
-    <path d="M38.91,1233.50 L38.91,1260.50 M25.91,1241.50 L51.91,1241.50 M38.91,1260.50 L25.91,1275.50 M38.91,1260.50 L51.91,1275.50" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="82.82" y="1213.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Administrateur</text>
-    <circle cx="130.76" cy="1225.50" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
-    <path d="M130.76,1233.50 L130.76,1260.50 M117.76,1241.50 L143.76,1241.50 M130.76,1260.50 L117.76,1275.50 M130.76,1260.50 L143.76,1275.50" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
-    <rect x="259.96" y="1207" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="266.96" y="1219.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
-    <text x="268.44" y="1234.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
-    <rect x="440.93" y="1207" width="104.33" height="24" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="447.93" y="1220.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions</text>
-    <rect x="638.21" y="1207" width="59.87" height="25" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="645.21" y="1221.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">lib/auth</text>
-    <rect x="795.30" y="1207" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="802.30" y="1222.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
-    <rect x="5" y="101" width="877.17" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
-    <line x1="5" y1="101" x2="882.17" y2="101" stroke="#D5C7AE" stroke-width="1"/>
-    <line x1="5" y1="104" x2="882.17" y2="104" stroke="#D5C7AE" stroke-width="1"/>
-    <rect x="381.87" y="93" width="123.44" height="18" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
-    <text x="387.87" y="103.86" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">01 · Consultation </text>
-    <polygon points="282.40,136 292.40,140 282.40,144 286.40,140" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="38.91" y1="140" x2="288.40" y2="140" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="45.91" y="134.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Accède à la boutique</text>
-    <polygon points="826.74,163 836.74,167 826.74,171 830.74,167" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="294.40" y1="167" x2="832.74" y2="167" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="301.40" y="161.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Récupère les données du catalogue</text>
-    <polygon points="305.40,190 295.40,194 305.40,198 301.40,194" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="299.40" y1="194" x2="837.74" y2="194" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="311.40" y="188.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Données du catalogue</text>
-    <polygon points="49.91,217 39.91,221 49.91,225 45.91,221" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="43.91" y1="221" x2="293.40" y2="221" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="55.91" y="215.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Affiche le catalogue</text>
-    <rect x="5" y="247" width="877.17" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
-    <line x1="5" y1="247" x2="882.17" y2="247" stroke="#D5C7AE" stroke-width="1"/>
-    <line x1="5" y1="250" x2="882.17" y2="250" stroke="#D5C7AE" stroke-width="1"/>
-    <rect x="369.68" y="239" width="147.81" height="18" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
-    <text x="375.68" y="249.86" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">02 · Authentification </text>
-    <polygon points="282.40,279 292.40,283 282.40,287 286.40,283" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="38.91" y1="283" x2="288.40" y2="283" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="45.91" y="277.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Soumet ses identifiants</text>
-    <polygon points="481.10,303 491.10,307 481.10,311 485.10,307" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="294.40" y1="307" x2="487.10" y2="307" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="301.40" y="301.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Demande d'authentification</text>
-    <polygon points="656.15,327 666.15,331 656.15,335 660.15,331" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="493.10" y1="331" x2="662.15" y2="331" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="500.10" y="325.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Vérifie les identifiants</text>
-    <polygon points="826.74,354 836.74,358 826.74,362 830.74,358" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="668.15" y1="358" x2="832.74" y2="358" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="675.15" y="352.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Consultation du compte</text>
-    <polygon points="679.15,380 669.15,384 679.15,388 675.15,384" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="673.15" y1="384" x2="837.74" y2="384" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="685.15" y="378.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Compte + hash</text>
-    <polygon points="504.10,404 494.10,408 504.10,412 500.10,408" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="498.10" y1="408" x2="667.15" y2="408" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="510.10" y="402.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Session établie</text>
-    <polygon points="305.40,428 295.40,432 305.40,436 301.40,432" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="299.40" y1="432" x2="492.10" y2="432" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="311.40" y="426.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Résultat de l'authentification</text>
-    <polygon points="49.91,455 39.91,459 49.91,463 45.91,459" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="43.91" y1="459" x2="293.40" y2="459" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="55.91" y="453.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Espace connecté</text>
-    <rect x="5" y="485" width="877.17" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
-    <line x1="5" y1="485" x2="882.17" y2="485" stroke="#D5C7AE" stroke-width="1"/>
-    <line x1="5" y1="488" x2="882.17" y2="488" stroke="#D5C7AE" stroke-width="1"/>
-    <rect x="384.77" y="477" width="117.63" height="18" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
-    <text x="390.77" y="486.86" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">03 · Commande </text>
-    <polygon points="282.40,520 292.40,524 282.40,528 286.40,524" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="38.91" y1="524" x2="288.40" y2="524" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="45.91" y="518.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Valide son panier</text>
-    <polygon points="481.10,544 491.10,548 481.10,552 485.10,548" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="294.40" y1="548" x2="487.10" y2="548" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="301.40" y="541.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Soumet la commande</text>
-    <line x1="493.10" y1="575" x2="535.10" y2="575" stroke="#4A463F" stroke-width="1.10"/>
-    <line x1="535.10" y1="575" x2="535.10" y2="588" stroke="#4A463F" stroke-width="1.10"/>
-    <line x1="494.10" y1="588" x2="535.10" y2="588" stroke="#4A463F" stroke-width="1.10"/>
-    <polygon points="504.10,584 494.10,588 504.10,592 500.10,588" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <text x="500.10" y="569.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Valide le panier et le stock</text>
-    <polygon points="826.74,611 836.74,615 826.74,619 830.74,615" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="493.10" y1="615" x2="832.74" y2="615" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="500.10" y="609.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Enregistre la commande</text>
-    <polygon points="504.10,638 494.10,642 504.10,646 500.10,642" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="498.10" y1="642" x2="837.74" y2="642" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="510.10" y="636.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Commande enregistrée</text>
-    <polygon points="305.40,662 295.40,666 305.40,670 301.40,666" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="299.40" y1="666" x2="492.10" y2="666" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="311.40" y="660.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Confirmation</text>
-    <polygon points="49.91,689 39.91,693 49.91,697 45.91,693" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="43.91" y1="693" x2="293.40" y2="693" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="55.91" y="687.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Page de confirmation de commande</text>
-    <rect x="5" y="719" width="877.17" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
-    <line x1="5" y1="719" x2="882.17" y2="719" stroke="#D5C7AE" stroke-width="1"/>
-    <line x1="5" y1="722" x2="882.17" y2="722" stroke="#D5C7AE" stroke-width="1"/>
-    <rect x="374.19" y="711" width="138.79" height="18" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
-    <text x="380.19" y="721.86" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">04 · Administration </text>
-    <polygon points="282.40,751 292.40,755 282.40,759 286.40,755" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="130.76" y1="755" x2="288.40" y2="755" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="137.76" y="749.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Accède au back-office</text>
-    <polygon points="656.15,775 666.15,779 656.15,783 660.15,779" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="294.40" y1="779" x2="662.15" y2="779" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="301.40" y="773.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Vérifie le rôle</text>
-    <polygon points="826.74,799 836.74,803 826.74,807 830.74,803" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="668.15" y1="803" x2="832.74" y2="803" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="675.15" y="797.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Session + rôle</text>
-    <polygon points="679.15,823 669.15,827 679.15,831 675.15,827" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="673.15" y1="827" x2="837.74" y2="827" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="685.15" y="821.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Rôle vérifié</text>
-    <polygon points="305.40,847 295.40,851 305.40,855 301.40,851" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="299.40" y1="851" x2="667.15" y2="851" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="311.40" y="845.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Accès autorisé</text>
-    <polygon points="282.40,874 292.40,878 282.40,882 286.40,878" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="130.76" y1="878" x2="288.40" y2="878" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="137.76" y="872.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Action de gestion</text>
-    <polygon points="481.10,901 491.10,905 481.10,909 485.10,905" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="294.40" y1="905" x2="487.10" y2="905" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="301.40" y="899.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Requête de gestion</text>
-    <polygon points="826.74,928 836.74,932 826.74,936 830.74,932" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="493.10" y1="932" x2="832.74" y2="932" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="500.10" y="926.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Met à jour les données</text>
-    <polygon points="305.40,952 295.40,956 305.40,960 301.40,956" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="299.40" y1="956" x2="492.10" y2="956" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="311.40" y="950.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Résultat</text>
-    <polygon points="141.76,976 131.76,980 141.76,984 137.76,980" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="135.76" y1="980" x2="293.40" y2="980" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="147.76" y="974.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Confirmation</text>
-    <rect x="5" y="1006" width="877.17" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
-    <line x1="5" y1="1006" x2="882.17" y2="1006" stroke="#D5C7AE" stroke-width="1"/>
-    <line x1="5" y1="1009" x2="882.17" y2="1009" stroke="#D5C7AE" stroke-width="1"/>
-    <rect x="379.60" y="998" width="127.98" height="18" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
-    <text x="385.60" y="1008.86" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">05 · Déconnexion </text>
-    <polygon points="282.40,1038 292.40,1042 282.40,1046 286.40,1042" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="38.91" y1="1042" x2="288.40" y2="1042" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="45.91" y="1036.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Se déconnecte</text>
-    <polygon points="481.10,1062 491.10,1066 481.10,1070 485.10,1066" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="294.40" y1="1066" x2="487.10" y2="1066" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="301.40" y="1060.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Demande de déconnexion</text>
-    <polygon points="656.15,1086 666.15,1090 656.15,1094 660.15,1090" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="493.10" y1="1090" x2="662.15" y2="1090" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="500.10" y="1084.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Détruit la session</text>
-    <polygon points="826.74,1113 836.74,1117 826.74,1121 830.74,1117" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="668.15" y1="1117" x2="832.74" y2="1117" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="675.15" y="1111.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Supprime la session</text>
-    <polygon points="504.10,1137 494.10,1141 504.10,1145 500.10,1141" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="498.10" y1="1141" x2="667.15" y2="1141" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="510.10" y="1135.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Session détruite</text>
-    <polygon points="305.40,1161 295.40,1165 305.40,1169 301.40,1165" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="299.40" y1="1165" x2="492.10" y2="1165" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="311.40" y="1159.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Redirection</text>
-    <polygon points="49.91,1185 39.91,1189 49.91,1193 45.91,1189" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="43.91" y1="1189" x2="293.40" y2="1189" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="55.91" y="1183.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Site déconnecté</text>
+    <text x="40" y="106.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Utilisateur</text>
+    <circle cx="73.91" cy="48" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
+    <path d="M73.91,56 L73.91,83 M60.91,64 L111.947,64 M73.91,83 L60.91,98 M73.91,83 L111.947,98" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="233.904" y="106.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Administrateur</text>
+    <circle cx="412.744" cy="48" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
+    <path d="M412.744,56 L412.744,83 M371.761,64 L450.781,64 M412.744,83 L371.761,98 M412.744,83 L450.781,98" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
+    <rect x="909.254" y="70.5" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="916.254" y="83.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
+    <text x="917.734" y="98.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
+    <rect x="1420.36" y="84.5" width="104.33" height="24" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="1427.36" y="98.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions</text>
+    <rect x="1891.43" y="83.5" width="59.87" height="25" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="1898.43" y="98.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">lib/auth</text>
+    <rect x="2334.88" y="82.5" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="2341.88" y="98.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
+    <text x="40" y="1248.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Utilisateur</text>
+    <circle cx="73.91" cy="1260" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
+    <path d="M73.91,1268 L73.91,1295 M60.91,1276 L111.947,1276 M73.91,1295 L60.91,1310 M73.91,1295 L111.947,1310" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="233.904" y="1248.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Administrateur</text>
+    <circle cx="412.744" cy="1260" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
+    <path d="M412.744,1268 L412.744,1295 M371.761,1276 L450.781,1276 M412.744,1295 L371.761,1310 M412.744,1295 L450.781,1310" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
+    <rect x="909.254" y="1241.5" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="916.254" y="1254.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
+    <text x="917.734" y="1269.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
+    <rect x="1420.36" y="1241.5" width="104.33" height="24" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="1427.36" y="1255.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions</text>
+    <rect x="1891.43" y="1241.5" width="59.87" height="25" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="1898.43" y="1256.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">lib/auth</text>
+    <rect x="2334.88" y="1241.5" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="2341.88" y="1257.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
+    <rect x="40" y="135.5" width="2381.75" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
+    <line x1="40" y1="135.5" x2="2421.75" y2="135.5" stroke="#D5C7AE" stroke-width="1"/>
+    <line x1="40" y1="138.5" x2="2421.75" y2="138.5" stroke="#D5C7AE" stroke-width="1"/>
+    <rect x="1187.34" y="127.5" width="123.44" height="18" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
+    <text x="1211.01" y="138.36" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">01 · Consultation </text>
+    <polygon points="931.694,170.5 941.694,174.5 931.694,178.5 935.694,174.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="73.91" y1="174.5" x2="937.694" y2="174.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="88.2739" y="169.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Accède à la boutique</text>
+    <polygon points="2366.32,197.5 2376.32,201.5 2366.32,205.5 2370.32,201.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="943.694" y1="201.5" x2="2372.32" y2="201.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="950.694" y="196.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Récupère les données du catalogue</text>
+    <polygon points="954.694,224.5 944.694,228.5 954.694,232.5 950.694,228.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="948.694" y1="228.5" x2="2377.32" y2="228.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="960.694" y="223.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Données du catalogue</text>
+    <polygon points="104.056,251.5 74.91,255.5 104.056,259.5 88.2739,255.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="80.3828" y1="255.5" x2="942.694" y2="255.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="127.729" y="250.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Affiche le catalogue</text>
+    <rect x="40" y="281.5" width="2381.75" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
+    <line x1="40" y1="281.5" x2="2421.75" y2="281.5" stroke="#D5C7AE" stroke-width="1"/>
+    <line x1="40" y1="284.5" x2="2421.75" y2="284.5" stroke="#D5C7AE" stroke-width="1"/>
+    <rect x="1139.24" y="273.5" width="147.81" height="18" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
+    <text x="1162.91" y="284.36" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">02 · Authentification </text>
+    <polygon points="931.694,313.5 941.694,317.5 931.694,321.5 935.694,317.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="73.91" y1="317.5" x2="937.694" y2="317.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="88.2739" y="312.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Soumet ses identifiants</text>
+    <polygon points="1460.53,337.5 1470.53,341.5 1460.53,345.5 1464.53,341.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="943.694" y1="341.5" x2="1466.53" y2="341.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="950.694" y="336.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Demande d'authentification</text>
+    <polygon points="1909.37,361.5 1919.37,365.5 1909.37,369.5 1913.37,365.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1472.53" y1="365.5" x2="1915.37" y2="365.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="1479.53" y="360.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Vérifie les identifiants</text>
+    <polygon points="2366.32,388.5 2376.32,392.5 2366.32,396.5 2370.32,392.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1921.37" y1="392.5" x2="2372.32" y2="392.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="1928.37" y="387.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Consultation du compte</text>
+    <polygon points="1932.37,414.5 1922.37,418.5 1932.37,422.5 1928.37,418.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1926.37" y1="418.5" x2="2377.32" y2="418.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="1938.37" y="413.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Compte + hash</text>
+    <polygon points="1483.53,438.5 1473.53,442.5 1483.53,446.5 1479.53,442.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1477.53" y1="442.5" x2="1920.37" y2="442.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="1489.53" y="437.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Session établie</text>
+    <polygon points="954.694,462.5 944.694,466.5 954.694,470.5 950.694,466.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="948.694" y1="466.5" x2="1471.53" y2="466.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="960.694" y="461.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Résultat de l'authentification</text>
+    <polygon points="104.056,489.5 74.91,493.5 104.056,497.5 88.2739,493.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="80.3828" y1="493.5" x2="942.694" y2="493.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="127.729" y="488.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Espace connecté</text>
+    <rect x="40" y="519.5" width="2381.75" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
+    <line x1="40" y1="519.5" x2="2421.75" y2="519.5" stroke="#D5C7AE" stroke-width="1"/>
+    <line x1="40" y1="522.5" x2="2421.75" y2="522.5" stroke="#D5C7AE" stroke-width="1"/>
+    <rect x="1198.78" y="511.5" width="117.63" height="18" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
+    <text x="1222.45" y="521.36" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">03 · Commande </text>
+    <polygon points="931.694,554.5 941.694,558.5 931.694,562.5 935.694,558.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="73.91" y1="558.5" x2="937.694" y2="558.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="88.2739" y="553.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Valide son panier</text>
+    <polygon points="1460.53,578.5 1470.53,582.5 1460.53,586.5 1464.53,582.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="943.694" y1="582.5" x2="1466.53" y2="582.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="950.694" y="576.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Soumet la commande</text>
+    <line x1="1472.53" y1="609.5" x2="1514.53" y2="609.5" stroke="#4A463F" stroke-width="1.10"/>
+    <line x1="1514.53" y1="609.5" x2="1514.53" y2="622.5" stroke="#4A463F" stroke-width="1.10"/>
+    <line x1="1473.53" y1="622.5" x2="1514.53" y2="622.5" stroke="#4A463F" stroke-width="1.10"/>
+    <polygon points="1483.53,618.5 1473.53,622.5 1483.53,626.5 1479.53,622.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <text x="1479.53" y="604.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Valide le panier et le stock</text>
+    <polygon points="2366.32,645.5 2376.32,649.5 2366.32,653.5 2370.32,649.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1472.53" y1="649.5" x2="2372.32" y2="649.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="1479.53" y="644.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Enregistre la commande</text>
+    <polygon points="1483.53,672.5 1473.53,676.5 1483.53,680.5 1479.53,676.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1477.53" y1="676.5" x2="2377.32" y2="676.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="1489.53" y="671.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Commande enregistrée</text>
+    <polygon points="954.694,696.5 944.694,700.5 954.694,704.5 950.694,700.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="948.694" y1="700.5" x2="1471.53" y2="700.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="960.694" y="695.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Confirmation</text>
+    <polygon points="104.056,723.5 74.91,727.5 104.056,731.5 88.2739,727.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="80.3828" y1="727.5" x2="942.694" y2="727.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="127.729" y="722.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Page de confirmation de commande</text>
+    <rect x="40" y="753.5" width="2381.75" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
+    <line x1="40" y1="753.5" x2="2421.75" y2="753.5" stroke="#D5C7AE" stroke-width="1"/>
+    <line x1="40" y1="756.5" x2="2421.75" y2="756.5" stroke="#D5C7AE" stroke-width="1"/>
+    <rect x="1157.03" y="745.5" width="138.79" height="18" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
+    <text x="1180.71" y="756.36" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">04 · Administration </text>
+    <polygon points="931.694,785.5 941.694,789.5 931.694,793.5 935.694,789.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="412.744" y1="789.5" x2="937.694" y2="789.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="427.108" y="784.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Accède au back-office</text>
+    <polygon points="1909.37,809.5 1919.37,813.5 1909.37,817.5 1913.37,813.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="943.694" y1="813.5" x2="1915.37" y2="813.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="950.694" y="808.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Vérifie le rôle</text>
+    <polygon points="2366.32,833.5 2376.32,837.5 2366.32,841.5 2370.32,837.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1921.37" y1="837.5" x2="2372.32" y2="837.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="1928.37" y="832.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Session + rôle</text>
+    <polygon points="1932.37,857.5 1922.37,861.5 1932.37,865.5 1928.37,861.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1926.37" y1="861.5" x2="2377.32" y2="861.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="1938.37" y="856.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Rôle vérifié</text>
+    <polygon points="954.694,881.5 944.694,885.5 954.694,889.5 950.694,885.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="948.694" y1="885.5" x2="1920.37" y2="885.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="960.694" y="880.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Accès autorisé</text>
+    <polygon points="931.694,908.5 941.694,912.5 931.694,916.5 935.694,912.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="412.744" y1="912.5" x2="937.694" y2="912.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="427.108" y="907.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Action de gestion</text>
+    <polygon points="1460.53,935.5 1470.53,939.5 1460.53,943.5 1464.53,939.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="943.694" y1="939.5" x2="1466.53" y2="939.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="950.694" y="934.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Requête de gestion</text>
+    <polygon points="2366.32,962.5 2376.32,966.5 2366.32,970.5 2370.32,966.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1472.53" y1="966.5" x2="2372.32" y2="966.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="1479.53" y="961.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Met à jour les données</text>
+    <polygon points="954.694,986.5 944.694,990.5 954.694,994.5 950.694,990.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="948.694" y1="990.5" x2="1471.53" y2="990.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="960.694" y="985.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Résultat</text>
+    <polygon points="442.89,1010.5 413.744,1014.5 442.89,1018.5 427.108,1014.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="419.217" y1="1014.5" x2="942.694" y2="1014.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="466.563" y="1009.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Confirmation</text>
+    <rect x="40" y="1040.5" width="2381.75" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
+    <line x1="40" y1="1040.5" x2="2421.75" y2="1040.5" stroke="#D5C7AE" stroke-width="1"/>
+    <line x1="40" y1="1043.5" x2="2421.75" y2="1043.5" stroke="#D5C7AE" stroke-width="1"/>
+    <rect x="1178.38" y="1032.5" width="127.98" height="18" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
+    <text x="1202.05" y="1043.36" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">05 · Déconnexion </text>
+    <polygon points="931.694,1072.5 941.694,1076.5 931.694,1080.5 935.694,1076.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="73.91" y1="1076.5" x2="937.694" y2="1076.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="88.2739" y="1071.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Se déconnecte</text>
+    <polygon points="1460.53,1096.5 1470.53,1100.5 1460.53,1104.5 1464.53,1100.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="943.694" y1="1100.5" x2="1466.53" y2="1100.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="950.694" y="1095.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Demande de déconnexion</text>
+    <polygon points="1909.37,1120.5 1919.37,1124.5 1909.37,1128.5 1913.37,1124.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1472.53" y1="1124.5" x2="1915.37" y2="1124.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="1479.53" y="1119.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Détruit la session</text>
+    <polygon points="2366.32,1147.5 2376.32,1151.5 2366.32,1155.5 2370.32,1151.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1921.37" y1="1151.5" x2="2372.32" y2="1151.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="1928.37" y="1146.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Supprime la session</text>
+    <polygon points="1483.53,1171.5 1473.53,1175.5 1483.53,1179.5 1479.53,1175.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1477.53" y1="1175.5" x2="1920.37" y2="1175.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="1489.53" y="1170.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Session détruite</text>
+    <polygon points="954.694,1195.5 944.694,1199.5 954.694,1203.5 950.694,1199.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="948.694" y1="1199.5" x2="1471.53" y2="1199.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="960.694" y="1194.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Redirection</text>
+    <polygon points="104.056,1219.5 74.91,1223.5 104.056,1227.5 88.2739,1223.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="80.3828" y1="1223.5" x2="942.694" y2="1223.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="127.729" y="1218.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Site déconnecté</text>
 <?plantuml-src hLTDZoCr4BtdLrZ3OK4xCqo-CqWWTJh9CjBiCYIxU-BYT5SIptJiNjkTdG4X8MxS-G4SDvoHkDF_X5z2sTsTk3-YHOASClMUgyhFhnoFUc0yff9kYThGKBndV4rMD5BGKWTaIOE7jHG93tqH2Ka-cTcFmmXXHPD8pmJNh-WMo0tN89ln1ViUIBlR3ERvEtx7wmmSYYUbU9-3_Nx_gkTLmTSR5ZnmK8gqBziEEC_QbXma6Jdn8A9AULfBjamqt0I2syQkMXiM0WcO32B8liCsrazanI0AbHlPWju835LoaXzQX8nFA8Q8a278FEgDhiUZ_Y7gx05ZTJsos48_HK3YY39UH7992LcWx23qKmpEwf4td0wkQsWvpq4APs7Fw_MwNXNCgdLguLAwbrQSClqOg-PtsAKi2p32Qb7eDV7zsTXh_UXe3ZpPdf3SdtcpVbLo_thiUxt_9FaKIxexSzjXnlWh6i3_P0CtTupPw1goPYG4cl9r17N2YTBUR3XhLqldYdvKZiDH7JVUQn37RPSBVQgLyMmqwvninIaxc0w6VRzKjlrHdHIyIu3dH-3U7BY9GNTM1Cit1Y6tR0MtZ4FLBXDlvA8dZ_IEIiq25bEk_nsfqG8EeScD5VWu-LMWFDm1pb2zgS6iFHqTuCPsBDJKo04ujl02ayUdVPV1fHFl-qDlMa1DRhF0rq1nJRaMbcSxgfdWzOATwMHQuJJU01EsmzkyGPVsT3oPEOJ6ddEmgMi7EdRy4fs6m-dmkrwttp6fvg1YmHNKAKDls1bqhUCVxsWOcb_dJgzyt4MyDy8fU4Q-T3x4lqr_-UOk_VdrV4h-_kbNiaZtsMoSarq2P1s99KMVk6imXS_uEwA2TC-fP4AHBRs7H2ho1S6VIOK_rLRKSq8JlG6ksOe5UIGGsotb8PnZ5Xfk6MTAonmBqpqkv_28VrqMSYZyzIUSxO0c9Dr7i4lt9E4CcznYvijMYngVaRCtcaLCKOrzd16go1k5xuiSyuw52jY6Ml5H979sKzpCt_5FNy6ZlhnNdsMfRih41SWTFXQCUt2tbhBmofI8BJytcyzguPSoV2UKNajOV7jh2PDnguLdSTKcV_r9V4T1rBrbDa8kli8kK5ul2D8FA4Zw6uaeMOf46oLQY25ZCaR674LCulI3118PyL3GT6--90JFW4PYZNnaNXGf9uqCaz4mJ74iky8Jt9YC3iMst34jUvLZhhMz40a-Xl3ULGHzRvceWyhxNdYc3R2-8E6pgcbQY2FB547UstGl4SfsLqfc2OKC9HNDpWG-oGuRptFvDaYUamrLctnzqSy2xMVMfdjDbn43sqMn7nGvosxC6TKxBgitLR7vlRVU3dIwpvJhPeUTZKDDiRSqCWz9XHsWPHXwsT4gbnCTK8nJhf55ywNcThShYQ5YAYs2Xvnd9Pfo2Mip5L3Ab4jaKntQWuABJYafWJglcDmsRVlEl3H2k-y39VixhsHbw5a3bMu28uQDr6oFTu3vL-D263yMjgyRWyZq3tptb0nHdEVp72mxOMvYP9Ubm1CwUE5ONfdRJ4Yc35pfhjWQNbS78N89v_ZMI7_NuCBE8U33rWpplKXaQLwRxLOedDMlg6_bx1iv9yv5Mfz5E5oqWOR64OJILLoUFyojPSAi-rIcQKNe98ubsqATK1sjC4zLcIq8cNcxrWsrODhjFTt_0m00?>
   </g>
 </g>
-<rect x="1999.1575663026522" y="280" width="1150" height="1426" rx="24" fill="#FAF7F1" stroke="#DCCFBA" stroke-width="1.5"/>
-<text x="2063.1575663026524" y="384" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">SCÉNARIOS</text>
-<text x="2063.1575663026524" y="470" font-family="Inter" font-size="30" font-weight="600" fill="#5B7C99">01</text>
-<text x="2149.1575663026524" y="470" font-family="Inter" font-size="28" fill="#2C2A26">Consultation</text>
-<text x="2063.1575663026524" y="562" font-family="Inter" font-size="30" font-weight="600" fill="#5B7C99">02</text>
-<text x="2149.1575663026524" y="562" font-family="Inter" font-size="28" fill="#2C2A26">Authentification</text>
-<text x="2063.1575663026524" y="654" font-family="Inter" font-size="30" font-weight="600" fill="#5B7C99">03</text>
-<text x="2149.1575663026524" y="654" font-family="Inter" font-size="28" fill="#2C2A26">Commande</text>
-<text x="2063.1575663026524" y="746" font-family="Inter" font-size="30" font-weight="600" fill="#5B7C99">04</text>
-<text x="2149.1575663026524" y="746" font-family="Inter" font-size="28" fill="#2C2A26">Administration</text>
-<text x="2063.1575663026524" y="838" font-family="Inter" font-size="30" font-weight="600" fill="#5B7C99">05</text>
-<text x="2149.1575663026524" y="838" font-family="Inter" font-size="28" fill="#2C2A26">Déconnexion</text>
-<text x="2063.1575663026524" y="972" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">LÉGENDE</text>
-<line x1="2063.1575663026524" y1="1050" x2="2189.1575663026524" y2="1050" stroke="#4A463F" stroke-width="2.5"/>
-<path d="M 2203.1575663026524 1050 L 2185.1575663026524 1042 L 2185.1575663026524 1058 Z" fill="#4A463F"/>
-<text x="2233.1575663026524" y="1059" font-family="Inter" font-size="25" fill="#4A443A">Appel</text>
-<line x1="2063.1575663026524" y1="1124" x2="2189.1575663026524" y2="1124" stroke="#7A7263" stroke-width="2.5" stroke-dasharray="10,7"/>
-<path d="M 2203.1575663026524 1124 L 2185.1575663026524 1116 M 2203.1575663026524 1124 L 2185.1575663026524 1132" stroke="#7A7263" stroke-width="2.5" fill="none"/>
-<text x="2233.1575663026524" y="1133" font-family="Inter" font-size="25" fill="#4A443A">Retour</text>
-<rect x="2063.1575663026524" y="1179" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
-<text x="2106.1575663026524" y="1206" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">alt</text>
-<text x="2233.1575663026524" y="1207" font-family="Inter" font-size="25" fill="#4A443A">Condition</text>
-<rect x="2063.1575663026524" y="1253" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
-<text x="2106.1575663026524" y="1280" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">opt</text>
-<text x="2233.1575663026524" y="1281" font-family="Inter" font-size="25" fill="#4A443A">Optionnel</text>
-<text x="2063.1575663026524" y="1388" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">POINTS CLÉS</text>
-<rect x="2063.1575663026524" y="1437" width="12" height="12" rx="2.5" fill="#5B7C99"/>
-<text x="2095.1575663026524" y="1454" font-family="Inter" font-size="25" fill="#4A443A">Cinq scénarios majeurs</text>
-<rect x="2063.1575663026524" y="1493" width="12" height="12" rx="2.5" fill="#5B7C99"/>
-<text x="2095.1575663026524" y="1510" font-family="Inter" font-size="25" fill="#4A443A">Messages de niveau élevé — sans SQL</text>
-<rect x="2063.1575663026524" y="1549" width="12" height="12" rx="2.5" fill="#5B7C99"/>
-<text x="2095.1575663026524" y="1566" font-family="Inter" font-size="25" fill="#4A443A">Même flux que le diagramme de classes global</text>
-<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
-<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Cinq scénarios majeurs    ·    Messages de niveau élevé — sans SQL    ·    Même flux que le diagramme de classes global</text>
 </svg>

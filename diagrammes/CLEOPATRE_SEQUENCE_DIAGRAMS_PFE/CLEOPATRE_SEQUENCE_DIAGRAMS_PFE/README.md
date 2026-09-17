@@ -34,15 +34,20 @@ Chaque dossier contient :
 
 - `sequence_*.puml` — source PlantUML (thème inclus, autonome)
 - `sequence_*.svg` — master vectoriel **4K 16:9** (viewBox 3840 × 2160) :
-  titre centré + sous-titre + pied de page ; pour les diagrammes verticaux,
-  un panneau latéral (légende + points clés) équilibre la composition
+  fond blanc, **sans titre à l'intérieur de l'image**, diagramme maximisé et
+  centré (l'espacement entre les lignes de vie est dilaté pour occuper le
+  cadre, sans déformation des textes ni des boîtes)
 - `sequence_*.png` — **4K UHD (3840 × 2160, 16:9)**, rendu fidèle du SVG
+
+La mise en plein cadre 16:9 est appliquée en post-traitement du SVG ; le
+titre du diagramme se place dans la légende du document.
 
 ## Design
 
 - Fond blanc pur, typographie **Inter**
 - Palette sobre (ivoire / charbon / champagne, accent bleu discret)
-- Titres centrés, sobres et identiques d’un diagramme à l’autre
+- Aucun titre dans l'image : les diagrammes sont pleins cadre, le titre va
+  dans la légende du document
 - Lifelines fines, fragments `alt` / `opt` discrets, activations subtiles
 - Lisibles en noir et blanc (la sémantique ne repose pas sur la couleur)
 
@@ -91,7 +96,8 @@ java -jar plantuml.jar -tsvg -tpng sequence_authentification.puml
 Ou avec le moteur PlantUML JavaScript (sans Java) : `npm install @plantuml/core`
 puis `renderToString(lines, onSuccess, onError)`.
 
-Le bandeau de titre centré est ajouté au SVG en post-traitement lors de la
+Le SVG livré est le diagramme mis en plein cadre 4K 16:9 (espacements
+dilatés, contenu centré, sans titre interne) en post-traitement lors de la
 génération du présent package ; le `.puml` contient uniquement le diagramme.
 
 ## Limitations

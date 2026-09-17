@@ -34,13 +34,16 @@ Chaque dossier contient :
 
 - `diagramme_classes_*.puml` — source PlantUML (thème inclus, autonome)
 - `diagramme_classes_*.svg` — master vectoriel **4K 16:9** (viewBox
-  3840 × 2160) : titre centré + sous-titre + pied de page points clés
+  3840 × 2160) : fond blanc, **sans titre à l'intérieur de l'image**,
+  diagramme maximisé et centré (contenu élargi pour occuper le cadre)
 - `diagramme_classes_*.png` — **4K UHD (3840 × 2160, 16:9)**, rendu fidèle du
   SVG master
 
-Le bandeau de titre, la mise en page 16:9 et le pied de page sont ajoutés en
+La mise en plein cadre 16:9 (dilatation vectorielle des espacements, sans
+déformation des textes ni des boîtes, puis centrage) est appliquée en
 post-traitement du SVG ; les `.puml` contiennent uniquement le diagramme
-(reproductibles avec PlantUML standard).
+(reproductibles avec PlantUML standard). Le titre du diagramme se place dans
+la légende du document.
 
 ## Correspondance avec le code source
 
@@ -138,9 +141,10 @@ npm install @plantuml/core
 # puis renderToString(lines, onSuccess, onError) sur le contenu du .puml
 ```
 
-Le rendu PlantUML brut correspond au diagramme ; le bandeau de titre centré
-(« Diagramme de classes – … » + sous-titre CLÉOPÂTRE) est ajouté au SVG en
-post-traitement lors de la génération du présent package.
+Le rendu PlantUML brut correspond au diagramme ; le SVG livré dans ce
+package est le même diagramme mis en plein cadre 4K 16:9 (espacements
+dilatés, contenu centré, sans titre interne) en post-traitement lors de la
+génération.
 
 ---
 

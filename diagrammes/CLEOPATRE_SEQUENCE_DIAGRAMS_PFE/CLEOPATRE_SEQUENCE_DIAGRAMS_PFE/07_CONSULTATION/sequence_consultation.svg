@@ -1,134 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3840 2160" width="3840" height="2160">
 <rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
-<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Consultation</text>
-<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
-<g transform="translate(341.7,280.0) scale(2.6453)">
+<g transform="translate(60,60.0014) scale(2.825481)">
 <defs/>
-  <g>
-    <rect x="22.91" y="434" width="396.07" height="121" rx="4" ry="4" fill="#FAF7F1" stroke="#FAF7F1" stroke-width="1"/>
-    <rect x="22.91" y="434" width="396.07" height="121" rx="4" ry="4" fill="#00000000" stroke="#D5C7AE" stroke-width="1.50"/>
-    <g>
+  <g >
+    <rect x="57.91" y="468.5" width="690.4" height="121" rx="4" ry="4" fill="#FAF7F1" stroke="#FAF7F1" stroke-width="1"/>
+    <rect x="57.91" y="468.5" width="690.4" height="121" rx="4" ry="4" fill="#00000000" stroke="#D5C7AE" stroke-width="1.50"/>
+    <g >
       <title/>
-      <rect x="35.41" y="75" width="8" height="504" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="38.91" y1="75" x2="38.91" y2="579" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="70.41" y="109.5" width="19.5901" height="504" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="73.91" y1="109.5" x2="73.91" y2="613.5" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="198.89" y="75" width="8" height="504" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="202.39" y1="75" x2="202.39" y2="579" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="414.304" y="109.5" width="8" height="504" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="417.804" y1="109.5" x2="417.804" y2="613.5" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="399.48" y="75" width="8" height="504" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="402.98" y1="75" x2="402.98" y2="579" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="749.817" y="109.5" width="8" height="504" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="753.317" y1="109.5" x2="753.317" y2="613.5" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="664.33" y="75" width="8" height="504" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="667.83" y1="75" x2="667.83" y2="579" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="1229.65" y="109.5" width="8" height="504" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="1233.15" y1="109.5" x2="1233.15" y2="613.5" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <text x="5" y="71.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Utilisateur</text>
-    <circle cx="38.91" cy="13.50" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
-    <path d="M38.91,21.50 L38.91,48.50 M25.91,29.50 L51.91,29.50 M38.91,48.50 L25.91,63.50 M38.91,48.50 L51.91,63.50" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
-    <rect x="167.94" y="36" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="174.94" y="48.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
-    <text x="176.43" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
-    <rect x="329.96" y="33" width="146.04" height="41" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="370.81" y="49.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">lib/catalog</text>
-    <text x="336.96" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Server Components)</text>
-    <rect x="624.39" y="48" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="631.39" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
-    <text x="5" y="585.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Utilisateur</text>
-    <circle cx="38.91" cy="597.50" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
-    <path d="M38.91,605.50 L38.91,632.50 M25.91,613.50 L51.91,613.50 M38.91,632.50 L25.91,647.50 M38.91,632.50 L51.91,647.50" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
-    <rect x="167.94" y="579" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="174.94" y="591.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
-    <text x="176.43" y="606.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
-    <rect x="329.96" y="579" width="146.04" height="41" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="370.81" y="595.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">lib/catalog</text>
-    <text x="336.96" y="609.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Server Components)</text>
-    <rect x="624.39" y="579" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="631.39" y="594.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
-    <rect x="5" y="102.50" width="706.27" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
-    <line x1="5" y1="102.50" x2="711.27" y2="102.50" stroke="#D5C7AE" stroke-width="1"/>
-    <line x1="5" y1="105.50" x2="711.27" y2="105.50" stroke="#D5C7AE" stroke-width="1"/>
-    <rect x="293.94" y="93" width="128.39" height="21" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
-    <text x="299.94" y="106.86" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">Liste — /boutique </text>
-    <polygon points="190.39,139 200.39,143 190.39,147 194.39,143" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="38.91" y1="143" x2="196.39" y2="143" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="45.91" y="137.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Accède à la boutique</text>
-    <polygon points="390.98,166 400.98,170 390.98,174 394.98,170" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="202.39" y1="170" x2="396.98" y2="170" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="209.39" y="164.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Récupère univers et produits</text>
-    <polygon points="655.83,193 665.83,197 655.83,201 659.83,197" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="402.98" y1="197" x2="661.83" y2="197" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="409.98" y="191.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Lecture du catalogue (statut « active »)</text>
-    <polygon points="413.98,220 403.98,224 413.98,228 409.98,224" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="407.98" y1="224" x2="666.83" y2="224" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="419.98" y="218.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Produits, marques, catégories</text>
-    <polygon points="213.39,247 203.39,251 213.39,255 209.39,251" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="207.39" y1="251" x2="401.98" y2="251" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="219.39" y="245.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Données du catalogue</text>
-    <polygon points="49.91,271 39.91,275 49.91,279 45.91,275" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="43.91" y1="275" x2="201.39" y2="275" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="55.91" y="269.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Affiche la liste</text>
-    <rect x="5" y="302.50" width="706.27" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
-    <line x1="5" y1="302.50" x2="711.27" y2="302.50" stroke="#D5C7AE" stroke-width="1"/>
-    <line x1="5" y1="305.50" x2="711.27" y2="305.50" stroke="#D5C7AE" stroke-width="1"/>
-    <rect x="276.33" y="293" width="163.60" height="21" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
-    <text x="282.33" y="306.86" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">Fiche — /produit/[slug] </text>
-    <polygon points="190.39,339 200.39,343 190.39,347 194.39,343" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="38.91" y1="343" x2="196.39" y2="343" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="45.91" y="337.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Ouvre un produit</text>
-    <polygon points="390.98,365 400.98,369 390.98,373 394.98,369" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="202.39" y1="369" x2="396.98" y2="369" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="209.39" y="363.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Recherche par slug</text>
-    <polygon points="655.83,392 665.83,396 655.83,400 659.83,396" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="402.98" y1="396" x2="661.83" y2="396" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="409.98" y="390.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Produit + marque + concerns</text>
-    <polygon points="413.98,418 403.98,422 413.98,426 409.98,422" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="407.98" y1="422" x2="666.83" y2="422" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="419.98" y="416.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Produit (ou introuvable)</text>
-    <path d="M26.91,434 L83.93,434 L83.93,436 L73.93,446 L22.91,446 L22.91,438 A4,4 0 0 1 26.91,434" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1.50"/>
-    <rect x="22.91" y="434" width="396.07" height="121" rx="4" ry="4" fill="#00000000" stroke="#D5C7AE" stroke-width="1.50"/>
-    <text x="37.91" y="440.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">alt</text>
-    <text x="98.93" y="445.86" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">[Produit trouvé]</text>
-    <polygon points="213.39,471 203.39,475 213.39,479 209.39,475" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="207.39" y1="475" x2="401.98" y2="475" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="219.39" y="469.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Fiche complète</text>
-    <polygon points="49.91,498 39.91,502 49.91,506 45.91,502" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="43.91" y1="502" x2="201.39" y2="502" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="55.91" y="496.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Affiche la fiche produit</text>
-    <line x1="22.91" y1="511" x2="418.98" y2="511" stroke="#D5C7AE" stroke-width="1" stroke-dasharray="2,2"/>
-    <text x="27.91" y="522.86" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">[Produit introuvable]</text>
-    <polygon points="49.91,543 39.91,547 49.91,551 45.91,547" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="43.91" y1="547" x2="201.39" y2="547" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="55.91" y="541.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Page 404</text>
+    <text x="40" y="106.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Utilisateur</text>
+    <circle cx="73.91" cy="48" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
+    <path d="M73.91,56 L73.91,83 M60.91,64 L99.2245,64 M73.91,83 L60.91,98 M73.91,83 L99.2245,98" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
+    <rect x="383.354" y="70.5" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="390.354" y="83.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
+    <text x="391.844" y="98.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
+    <rect x="680.297" y="67.5" width="146.04" height="41" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="721.147" y="84.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">lib/catalog</text>
+    <text x="687.297" y="98.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Server Components)</text>
+    <rect x="1189.71" y="82.5" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="1196.71" y="98.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
+    <text x="40" y="620.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Utilisateur</text>
+    <circle cx="73.91" cy="632" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
+    <path d="M73.91,640 L73.91,667 M60.91,648 L99.2245,648 M73.91,667 L60.91,682 M73.91,667 L99.2245,682" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
+    <rect x="383.354" y="613.5" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="390.354" y="626.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
+    <text x="391.844" y="641.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
+    <rect x="680.297" y="613.5" width="146.04" height="41" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="721.147" y="630.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">lib/catalog</text>
+    <text x="687.297" y="644.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Server Components)</text>
+    <rect x="1189.71" y="613.5" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="1196.71" y="629.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
+    <rect x="40" y="137" width="1236.59" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
+    <line x1="40" y1="137" x2="1276.59" y2="137" stroke="#D5C7AE" stroke-width="1"/>
+    <line x1="40" y1="140" x2="1276.59" y2="140" stroke="#D5C7AE" stroke-width="1"/>
+    <rect x="592.093" y="127.5" width="175.181" height="21" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
+    <text x="606.785" y="141.36" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">Liste — /boutique </text>
+    <polygon points="405.804,173.5 415.804,177.5 405.804,181.5 409.804,177.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="73.91" y1="177.5" x2="411.804" y2="177.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="84.5319" y="172.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Accède à la boutique</text>
+    <polygon points="741.317,200.5 751.317,204.5 741.317,208.5 745.317,204.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="417.804" y1="204.5" x2="747.317" y2="204.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="424.804" y="199.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Récupère univers et produits</text>
+    <polygon points="1221.15,227.5 1231.15,231.5 1221.15,235.5 1225.15,231.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="753.317" y1="231.5" x2="1227.15" y2="231.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="760.317" y="226.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Lecture du catalogue (statut « active »)</text>
+    <polygon points="764.317,254.5 754.317,258.5 764.317,262.5 760.317,258.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="758.317" y1="258.5" x2="1232.15" y2="258.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="770.317" y="253.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Produits, marques, catégories</text>
+    <polygon points="428.804,281.5 418.804,285.5 428.804,289.5 424.804,285.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="422.804" y1="285.5" x2="752.317" y2="285.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="434.804" y="280.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Données du catalogue</text>
+    <polygon points="94.3269,305.5 74.91,309.5 94.3269,313.5 84.5319,309.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="79.6344" y1="309.5" x2="416.804" y2="309.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="109.019" y="304.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Affiche la liste</text>
+    <rect x="40" y="337" width="1236.59" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
+    <line x1="40" y1="337" x2="1276.59" y2="337" stroke="#D5C7AE" stroke-width="1"/>
+    <line x1="40" y1="340" x2="1276.59" y2="340" stroke="#D5C7AE" stroke-width="1"/>
+    <rect x="548.97" y="327.5" width="272.865" height="21" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
+    <text x="563.662" y="341.36" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">Fiche — /produit/[slug] </text>
+    <polygon points="405.804,373.5 415.804,377.5 405.804,381.5 409.804,377.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="73.91" y1="377.5" x2="411.804" y2="377.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="84.5319" y="372.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Ouvre un produit</text>
+    <polygon points="741.317,399.5 751.317,403.5 741.317,407.5 745.317,403.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="417.804" y1="403.5" x2="747.317" y2="403.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="424.804" y="398.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Recherche par slug</text>
+    <polygon points="1221.15,426.5 1231.15,430.5 1221.15,434.5 1225.15,430.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="753.317" y1="430.5" x2="1227.15" y2="430.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="760.317" y="425.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Produit + marque + concerns</text>
+    <polygon points="764.317,452.5 754.317,456.5 764.317,460.5 760.317,456.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="758.317" y1="456.5" x2="1232.15" y2="456.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="770.317" y="451.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Produit (ou introuvable)</text>
+    <path d="M61.91,468.5 L177.634,468.5 L177.634,470.5 L153.146,480.5 L57.91,480.5 L57.91,472.5 A4 4 0 0 1 61.91 468.5" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1.50"/>
+    <rect x="57.91" y="468.5" width="690.4" height="121" rx="4" ry="4" fill="#00000000" stroke="#D5C7AE" stroke-width="1.50"/>
+    <text x="72.91" y="475.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">alt</text>
+    <text x="214.365" y="480.36" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">[Produit trouvé]</text>
+    <polygon points="428.804,505.5 418.804,509.5 428.804,513.5 424.804,509.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="422.804" y1="509.5" x2="752.317" y2="509.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="434.804" y="504.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Fiche complète</text>
+    <polygon points="94.3269,532.5 74.91,536.5 94.3269,540.5 84.5319,536.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="79.6344" y1="536.5" x2="416.804" y2="536.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="109.019" y="531.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Affiche la fiche produit</text>
+    <line x1="57.91" y1="545.5" x2="769.317" y2="545.5" stroke="#D5C7AE" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="62.91" y="557.36" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">[Produit introuvable]</text>
+    <polygon points="94.3269,577.5 74.91,581.5 94.3269,585.5 84.5319,581.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="79.6344" y1="581.5" x2="416.804" y2="581.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="109.019" y="576.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Page 404</text>
 <?plantuml-src hLRDZkD44BxxAKh3WOpOdPdyPv10SfmOHihkXidk2JXqx4hIZDFjxMvdTq18Y1jt7e3ZH3m2j_MRy2IK7Jjf9uuM2NAowlkwwgklgxkZ7xY8cM9hq2iModTSB6718esEtYDp5ZmibKn4wCb8AlZ4ptyM8yG5IoBZIs5UiZN2dJ2ewl4P_n6XsQu7Y_mjh-MsUXR5LKg-Ay1kjtlJSO_1roiUF0ZK6ffNJGkytybM0XKCh7WGCQrTOnIV9mRl0YboOJVEYeS80LT1XBjlNCVc4HOSer3RaJMQbQJGKKxuoG4Odd6C4Ab2L4NK7TmE1zrzrEg1OgT-x68pynWXn17ZeemKbWBCo7QKvZ56Q_N0xOzxjoTeDS_U2cjXn-rqskunkAlMEWbNqht8pQdI3x7Z_1QxacM6cR56bdwDFCyVkixFbkSealKPoptVzRl7bdktGy_j_2VBnrJIxioMmxF1Nx00_wSni7F7b8qjSIT6OM2OM4PuIZXJslNxVlEuTE7eH-tORzMXyKwDERPS8SqvAKD_uBVEIh7AziQzVjUhb6r-r2UDRnCKnHRODmSrqMlxPR1wOm1C-08dNE3nk8pSWOsUtT8fKuO7F6R2_3jIxGXOXBffF88F9_yOg1xkWCxGgQYUtnmFzd2jd1og4x873XA-ekJn-RdRmPKTxtfzTrn2TTEM0ryZepNLMbIURvZXKfmMR8r7uoDExGqmuXkwpMjyQOw78zyYr6ekm3hL5dHG_88cZGwdnM-xxMuhItMFEfP2uocbx_PRlNO-yU-dB0oprxdLgMvt6UyCw1Hy2bzOF_0cwM-lfkclh-_7yFSllyCitUxEnZEW5q_Jgvlx0mqwEO5CbAOtZACmbvKqb7LAkZITBBN1H473ZUFiPQMxxXBU9hnCHYk1nYvWXaLocI1iE8E8pw-Bo9NZi6nkuEADuH7Np52s2s0Qtb1g9puq1HTtvKtwdMYynFVcwWTzkQFULObMVgBECeaAFBacIqbFiSXZfhfgAhLPAfnzCydnqT1noAy9rtHfPKvTpwazJcQH4qwc3fv_IQNXSngh87sYVm7f7n0nA6aEOSIWEaIvJxT14gTF2Y4HdFHeG0Enac72ZNOo4d57Gw9Ew1vFY1ScbcqDJVkI6FZm9x1iY14-_7Nf4F_vliIqIFOCranHVVgWzUbsAHN7eaIfU2I5IBUqVtQHN736o7gZhXOB7gmmQodAJCZjyFDGRaSX_lfR7INBxqzCUPLiycRB9gjs8ALHMIhQ0iWIL2meMe7FYbReW-OfG2LqRS_Ga4dsqDAPtR1vX9SqLP7PetaytT8XgPYmwoMWkOZI9-eFuAm1ku-o4wG_m_laLjcJ3DaPWSvDnq4H_WC0?>
   </g>
 </g>
-<rect x="2348.3256880733943" y="280" width="1150" height="838" rx="24" fill="#FAF7F1" stroke="#DCCFBA" stroke-width="1.5"/>
-<text x="2412.3256880733943" y="384" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">LÉGENDE</text>
-<line x1="2412.3256880733943" y1="462" x2="2538.3256880733943" y2="462" stroke="#4A463F" stroke-width="2.5"/>
-<path d="M 2552.3256880733943 462 L 2534.3256880733943 454 L 2534.3256880733943 470 Z" fill="#4A463F"/>
-<text x="2582.3256880733943" y="471" font-family="Inter" font-size="25" fill="#4A443A">Appel</text>
-<line x1="2412.3256880733943" y1="536" x2="2538.3256880733943" y2="536" stroke="#7A7263" stroke-width="2.5" stroke-dasharray="10,7"/>
-<path d="M 2552.3256880733943 536 L 2534.3256880733943 528 M 2552.3256880733943 536 L 2534.3256880733943 544" stroke="#7A7263" stroke-width="2.5" fill="none"/>
-<text x="2582.3256880733943" y="545" font-family="Inter" font-size="25" fill="#4A443A">Retour</text>
-<rect x="2412.3256880733943" y="591" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
-<text x="2455.3256880733943" y="618" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">alt</text>
-<text x="2582.3256880733943" y="619" font-family="Inter" font-size="25" fill="#4A443A">Condition</text>
-<rect x="2412.3256880733943" y="665" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
-<text x="2455.3256880733943" y="692" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">opt</text>
-<text x="2582.3256880733943" y="693" font-family="Inter" font-size="25" fill="#4A443A">Optionnel</text>
-<text x="2412.3256880733943" y="800" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">POINTS CLÉS</text>
-<rect x="2412.3256880733943" y="849" width="12" height="12" rx="2.5" fill="#5B7C99"/>
-<text x="2444.3256880733943" y="866" font-family="Inter" font-size="25" fill="#4A443A">Server Components (App Router)</text>
-<rect x="2412.3256880733943" y="905" width="12" height="12" rx="2.5" fill="#5B7C99"/>
-<text x="2444.3256880733943" y="922" font-family="Inter" font-size="25" fill="#4A443A">Lecture via lib/catalog</text>
-<rect x="2412.3256880733943" y="961" width="12" height="12" rx="2.5" fill="#5B7C99"/>
-<text x="2444.3256880733943" y="978" font-family="Inter" font-size="25" fill="#4A443A">alt : introuvable → 404</text>
-<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
-<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Server Components (App Router)    ·    Lecture via lib/catalog    ·    alt : introuvable → 404</text>
 </svg>

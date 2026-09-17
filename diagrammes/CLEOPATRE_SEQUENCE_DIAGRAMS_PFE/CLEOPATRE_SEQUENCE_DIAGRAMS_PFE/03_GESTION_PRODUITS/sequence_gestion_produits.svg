@@ -1,155 +1,129 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3840 2160" width="3840" height="2160">
 <rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
-<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de séquence – Gestion des produits</text>
-<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
-<g transform="translate(554.3,280.0) scale(2.0522)">
+<g transform="translate(60,60.0029) scale(2.239291)">
 <defs/>
-  <g>
-    <g>
+  <g >
+    <g >
       <title/>
-      <rect x="49.44" y="75" width="8" height="693" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="52.94" y1="75" x2="52.94" y2="768" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="84.44" y="109.5" width="25.7505" height="693" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="87.94" y1="109.5" x2="87.94" y2="802.5" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="247.92" y="75" width="8" height="693" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="251.42" y1="75" x2="251.42" y2="768" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="636.887" y="109.5" width="8" height="693" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="640.387" y1="109.5" x2="640.387" y2="802.5" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="461.22" y="75" width="8" height="693" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="464.72" y1="75" x2="464.72" y2="768" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="1131.31" y="109.5" width="8" height="693" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="1134.81" y1="109.5" x2="1134.81" y2="802.5" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <g>
+    <g >
       <title/>
-      <rect x="664.75" y="75" width="8" height="693" fill="#00000000" stroke="#00000000" stroke-width="0"/>
-      <line x1="668.25" y1="75" x2="668.25" y2="768" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
+      <rect x="1574.3" y="109.5" width="8" height="693" fill="#00000000" stroke="#00000000" stroke-width="0"/>
+      <line x1="1577.8" y1="109.5" x2="1577.8" y2="802.5" stroke="#C9BDA8" stroke-width="0.50" stroke-dasharray="5,5"/>
     </g>
-    <text x="5" y="71.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Administrateur</text>
-    <circle cx="52.94" cy="13.50" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
-    <path d="M52.94,21.50 L52.94,48.50 M39.94,29.50 L65.94,29.50 M52.94,48.50 L39.94,63.50 M52.94,48.50 L65.94,63.50" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
-    <rect x="216.97" y="36" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="223.97" y="48.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
-    <text x="225.46" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
-    <rect x="412.56" y="50" width="104.33" height="24" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="419.56" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions</text>
-    <rect x="624.81" y="48" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="631.81" y="63.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
-    <text x="5" y="774.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Administrateur</text>
-    <circle cx="52.94" cy="786.50" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
-    <path d="M52.94,794.50 L52.94,821.50 M39.94,802.50 L65.94,802.50 M52.94,821.50 L39.94,836.50 M52.94,821.50 L65.94,836.50" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
-    <rect x="216.97" y="768" width="68.89" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="223.97" y="780.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
-    <text x="225.46" y="795.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
-    <rect x="412.56" y="768" width="104.33" height="24" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="419.56" y="781.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions</text>
-    <rect x="624.81" y="768" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
-    <text x="631.81" y="783.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
-    <rect x="5" y="101" width="706.69" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
-    <line x1="5" y1="101" x2="711.69" y2="101" stroke="#D5C7AE" stroke-width="1"/>
-    <line x1="5" y1="104" x2="711.69" y2="104" stroke="#D5C7AE" stroke-width="1"/>
-    <rect x="309.06" y="93" width="98.57" height="18" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
-    <text x="315.06" y="103.86" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">Consultation </text>
-    <polygon points="239.42,136 249.42,140 239.42,144 243.42,140" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="52.94" y1="140" x2="245.42" y2="140" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="59.94" y="134.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Ouvre la liste des produits</text>
-    <polygon points="656.25,163 666.25,167 656.25,171 660.25,167" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="251.42" y1="167" x2="662.25" y2="167" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="258.42" y="161.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Récupère le catalogue</text>
-    <polygon points="262.42,187 252.42,191 262.42,195 258.42,191" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="256.42" y1="191" x2="667.25" y2="191" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="268.42" y="185.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Produits</text>
-    <polygon points="63.94,214 53.94,218 63.94,222 59.94,218" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="57.94" y1="218" x2="250.42" y2="218" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="69.94" y="212.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Table des produits</text>
-    <rect x="5" y="245.50" width="706.69" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
-    <line x1="5" y1="245.50" x2="711.69" y2="245.50" stroke="#D5C7AE" stroke-width="1"/>
-    <line x1="5" y1="248.50" x2="711.69" y2="248.50" stroke="#D5C7AE" stroke-width="1"/>
-    <rect x="332.78" y="236" width="51.13" height="21" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
-    <text x="338.78" y="249.86" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">Ajout </text>
-    <polygon points="239.42,282 249.42,286 239.42,290 243.42,286" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="52.94" y1="286" x2="245.42" y2="286" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="59.94" y="280.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Soumet le formulaire produit</text>
-    <polygon points="452.72,308 462.72,312 452.72,316 456.72,312" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="251.42" y1="312" x2="458.72" y2="312" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="258.42" y="306.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">saveProductAction (création)</text>
-    <polygon points="656.25,335 666.25,339 656.25,343 660.25,339" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="464.72" y1="339" x2="662.25" y2="339" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="471.72" y="333.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Enregistre le produit</text>
-    <polygon points="475.72,359 465.72,363 475.72,367 471.72,363" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="469.72" y1="363" x2="667.25" y2="363" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="481.72" y="357.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Produit créé</text>
-    <polygon points="262.42,383 252.42,387 262.42,391 258.42,387" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="256.42" y1="387" x2="463.72" y2="387" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="268.42" y="381.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Confirmation</text>
-    <polygon points="63.94,410 53.94,414 63.94,418 59.94,414" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="57.94" y1="414" x2="250.42" y2="414" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="69.94" y="408.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Fiche produit créée</text>
-    <rect x="5" y="440" width="706.69" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
-    <line x1="5" y1="440" x2="711.69" y2="440" stroke="#D5C7AE" stroke-width="1"/>
-    <line x1="5" y1="443" x2="711.69" y2="443" stroke="#D5C7AE" stroke-width="1"/>
-    <rect x="309.66" y="432" width="97.36" height="18" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
-    <text x="315.66" y="442.86" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">Modification </text>
-    <polygon points="239.42,475 249.42,479 239.42,483 243.42,479" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="52.94" y1="479" x2="245.42" y2="479" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="59.94" y="473.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Modifie la fiche produit</text>
-    <polygon points="452.72,501 462.72,505 452.72,509 456.72,505" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="251.42" y1="505" x2="458.72" y2="505" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="258.42" y="499.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">saveProductAction (édition)</text>
-    <polygon points="656.25,528 666.25,532 656.25,536 660.25,532" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="464.72" y1="532" x2="662.25" y2="532" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="471.72" y="526.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Met à jour le produit</text>
-    <polygon points="262.42,552 252.42,556 262.42,560 258.42,556" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="256.42" y1="556" x2="463.72" y2="556" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="268.42" y="550.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Confirmation</text>
-    <polygon points="63.94,579 53.94,583 63.94,587 59.94,583" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="57.94" y1="583" x2="250.42" y2="583" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="69.94" y="577.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Fiche mise à jour</text>
-    <rect x="5" y="610.50" width="706.69" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
-    <line x1="5" y1="610.50" x2="711.69" y2="610.50" stroke="#D5C7AE" stroke-width="1"/>
-    <line x1="5" y1="613.50" x2="711.69" y2="613.50" stroke="#D5C7AE" stroke-width="1"/>
-    <rect x="317.24" y="601" width="82.20" height="21" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
-    <text x="323.24" y="614.86" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">Archivage </text>
-    <polygon points="239.42,647 249.42,651 239.42,655 243.42,651" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="52.94" y1="651" x2="245.42" y2="651" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="59.94" y="645.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Archive le produit</text>
-    <polygon points="452.72,674 462.72,678 452.72,682 456.72,678" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="251.42" y1="678" x2="458.72" y2="678" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="258.42" y="672.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">saveProductAction (archivage)</text>
-    <polygon points="656.25,698 666.25,702 656.25,706 660.25,702" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="464.72" y1="702" x2="662.25" y2="702" stroke="#4A463F" stroke-width="1.10"/>
-    <text x="471.72" y="696.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Passe le statut à « archived »</text>
-    <polygon points="262.42,722 252.42,726 262.42,730 258.42,726" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="256.42" y1="726" x2="463.72" y2="726" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="268.42" y="720.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Confirmation</text>
-    <polygon points="63.94,746 53.94,750 63.94,754 59.94,750" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-    <line x1="57.94" y1="750" x2="250.42" y2="750" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
-    <text x="69.94" y="744.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Produit archivé</text>
+    <text x="40" y="106.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Administrateur</text>
+    <circle cx="87.94" cy="48" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
+    <path d="M87.94,56 L87.94,83 M74.94,64 L119.8,64 M87.94,83 L74.94,98 M87.94,83 L119.8,98" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
+    <rect x="605.937" y="70.5" width="110.766" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="612.937" y="83.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
+    <text x="614.427" y="98.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
+    <rect x="1082.65" y="84.5" width="104.33" height="24" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="1089.65" y="98.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions</text>
+    <rect x="1534.36" y="82.5" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="1541.36" y="98.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
+    <text x="40" y="809.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Administrateur</text>
+    <circle cx="87.94" cy="821" r="8" fill="#F6F1E8" stroke="#A89B85" stroke-width="0.50"/>
+    <path d="M87.94,829 L87.94,856 M74.94,837 L119.8,837 M87.94,856 L74.94,871 M87.94,856 L119.8,871" fill="#00000000" stroke="#A89B85" stroke-width="0.50"/>
+    <rect x="605.937" y="802.5" width="110.766" height="38" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="612.937" y="815.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface</text>
+    <text x="614.427" y="830.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">(Next.js)</text>
+    <rect x="1082.65" y="802.5" width="104.33" height="24" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="1089.65" y="816.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions</text>
+    <rect x="1534.36" y="802.5" width="86.88" height="26" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="0.50"/>
+    <text x="1541.36" y="818.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
+    <rect x="40" y="135.5" width="1581.24" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
+    <line x1="40" y1="135.5" x2="1621.24" y2="135.5" stroke="#D5C7AE" stroke-width="1"/>
+    <line x1="40" y1="138.5" x2="1621.24" y2="138.5" stroke="#D5C7AE" stroke-width="1"/>
+    <rect x="749.504" y="127.5" width="98.57" height="18" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
+    <text x="768.817" y="138.36" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">Consultation </text>
+    <polygon points="628.387,170.5 638.387,174.5 628.387,178.5 632.387,174.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="87.94" y1="174.5" x2="634.387" y2="174.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="100.487" y="169.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Ouvre la liste des produits</text>
+    <polygon points="1565.8,197.5 1575.8,201.5 1565.8,205.5 1569.8,201.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="640.387" y1="201.5" x2="1571.8" y2="201.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="647.387" y="196.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Récupère le catalogue</text>
+    <polygon points="651.387,221.5 641.387,225.5 651.387,229.5 647.387,225.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="645.387" y1="225.5" x2="1576.8" y2="225.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="657.387" y="220.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Produits</text>
+    <polygon points="113.362,248.5 88.94,252.5 113.362,256.5 100.487,252.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="94.0494" y1="252.5" x2="639.387" y2="252.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="132.675" y="247.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Table des produits</text>
+    <rect x="40" y="280" width="1581.24" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
+    <line x1="40" y1="280" x2="1621.24" y2="280" stroke="#D5C7AE" stroke-width="1"/>
+    <line x1="40" y1="283" x2="1621.24" y2="283" stroke="#D5C7AE" stroke-width="1"/>
+    <rect x="825.854" y="270.5" width="51.13" height="21" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
+    <text x="845.167" y="284.36" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">Ajout </text>
+    <polygon points="628.387,316.5 638.387,320.5 628.387,324.5 632.387,320.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="87.94" y1="320.5" x2="634.387" y2="320.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="100.487" y="315.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Soumet le formulaire produit</text>
+    <polygon points="1122.81,342.5 1132.81,346.5 1122.81,350.5 1126.81,346.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="640.387" y1="346.5" x2="1128.81" y2="346.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="647.387" y="341.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">saveProductAction (création)</text>
+    <polygon points="1565.8,369.5 1575.8,373.5 1565.8,377.5 1569.8,373.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1134.81" y1="373.5" x2="1571.8" y2="373.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="1141.81" y="368.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Enregistre le produit</text>
+    <polygon points="1145.81,393.5 1135.81,397.5 1145.81,401.5 1141.81,397.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1139.81" y1="397.5" x2="1576.8" y2="397.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="1151.81" y="392.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Produit créé</text>
+    <polygon points="651.387,417.5 641.387,421.5 651.387,425.5 647.387,421.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="645.387" y1="421.5" x2="1133.81" y2="421.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="657.387" y="416.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Confirmation</text>
+    <polygon points="113.362,444.5 88.94,448.5 113.362,452.5 100.487,448.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="94.0494" y1="448.5" x2="639.387" y2="448.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="132.675" y="443.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Fiche produit créée</text>
+    <rect x="40" y="474.5" width="1581.24" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
+    <line x1="40" y1="474.5" x2="1621.24" y2="474.5" stroke="#D5C7AE" stroke-width="1"/>
+    <line x1="40" y1="477.5" x2="1621.24" y2="477.5" stroke="#D5C7AE" stroke-width="1"/>
+    <rect x="751.435" y="466.5" width="97.36" height="18" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
+    <text x="770.748" y="477.36" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">Modification </text>
+    <polygon points="628.387,509.5 638.387,513.5 628.387,517.5 632.387,513.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="87.94" y1="513.5" x2="634.387" y2="513.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="100.487" y="508.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Modifie la fiche produit</text>
+    <polygon points="1122.81,535.5 1132.81,539.5 1122.81,543.5 1126.81,539.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="640.387" y1="539.5" x2="1128.81" y2="539.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="647.387" y="534.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">saveProductAction (édition)</text>
+    <polygon points="1565.8,562.5 1575.8,566.5 1565.8,570.5 1569.8,566.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1134.81" y1="566.5" x2="1571.8" y2="566.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="1141.81" y="561.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Met à jour le produit</text>
+    <polygon points="651.387,586.5 641.387,590.5 651.387,594.5 647.387,590.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="645.387" y1="590.5" x2="1133.81" y2="590.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="657.387" y="585.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Confirmation</text>
+    <polygon points="113.362,613.5 88.94,617.5 113.362,621.5 100.487,617.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="94.0494" y1="617.5" x2="639.387" y2="617.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="132.675" y="612.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Fiche mise à jour</text>
+    <rect x="40" y="645" width="1581.24" height="3" rx="4" ry="4" fill="#F1EBDF" stroke="#F1EBDF" stroke-width="1"/>
+    <line x1="40" y1="645" x2="1621.24" y2="645" stroke="#D5C7AE" stroke-width="1"/>
+    <line x1="40" y1="648" x2="1621.24" y2="648" stroke="#D5C7AE" stroke-width="1"/>
+    <rect x="775.834" y="635.5" width="82.2" height="21" rx="4" ry="4" fill="#F1EBDF" stroke="#D5C7AE" stroke-width="2"/>
+    <text x="795.147" y="649.36" font-size="13" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-weight="bold" font-family="Inter">Archivage </text>
+    <polygon points="628.387,681.5 638.387,685.5 628.387,689.5 632.387,685.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="87.94" y1="685.5" x2="634.387" y2="685.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="100.487" y="680.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Archive le produit</text>
+    <polygon points="1122.81,708.5 1132.81,712.5 1122.81,716.5 1126.81,712.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="640.387" y1="712.5" x2="1128.81" y2="712.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="647.387" y="707.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">saveProductAction (archivage)</text>
+    <polygon points="1565.8,732.5 1575.8,736.5 1565.8,740.5 1569.8,736.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="1134.81" y1="736.5" x2="1571.8" y2="736.5" stroke="#4A463F" stroke-width="1.10"/>
+    <text x="1141.81" y="731.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Passe le statut à « archived »</text>
+    <polygon points="651.387,756.5 641.387,760.5 651.387,764.5 647.387,760.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="645.387" y1="760.5" x2="1133.81" y2="760.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="657.387" y="755.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Confirmation</text>
+    <polygon points="113.362,780.5 88.94,784.5 113.362,788.5 100.487,784.5" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+    <line x1="94.0494" y1="784.5" x2="639.387" y2="784.5" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="2,2"/>
+    <text x="132.675" y="779.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">Produit archivé</text>
 <?plantuml-src hLRDRkCs4BxhAGRf8GcG3U9_Pu4Ma6Mh3P3ikd7srWiZZMqcakYIbBFPea3Hszxt0NgiqKVeRVKcVPAE_cnAbfijMf-C-ORVVFDnI4ezycZ590j1BPalddYqW3aB55fgYzmpxt4XHHpvZWY4XA_Sx6Ta-3XdSQ1T4UatB4IuYZJAPdp6Fo2qEirWmTzssdQxRwJOKegd0kprUXTTkmxUBRdt6A5Iq3fl6U1jBbj6A65enBs0AMLhBVbzhF7A4r4cxC9QSX_1uz8BCF-FuKe_mvnZu2ip4g9U2WhLEE4d2s1qm352XFHH5b5xU3aQzhPHemUAxVkHnsRwEK1O1On7PQIm5616jgFGpoiqLW_jmQH_kOTMURPM60kxThVRiUjWNgsz5wxGtMJcLDDtiJg_aLrXcM5gh1QbNsF7SKUszRFXEKPnUC1onxNTNjrovtBasDt_PFc4IfgTcN9uElXpvk7_D0OczuhOs09pCH8zpQ95WFi91qhRxi1jrKiNZhventQhTert6ymnvKP27v8oSeTk-w0Kesn_qX_qd4hPrei-AVmnngZO0lFce2Rw7RSCLcyCW6i-nsiUONrSnlRGH0zkwPH9pJs-Of7-igJ64J0IcgQn1kzEVXse7cwFpj2-gBxRcWotSAES36eIiWLs4hubyjNXkSlXoextd84zAQ6cQSk0xv3HccejAi_NJ7CHxHTiJyQJMaxZ3J3cQxhD6tnfJKPZrqXer5o0JQeDQAVuXYQD3gUHtx4xlNPATOjg9IA5-oa3Uz3kTxA9Vpzblf--pkrkTRlBU7T8f-0OlZP-u5md7zzEar_lRYVmro-VO9PiyhDn1WjKgJNq-YfOIU77N2iuMSS8_Z6IcF0-mDCA6v4xp_GiqX9OSmJdzjqONWCzdOgUxypeCs0F8jPd40gVpxbN1gMtfArOu3bnN5F19o4Vvu5uKk0d6yru42GR1NDg789ZSV-0EjFbSxQW4ntItulk6LpqW82B_hbbiNJyuCZsGnvnfUcHm5WU0LEGXQpLpXyukYelvH-YapVuNfy_gDCizzrLDN66SatV2UdWK5DPoiokfao5qWk9i--lCtWyigpKPyC3yipAHC2hRwW2EVGsNak4W450Kh7Yk4K9b3OUKTfjil7YLV9xcakV84opG2nYj0XyLL9DpNKKp0kzXZjs7zIOKrrskXlxWcOYfg-NjCfSo32cMu9g5WiBHJERyXHROrRHqxadSEB9P9ErUMfHIYbz4abSfFkGII-P2k4PLI4SqlN99bjRgY7pvbo66MkzBvTxoorXiHYprcwC2TllC4Spq-ScnGlT9HkVxpL7NoUG_0PafJIx-tSjX5nXoP9lJNacziNdKCNAVvQzFLyLtLFw6ir850rcdFNm-O_YBA8Fd__yuXRApSlN9fk_0G00?>
   </g>
 </g>
-<rect x="2135.711743772242" y="280" width="1150" height="838" rx="24" fill="#FAF7F1" stroke="#DCCFBA" stroke-width="1.5"/>
-<text x="2199.711743772242" y="384" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">LÉGENDE</text>
-<line x1="2199.711743772242" y1="462" x2="2325.711743772242" y2="462" stroke="#4A463F" stroke-width="2.5"/>
-<path d="M 2339.711743772242 462 L 2321.711743772242 454 L 2321.711743772242 470 Z" fill="#4A463F"/>
-<text x="2369.711743772242" y="471" font-family="Inter" font-size="25" fill="#4A443A">Appel</text>
-<line x1="2199.711743772242" y1="536" x2="2325.711743772242" y2="536" stroke="#7A7263" stroke-width="2.5" stroke-dasharray="10,7"/>
-<path d="M 2339.711743772242 536 L 2321.711743772242 528 M 2339.711743772242 536 L 2321.711743772242 544" stroke="#7A7263" stroke-width="2.5" fill="none"/>
-<text x="2369.711743772242" y="545" font-family="Inter" font-size="25" fill="#4A443A">Retour</text>
-<rect x="2199.711743772242" y="591" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
-<text x="2242.711743772242" y="618" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">alt</text>
-<text x="2369.711743772242" y="619" font-family="Inter" font-size="25" fill="#4A443A">Condition</text>
-<rect x="2199.711743772242" y="665" width="86" height="38" rx="8" fill="#F6F1E8" stroke="#D5C7AE" stroke-width="1.5"/>
-<text x="2242.711743772242" y="692" font-family="Inter" font-size="21" font-weight="600" fill="#4A443A" text-anchor="middle">opt</text>
-<text x="2369.711743772242" y="693" font-family="Inter" font-size="25" fill="#4A443A">Optionnel</text>
-<text x="2199.711743772242" y="800" font-family="Inter" font-size="27" font-weight="600" letter-spacing="3" fill="#4A443A">POINTS CLÉS</text>
-<rect x="2199.711743772242" y="849" width="12" height="12" rx="2.5" fill="#5B7C99"/>
-<text x="2231.711743772242" y="866" font-family="Inter" font-size="25" fill="#4A443A">Cycle : consultation → ajout → modification → archivage</text>
-<rect x="2199.711743772242" y="905" width="12" height="12" rx="2.5" fill="#5B7C99"/>
-<text x="2231.711743772242" y="922" font-family="Inter" font-size="25" fill="#4A443A">Une seule action : saveProductAction</text>
-<rect x="2199.711743772242" y="961" width="12" height="12" rx="2.5" fill="#5B7C99"/>
-<text x="2231.711743772242" y="978" font-family="Inter" font-size="25" fill="#4A443A">Workflows détaillés : diagrammes 04 à 06</text>
-<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
-<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Cycle : consultation → ajout → modification → archivage    ·    Une seule action : saveProductAction    ·    Workflows détaillés : diagrammes 04 à 06</text>
 </svg>

@@ -1,226 +1,221 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 3840 2160" width="3840" height="2160">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3840 2160" width="3840" height="2160">
 <rect x="0" y="0" width="3840" height="2160" fill="#FFFFFF"/>
-<text x="1920.0" y="118" font-family="Inter" font-size="56" font-weight="600" fill="#2C2A26" text-anchor="middle">Diagramme de classes – Architecture</text>
-<text x="1920.0" y="172" font-family="Inter" font-size="24" font-weight="500" letter-spacing="7" fill="#9A8F7D" text-anchor="middle">CLÉOPÂTRE · ESPACE SANTÉ BEAUTÉ</text>
-<rect x="1855.0" y="196" width="130" height="5" rx="2.5" fill="#5B7C99"/>
-<g transform="translate(260.1,280.0) scale(2.5036)">
+<g transform="translate(60,60.0004) scale(2.805430)">
 <defs/>
-  <g>
+  <g >
     <g class="cluster" data-qualified-name="PI" id="ent0001" data-source-line="92">
-      <rect x="484" y="12" width="671" height="161" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
-      <text x="721" y="25.62" font-size="14" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface (Next.js App Router)</text>
+      <rect x="506.966" y="29.0806" width="671" height="161" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
+      <text x="743.966" y="42.7006" font-size="14" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Interface (Next.js App Router)</text>
     </g>
     <g class="cluster" data-qualified-name="PA" id="ent0006" data-source-line="116">
-      <rect x="14" y="203" width="1228" height="94" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
-      <text x="535.18" y="216.62" font-size="14" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Application (Server Actions)</text>
+      <rect x="36.9657" y="220.081" width="1228" height="94" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
+      <text x="558.146" y="233.701" font-size="14" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Application (Server Actions)</text>
     </g>
     <g class="cluster" data-qualified-name="PD" id="ent0014" data-source-line="126">
-      <rect x="483" y="314" width="773" height="92" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
-      <text x="776.57" y="325.62" font-size="14" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Domaine (modules src/lib/*)</text>
+      <rect x="505.966" y="331.081" width="773" height="92" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
+      <text x="799.536" y="342.701" font-size="14" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Domaine (modules src/lib/*)</text>
     </g>
     <g class="cluster" data-qualified-name="PP" id="ent0021" data-source-line="135">
-      <rect x="804" y="423" width="300" height="178" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
-      <text x="867.11" y="435.62" font-size="14" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Persistance (Drizzle ORM)</text>
+      <rect x="826.966" y="440.081" width="300" height="178" rx="4" ry="4" fill="#FAF7F1" stroke="#D5C7AE" stroke-width="1"/>
+      <text x="890.076" y="452.701" font-size="14" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Persistance (Drizzle ORM)</text>
     </g>
     <g class="entity" data-qualified-name="GMN41" id="ent0042" data-source-line="160">
-      <path d="M750,632 L750,677 A4,4 0 0 0 754,681 L1135.60,681 A4,4 0 0 0 1139.60,677 L1139.60,638 L1129.60,628 L949,628 L945,585.29 L941,628 L754,628 A4,4 0 0 0 750,632" fill="#FBF8F2" stroke="#DCCFBA" stroke-width="1"/>
-      <path d="M1129.60,628 L1129.60,636 A2,2 0 0 0 1131.60,638 L1139.60,638 L1129.60,628" fill="#FBF8F2" stroke="#DCCFBA" stroke-width="1"/>
-      <text x="756" y="641.35" font-size="11" fill="#6E675C" xml:space="preserve" style="white-space: pre" font-family="Inter">Next.js 16 App Router · React 19 Server Components · Tailwind CSS v4</text>
-      <text x="756" y="651.35" font-size="11" fill="#6E675C" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions (« use server ») · Validation Zod · session cookie-based</text>
-      <text x="756" y="662.35" font-size="11" fill="#6E675C" xml:space="preserve" style="white-space: pre" font-family="Inter">Pas de REST API classique pour le commerce principal</text>
-      <text x="756" y="673.35" font-size="11" fill="#6E675C" xml:space="preserve" style="white-space: pre" font-family="Inter">Source de vérité unique : schéma Drizzle + PostgreSQL</text>
+      <path d="M772.966,649.081 L772.966,694.081 A4 4 0 0 0 776.966 698.081 L1158.57,698.081 A4 4 0 0 0 1162.57 694.081 L1162.57,655.081 L1152.57,645.081 L971.966,645.081 L967.966,602.371 L963.966,645.081 L776.966,645.081 A4 4 0 0 0 772.966 649.081" fill="#FBF8F2" stroke="#DCCFBA" stroke-width="1"/>
+      <path d="M1152.57,645.081 L1152.57,653.081 A2 2 0 0 0 1154.57 655.081 L1162.57,655.081 L1152.57,645.081" fill="#FBF8F2" stroke="#DCCFBA" stroke-width="1"/>
+      <text x="778.966" y="658.431" font-size="11" fill="#6E675C" xml:space="preserve" style="white-space: pre" font-family="Inter">Next.js 16 App Router · React 19 Server Components · Tailwind CSS v4</text>
+      <text x="778.966" y="668.431" font-size="11" fill="#6E675C" xml:space="preserve" style="white-space: pre" font-family="Inter">Server Actions (« use server ») · Validation Zod · session cookie-based</text>
+      <text x="778.966" y="679.431" font-size="11" fill="#6E675C" xml:space="preserve" style="white-space: pre" font-family="Inter">Pas de REST API classique pour le commerce principal</text>
+      <text x="778.966" y="690.431" font-size="11" fill="#6E675C" xml:space="preserve" style="white-space: pre" font-family="Inter">Source de vérité unique : schéma Drizzle + PostgreSQL</text>
     </g>
     <g class="entity" data-qualified-name="PI.Pages" id="ent0002" data-source-line="93">
-      <rect x="500" y="54" width="177.80" height="103" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="546.25" y="68.86" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«app/(site)/*»</text>
-      <text x="571.36" y="81.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Pages</text>
-      <line x1="501" y1="89" x2="676.80" y2="89" stroke="#A89B85" stroke-width="1"/>
-      <text x="506" y="103.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">boutique / categorie / produit</text>
-      <text x="506" y="116.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">compte / commandes</text>
-      <text x="506" y="129.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">connexion / inscription</text>
-      <line x1="501" y1="136" x2="676.80" y2="136" stroke="#A89B85" stroke-width="1"/>
-      <text x="506" y="150.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">accueil (cinématique)</text>
+      <rect x="522.966" y="71.0806" width="177.8" height="103" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="569.216" y="85.9406" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«app/(site)/*»</text>
+      <text x="594.326" y="98.1906" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Pages</text>
+      <line x1="523.966" y1="106.081" x2="699.766" y2="106.081" stroke="#A89B85" stroke-width="1"/>
+      <text x="528.966" y="120.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">boutique / categorie / produit</text>
+      <text x="528.966" y="133.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">compte / commandes</text>
+      <text x="528.966" y="146.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">connexion / inscription</text>
+      <line x1="523.966" y1="153.081" x2="699.766" y2="153.081" stroke="#A89B85" stroke-width="1"/>
+      <text x="528.966" y="167.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">accueil (cinématique)</text>
     </g>
     <g class="entity" data-qualified-name="PI.AdminPages" id="ent0003" data-source-line="99">
-      <rect x="893.50" y="59" width="139.01" height="93" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="917.15" y="73.86" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«app/admin/*»</text>
-      <text x="927.39" y="87.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">AdminPages</text>
-      <line x1="894.50" y1="95" x2="1031.51" y2="95" stroke="#A89B85" stroke-width="1"/>
-      <text x="899.50" y="105.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">dashboard</text>
-      <text x="899.50" y="119.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">commandes / produits</text>
-      <text x="899.50" y="132.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">clients / support</text>
-      <text x="899.50" y="145.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">métriques</text>
+      <rect x="916.466" y="76.0806" width="139.01" height="93" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="940.116" y="90.9406" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«app/admin/*»</text>
+      <text x="950.356" y="104.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">AdminPages</text>
+      <line x1="917.466" y1="112.081" x2="1054.48" y2="112.081" stroke="#A89B85" stroke-width="1"/>
+      <text x="922.466" y="122.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">dashboard</text>
+      <text x="922.466" y="136.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">commandes / produits</text>
+      <text x="922.466" y="149.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">clients / support</text>
+      <text x="922.466" y="162.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">métriques</text>
     </g>
     <g class="entity" data-qualified-name="PI.Components" id="ent0004" data-source-line="105">
-      <rect x="696.50" y="72" width="178.78" height="67" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="722.74" y="86.86" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/components/*»</text>
-      <text x="749.72" y="99.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Components</text>
-      <line x1="697.50" y1="107" x2="874.28" y2="107" stroke="#A89B85" stroke-width="1"/>
-      <text x="702.50" y="121.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">cinematic / account / product</text>
-      <text x="702.50" y="132.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">cart / admin</text>
+      <rect x="719.466" y="89.0806" width="178.78" height="67" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="745.706" y="103.941" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/components/*»</text>
+      <text x="772.686" y="116.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Components</text>
+      <line x1="720.466" y1="124.081" x2="897.246" y2="124.081" stroke="#A89B85" stroke-width="1"/>
+      <text x="725.466" y="138.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">cinematic / account / product</text>
+      <text x="725.466" y="149.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">cart / admin</text>
     </g>
     <g class="entity" data-qualified-name="PI.APIRoutes" id="ent0005" data-source-line="109">
-      <rect x="1051" y="65.50" width="87.94" height="80" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="1058.64" y="80.36" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«app/api/*»</text>
-      <text x="1065.90" y="89.61" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">APIRoutes</text>
-      <line x1="1052" y1="98.50" x2="1137.94" y2="98.50" stroke="#A89B85" stroke-width="1"/>
-      <text x="1057" y="112.61" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">/api/search</text>
-      <text x="1057" y="125.61" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">/api/support</text>
-      <text x="1057" y="138.61" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">/api/products</text>
+      <rect x="1073.97" y="82.5806" width="87.94" height="80" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="1081.61" y="97.4406" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«app/api/*»</text>
+      <text x="1088.87" y="106.691" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">APIRoutes</text>
+      <line x1="1074.97" y1="115.581" x2="1160.91" y2="115.581" stroke="#A89B85" stroke-width="1"/>
+      <text x="1079.97" y="129.691" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">/api/search</text>
+      <text x="1079.97" y="142.691" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">/api/support</text>
+      <text x="1079.97" y="155.691" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">/api/products</text>
     </g>
     <g class="entity" data-qualified-name="PA.AuthActions" id="ent0007" data-source-line="117">
-      <rect x="228" y="247.50" width="131.61" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="229" y="260.36" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/actions/auth.ts»</text>
-      <text x="259.31" y="270.61" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">AuthActions</text>
+      <rect x="250.966" y="264.581" width="131.61" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="251.966" y="277.441" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/actions/auth.ts»</text>
+      <text x="282.276" y="287.691" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">AuthActions</text>
     </g>
     <g class="entity" data-qualified-name="PA.ShopActions" id="ent0008" data-source-line="118">
-      <rect x="559.50" y="245" width="134.98" height="36" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="560.50" y="259.86" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/actions/shop.ts»</text>
-      <text x="591.23" y="273.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">ShopActions</text>
+      <rect x="582.466" y="262.081" width="134.98" height="36" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="583.466" y="276.941" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/actions/shop.ts»</text>
+      <text x="614.196" y="290.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">ShopActions</text>
     </g>
     <g class="entity" data-qualified-name="PA.CheckoutActions" id="ent0009" data-source-line="119">
-      <rect x="712.50" y="247.50" width="161.38" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="713.50" y="260.36" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/actions/checkout.ts»</text>
-      <text x="744.78" y="270.61" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">CheckoutActions</text>
+      <rect x="735.466" y="264.581" width="161.38" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="736.466" y="277.441" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/actions/checkout.ts»</text>
+      <text x="767.746" y="287.691" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">CheckoutActions</text>
     </g>
     <g class="entity" data-qualified-name="PA.AdminActions" id="ent0010" data-source-line="120">
-      <rect x="892" y="247.50" width="142.16" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="893" y="260.36" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/actions/admin.ts»</text>
-      <text x="923.72" y="270.61" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">AdminActions</text>
+      <rect x="914.966" y="264.581" width="142.16" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="915.966" y="277.441" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/actions/admin.ts»</text>
+      <text x="946.686" y="287.691" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">AdminActions</text>
     </g>
     <g class="entity" data-qualified-name="PA.AdminOS" id="ent0011" data-source-line="121">
-      <rect x="378.50" y="247.50" width="162.79" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="379.50" y="260.36" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/actions/admin-os.ts»</text>
-      <text x="433.39" y="270.61" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">AdminOS</text>
+      <rect x="401.466" y="264.581" width="162.79" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="402.466" y="277.441" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/actions/admin-os.ts»</text>
+      <text x="456.356" y="287.691" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">AdminOS</text>
     </g>
     <g class="entity" data-qualified-name="PA.ExperienceActions" id="ent0012" data-source-line="122">
-      <rect x="1052.50" y="245" width="173.04" height="36" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="1053.50" y="259.86" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/actions/experience.ts»</text>
-      <text x="1086.13" y="273.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">ExperienceActions</text>
+      <rect x="1075.47" y="262.081" width="173.04" height="36" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="1076.47" y="276.941" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/actions/experience.ts»</text>
+      <text x="1109.1" y="290.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">ExperienceActions</text>
     </g>
     <g class="entity" data-qualified-name="PA.NotificationsActions" id="ent0013" data-source-line="123">
-      <rect x="30" y="247.50" width="180.11" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="31" y="260.36" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/actions/notifications.ts»</text>
-      <text x="62.97" y="270.61" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">NotificationsActions</text>
+      <rect x="52.9657" y="264.581" width="180.11" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="53.9657" y="277.441" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/actions/notifications.ts»</text>
+      <text x="85.9357" y="287.691" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">NotificationsActions</text>
     </g>
     <g class="entity" data-qualified-name="PD.AuthLib" id="ent0015" data-source-line="127">
-      <rect x="499.50" y="356.50" width="101.40" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="500.50" y="369.36" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/lib/auth.ts»</text>
-      <text x="528.48" y="379.61" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">AuthLib</text>
+      <rect x="522.466" y="373.581" width="101.4" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="523.466" y="386.441" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/lib/auth.ts»</text>
+      <text x="551.446" y="396.691" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">AuthLib</text>
     </g>
     <g class="entity" data-qualified-name="PD.CartLib" id="ent0016" data-source-line="128">
-      <rect x="618.50" y="356.50" width="98.67" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="619.50" y="369.36" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/lib/cart.ts»</text>
-      <text x="647.25" y="379.61" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">CartLib</text>
+      <rect x="641.466" y="373.581" width="98.67" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="642.466" y="386.441" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/lib/cart.ts»</text>
+      <text x="670.216" y="396.691" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">CartLib</text>
     </g>
     <g class="entity" data-qualified-name="PD.CatalogLib" id="ent0017" data-source-line="129">
-      <rect x="1120" y="354" width="119.86" height="36" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="1121" y="368.86" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/lib/catalog.ts»</text>
-      <text x="1149.57" y="382.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">CatalogLib</text>
+      <rect x="1142.97" y="371.081" width="119.86" height="36" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="1143.97" y="385.941" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/lib/catalog.ts»</text>
+      <text x="1172.54" y="399.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">CatalogLib</text>
     </g>
     <g class="entity" data-qualified-name="PD.OrdersLib" id="ent0018" data-source-line="130">
-      <rect x="736" y="356.50" width="114.24" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="737" y="369.36" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/lib/orders.ts»</text>
-      <text x="765.25" y="379.61" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">OrdersLib</text>
+      <rect x="758.966" y="373.581" width="114.24" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="759.966" y="386.441" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/lib/orders.ts»</text>
+      <text x="788.216" y="396.691" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">OrdersLib</text>
     </g>
     <g class="entity" data-qualified-name="PD.AdminLib" id="ent0019" data-source-line="131">
-      <rect x="868" y="356.50" width="108.41" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="869" y="369.36" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/lib/admin/*»</text>
-      <text x="895.62" y="379.61" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">AdminLib</text>
+      <rect x="890.966" y="373.581" width="108.41" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="891.966" y="386.441" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/lib/admin/*»</text>
+      <text x="918.586" y="396.691" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">AdminLib</text>
     </g>
     <g class="entity" data-qualified-name="PD.EmailLib" id="ent0020" data-source-line="132">
-      <rect x="994.50" y="356.50" width="107.03" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="995.50" y="369.36" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/lib/email.ts»</text>
-      <text x="1024.36" y="379.61" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">EmailLib</text>
+      <rect x="1017.47" y="373.581" width="107.03" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="1018.47" y="386.441" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/lib/email.ts»</text>
+      <text x="1047.33" y="396.691" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">EmailLib</text>
     </g>
     <g class="entity" data-qualified-name="PP.Database" id="ent0022" data-source-line="136">
-      <rect x="820.50" y="464" width="73.14" height="33" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="821.50" y="478.86" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«singleton»</text>
-      <text x="830.24" y="488.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Database</text>
+      <rect x="843.466" y="481.081" width="73.14" height="33" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="844.466" y="495.941" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«singleton»</text>
+      <text x="853.206" y="505.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Database</text>
     </g>
     <g class="entity" data-qualified-name="PP.Schema" id="ent0023" data-source-line="137">
-      <rect x="964" y="465" width="124.38" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="965" y="477.86" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/db/schema.ts»</text>
-      <text x="1003.24" y="487.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Schema</text>
+      <rect x="986.966" y="482.081" width="124.38" height="31" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="987.966" y="494.941" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«src/db/schema.ts»</text>
+      <text x="1026.21" y="504.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">Schema</text>
     </g>
     <g class="entity" data-qualified-name="PP.PostgreSQL" id="ent0024" data-source-line="138">
-      <rect x="868" y="550" width="154.32" height="35" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
-      <text x="869" y="564.86" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«PostgreSQL 17 / PGlite»</text>
-      <text x="911.53" y="577.11" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
+      <rect x="890.966" y="567.081" width="154.32" height="35" rx="4" ry="4" fill="#FFFFFF" stroke="#A89B85" stroke-width="1"/>
+      <text x="891.966" y="581.941" font-size="13" fill="#8A7E69" xml:space="preserve" style="white-space: pre" font-family="Inter">«PostgreSQL 17 / PGlite»</text>
+      <text x="934.496" y="594.191" font-size="12" fill="#4A443A" xml:space="preserve" style="white-space: pre" font-family="Inter">PostgreSQL</text>
     </g>
     <g class="link" data-entity-1="ent0002" data-entity-2="ent0007" id="lnk25" data-link-type="dependency">
-      <polygon points="310.09,247.36 319.50,244.44 313.86,244.07 314.23,238.42 310.09,247.36" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M499.7401,139.6345 C458.7132,156.3641 410.1395,178.3419 369,203 C347.2588,216.0311 328.4776,231.2667 313.8569,244.0675" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
-      <text x="406" y="189.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">formulaires</text>
+      <polygon points="333.056,264.441 342.466,261.521 336.826,261.151 337.196,255.501 333.056,264.441" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M522.706,156.715 C481.679,173.445 433.105,195.423 391.966,220.081 C370.224,233.112 351.443,248.347 336.823,261.148" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
+      <text x="428.966" y="206.941" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">formulaires</text>
     </g>
     <g class="link" data-entity-1="ent0002" data-entity-2="ent0008" id="lnk26" data-link-type="dependency">
-      <polygon points="622.78,244.72 624.53,235.03 621.59,239.86 616.75,236.92 622.78,244.72" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M601.4426,157.4165 C608.802,187.532 616.4706,218.9124 621.5898,239.8608" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
-      <text x="612" y="189.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">formulaires</text>
+      <polygon points="645.746,261.801 647.496,252.111 644.556,256.941 639.716,254.001 645.746,261.801" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M624.408,174.497 C631.768,204.613 639.436,235.993 644.555,256.941" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
+      <text x="634.966" y="206.941" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">formulaires</text>
     </g>
     <g class="link" data-entity-1="ent0003" data-entity-2="ent0010" id="lnk27" data-link-type="dependency">
-      <polygon points="963,247.27 967,238.27 963,242.27 959,238.27 963,247.27" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M963,152.3141 C963,184.5655 963,220.6904 963,242.2658" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
-      <text x="965" y="189.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">formulaires</text>
+      <polygon points="985.966,264.351 989.966,255.351 985.966,259.351 981.966,255.351 985.966,264.351" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M985.966,169.395 C985.966,201.646 985.966,237.771 985.966,259.346" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
+      <text x="987.966" y="206.941" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">formulaires</text>
     </g>
     <g class="link" data-entity-1="ent0005" data-entity-2="ent0017" id="lnk28" data-link-type="dependency">
-      <polygon points="1202.10,353.92 1211.52,351.04 1205.88,350.64 1206.27,345.00 1202.10,353.92" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M1139.3381,121.2353 C1175.2738,135.8002 1223.508,161.9333 1246,203 C1266.0686,239.642 1260.8797,257.9619 1246,297 C1237.2323,320.0027 1221.4405,337.1179 1205.8754,350.6404" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
-      <text x="1261" y="263.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">recherche</text>
+      <polygon points="1225.07,371.001 1234.49,368.121 1228.85,367.721 1229.24,362.081 1225.07,371.001" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M1162.3,138.316 C1198.24,152.881 1246.47,179.014 1268.97,220.081 C1289.03,256.723 1283.85,275.043 1268.97,314.081 C1260.2,337.083 1244.41,354.199 1228.84,367.721" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
+      <text x="1283.97" y="280.941" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">recherche</text>
     </g>
     <g class="link" data-entity-1="ent0007" data-entity-2="ent0015" id="lnk29" data-link-type="dependency">
-      <polygon points="506.66,356.40 499.66,349.47 501.98,354.63 496.82,356.95 506.66,356.40" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M318.4146,278.6453 C330.8746,284.4397 346.1189,291.1098 360,297 C409.8458,318.1512 463.1661,339.8983 501.983,354.6252" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
+      <polygon points="529.626,373.481 522.626,366.551 524.946,371.711 519.786,374.031 529.626,373.481" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M341.38,295.726 C353.84,301.52 369.085,308.19 382.966,314.081 C432.811,335.232 486.132,356.979 524.949,371.706" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
     </g>
     <g class="link" data-entity-1="ent0008" data-entity-2="ent0016" id="lnk30" data-link-type="dependency">
-      <polygon points="662.35,356.26 662.87,346.43 660.56,351.59 655.40,349.29 662.35,356.26" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M633.5874,281.1914 C641.5553,301.9858 653.0436,331.9675 660.5639,351.5935" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
+      <polygon points="685.316,373.341 685.836,363.511 683.526,368.671 678.366,366.371 685.316,373.341" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M656.553,298.272 C664.521,319.066 676.009,349.048 683.53,368.674" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
     </g>
     <g class="link" data-entity-1="ent0009" data-entity-2="ent0018" id="lnk31" data-link-type="dependency">
-      <polygon points="793,356.25 797,347.25 793,351.25 789,347.25 793,356.25" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M793,278.8779 C793,299.3205 793,330.8724 793,351.2485" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
+      <polygon points="815.966,373.331 819.966,364.331 815.966,368.331 811.966,364.331 815.966,373.331" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M815.966,295.959 C815.966,316.401 815.966,347.953 815.966,368.329" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
     </g>
     <g class="link" data-entity-1="ent0010" data-entity-2="ent0019" id="lnk32" data-link-type="dependency">
-      <polygon points="927.65,356.25 934.61,349.28 929.44,351.58 927.14,346.41 927.65,356.25" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M957.2991,278.8779 C949.466,299.3205 937.2491,331.2035 929.4415,351.5795" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
+      <polygon points="950.616,373.331 957.576,366.361 952.406,368.661 950.106,363.491 950.616,373.331" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M980.265,295.959 C972.432,316.401 960.215,348.284 952.407,368.66" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
     </g>
     <g class="link" data-entity-1="ent0012" data-entity-2="ent0020" id="lnk33" data-link-type="dependency">
-      <polygon points="1060.53,356.26 1069.41,352.00 1063.77,352.45 1063.32,346.82 1060.53,356.26" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M1124.3793,281.1914 C1106.6943,301.9858 1080.4643,332.8277 1063.7731,352.4537" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
+      <polygon points="1083.5,373.341 1092.38,369.081 1086.74,369.531 1086.29,363.901 1083.5,373.341" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M1147.35,298.272 C1129.66,319.066 1103.43,349.908 1086.74,369.534" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
     </g>
     <g class="link" data-entity-1="ent0015" data-entity-2="ent0022" id="lnk34" data-link-type="dependency">
-      <polygon points="820.50,472.59 812.57,466.75 815.62,471.52 810.85,474.57 820.50,472.59" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M565.4216,387.5361 C575.4633,393.7808 588.6061,400.8178 601,406 C676.331,437.4979 764.9018,460.3665 815.6159,471.5183" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
+      <polygon points="843.466,489.671 835.536,483.831 838.586,488.601 833.816,491.651 843.466,489.671" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M588.387,404.617 C598.429,410.861 611.572,417.898 623.966,423.081 C699.297,454.579 787.867,477.447 838.582,488.599" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
     </g>
     <g class="link" data-entity-1="ent0017" data-entity-2="ent0022" id="lnk35" data-link-type="dependency">
-      <polygon points="877.96,463.95 887.63,462.09 882.06,461.10 883.06,455.53 877.96,463.95" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M1149.9581,390.0875 C1138.1603,396.0639 1124.2822,402.2191 1111,406 C1043.921,425.0948 1021.2956,401.3415 955,423 C926.4379,432.3311 901.1154,447.8337 882.06,461.0964" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
+      <polygon points="900.926,481.031 910.596,479.171 905.026,478.181 906.026,472.611 900.926,481.031" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M1172.92,407.168 C1161.13,413.145 1147.25,419.3 1133.97,423.081 C1066.89,442.175 1044.26,418.422 977.966,440.081 C949.404,449.412 924.081,464.914 905.026,478.177" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
     </g>
     <g class="link" data-entity-1="ent0018" data-entity-2="ent0022" id="lnk36" data-link-type="dependency">
-      <polygon points="847.55,463.78 846.35,454.00 844.98,459.49 839.49,458.12 847.55,463.78" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M801.8989,387.8084 C813.9202,407.8126 832.6795,439.0291 844.9768,459.4927" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
+      <polygon points="870.516,480.861 869.316,471.081 867.946,476.571 862.456,475.201 870.516,480.861" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M824.865,404.889 C836.886,424.893 855.645,456.11 867.942,476.573" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
     </g>
     <g class="link" data-entity-1="ent0019" data-entity-2="ent0022" id="lnk37" data-link-type="dependency">
-      <polygon points="866.60,463.78 874.70,458.18 869.20,459.51 867.87,454.01 866.60,463.78" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M912.962,387.8084 C900.7529,407.8126 881.6897,439.0469 869.2002,459.5105" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
+      <polygon points="889.566,480.861 897.666,475.261 892.166,476.591 890.836,471.091 889.566,480.861" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M935.928,404.889 C923.719,424.893 904.655,456.128 892.166,476.591" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
     </g>
     <g class="link" data-entity-1="ent0020" data-entity-2="ent0022" id="lnk38" data-link-type="dependency">
-      <polygon points="883.50,463.94 893.29,462.86 887.82,461.42 889.25,455.95 883.50,463.94" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M1020.2111,387.6634 C1001.6665,397.5167 976.7807,410.8699 955,423 C930.6362,436.5687 907.4667,449.9479 887.8169,461.4178" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
+      <polygon points="906.466,481.021 916.256,479.941 910.786,478.501 912.216,473.031 906.466,481.021" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M1043.18,404.744 C1024.63,414.597 999.746,427.951 977.966,440.081 C953.602,453.649 930.432,467.029 910.783,478.498" fill="none" stroke="#4A463F" stroke-width="1.10" stroke-dasharray="7,7"/>
     </g>
     <g class="link" data-entity-1="ent0022" data-entity-2="ent0023" id="lnk39" data-link-type="composition">
-      <polygon points="893.67,480.50 899.67,484.50 905.67,480.50 899.67,476.50 893.67,480.50" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M905.6705,480.5 C926.1541,480.5 940.2288,480.5 963.8075,480.5" fill="none" stroke="#4A463F" stroke-width="1.10"/>
-      <text x="904.25" y="472.36" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">contient</text>
+      <polygon points="916.636,497.581 922.636,501.581 928.636,497.581 922.636,493.581 916.636,497.581" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M928.636,497.581 C949.12,497.581 963.194,497.581 986.773,497.581" fill="none" stroke="#4A463F" stroke-width="1.10"/>
+      <text x="927.216" y="489.441" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">contient</text>
     </g>
     <g class="link" data-entity-1="ent0022" data-entity-2="ent0024" id="lnk40" data-link-type="dependency">
-      <polygon points="927.76,549.85 924.06,540.72 924.16,546.37 918.51,546.47 927.76,549.85" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
-      <path d="M873.1406,497.0903 C888.6216,512.0436 908.323,531.0733 924.162,546.3724" fill="none" stroke="#4A463F" stroke-width="1.10"/>
-      <text x="910" y="526.86" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">requêtes</text>
+      <polygon points="950.726,566.931 947.026,557.801 947.126,563.451 941.476,563.551 950.726,566.931" fill="#4A463F" stroke="#4A463F" stroke-width="1"/>
+      <path d="M896.106,514.171 C911.587,529.124 931.289,548.154 947.128,563.453" fill="none" stroke="#4A463F" stroke-width="1.10"/>
+      <text x="932.966" y="543.941" font-size="13" fill="#2C2A26" xml:space="preserve" style="white-space: pre" font-family="Inter">requêtes</text>
     </g>
 <?plantuml-src hLVDRXit4BxlKn3f8N8AMP5ioRBX2bZh9p7WnAfbzD2Y1sgNabZlaXkIwpWf0XGz5EYrw4kuVO0UUelU94_I8VUFNAsG0grFtfcFvCUPRsOeUKTPWWMEaTpWaB-bR8rME9B4awLdYOExjU0f2ySyuW9zCJD_5Y8aAvn6QiQPUerZWYwP8gBPlw3l2UeUDJlp_NlZdjyRM11V2FusT_Rx_UV7Vjrvkw717IDIekvXrtBUPBG58m8DBNiGOIbzfGHTfefS1fmPOi-z3Gq92gW88fBzJ-94lKChIg9GsfQOg0q7KsrFzAE7qCMUY867Yv28tEeFJo-6_T9gtG5ik_78R0lrBY8eYJ1bXIKFAK8B23lXwbr2hDL3_sGwEDtnklkKeR0M7ll7nqT-tPcTrjinEzkzCi5nuPMjlh-5TdPP41rOnOjuJSRZsONlVR1YJbWQxmdvUERF-lMGZqylnlxnVmhv58wqRsRJeLhuAnoG_qa6zju9x8RN92CZIA0mMqTa5x3dQ7zsCklMZyuZ-jbmbAcgBdxS41oRBkDg7vMBsN3Msql5EdOm7PpqnywntS_6IP8tAM5v2kpE0PSO7CqAezin4BgYAt956QdBPU8FRU_UbCwnK3IW2MRgtu4Q9M01cjHOSrULNtUunHr03UsI6iowqs7fRgHZN4r4IaT5uGLidkpNNUPsCjuVd_ZJmjMaDkDuIJ2iSS-2u-azLfIptGDxqycqXcdi01Dw3zsy8IxTwSLaPW4QEUVE9jQMgsBy2fG6nMdXZ_oZVazlTKDamfaakv0J_wGtE3AAVvZZCDJJsHIUbUx2tjETo7kAlhB-qFXg--lrVFlpxSqKVVhfTr1-iA4AUaSg2C994j408dHFd5MmITvv8NOmdYLq6yCGBsb4rVPHehDin9jEz-cNtm0lxc72wf03pfWcF0RrPUuv4P9AQ5W1yRoYJJsfjcYz9W_gy0U9_2JH8nli1qyGbcX-QQeucwnpM2NH-JdmxhGaNEEWysmqCW24bh2AGk6Z3e8haJKNLF-V21wcL1b8m65m6m2FOypWOhcPCVAWhzg1_Yq3GHDz2-F3GP0I6g5MGDdsCSRcY0DmVIXP-M5CcKqDQuF5BCHoi-HOX0M9xEoAN4uZeeGfRPPfad2HSOwtZp1auL3f73g6gt1cyEVdKWITe3HO9mDfeZa7i2dS13IkYbE3F2IW8-tKbDrRpIzD7ifB9TJQs7nAWa5DrhT5snZoWpBc7wp4-uNm8EOjLpfvsdqhxNwgDeMmiilYxAk3mNEev6XKOXSRdZHZ9NXSx7X3WZkuOpC-oBtk6fFiFMIqgm5zlMW2jhbqiTE7X81aeKAQjoUbtrttcYkwoeCfcvSo6vAjjhDH56ehXdH5a76zDgBBphCy6PDQCgxeCZz1etQJC0PHkHWjipf6uOYlwp1ZT97NkljA5sWwicm8TerQKObLbE6gaGiYshGR5QjbeTP4qFVlOQ1UtxpAOpAtOZ81saiiYTwKwZUPuipM94Wfnlc9uR8ZpRTBViwbMWko-FeASDP7zmIgS_u2kYx9-3r5xV8FsdAK9TKoUbahEZmSEOLpXbPSn2ay2A2NMnYxO5oCrTVCPhRoQyYoLsYWbTap_KpT4EWInBF95EG0uza4ikL6F5wzEhMlb8Bdi2dfQSzk7MbtaNUlqAys5ddpBCgElPAUOowLvbXBQJdMKXlF85-v4ixqo56wsrVkTdjaYq17xasw_GE2wddc9RtaIl4OyPK50_aKWxCxi6Od-lWNF2gW_57tj1ZDriG0xormXT_w8Hel5kZ-sFpMSYPuw-EVA0LUCZD__Fj0B_i6HpJC-lQtFDGM2MyM_HbmVaT9MzybDEyJ2Gy7T3DTtEfHagdSZEU4fm91AUav2Ce0Ww1ClsGYJGASO8ALzzj7ePyQA6LcsHc2ij4J61Mr-AKT209NqM6g5SWw1Rfhis5CuJQ4mOya-6x1B8HSIFrJdaRRHo8FTake_HtysWy9-pxaRrdRAIT7pKquMsfrVoMxAYKbHj3rHhL7rgkYpgO1OTTGCyxcxN0gK6NPvRsx0L3KY5qkEx2gHAlYQQQaCPNywv2iLBoyOdRSLkh_0G00?>
   </g>
 </g>
-<line x1="120" y1="2064" x2="3720" y2="2064" stroke="#E8E0D2" stroke-width="1.5"/>
-<text x="1920.0" y="2116" font-family="Inter" font-size="26" fill="#9A8F7D" text-anchor="middle">Interface → Server Actions → lib/* → Drizzle → PostgreSQL    ·    Pas de REST API pour le commerce principal    ·    Zod · session cookie-based · Server Components</text>
 </svg>
